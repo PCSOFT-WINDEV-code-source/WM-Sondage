@@ -1,0 +1,249 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_POPUP_ENREGISTRER
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_POPUP_ENREGISTRER
+ identifier : 0x20bcb9b91ff29bb8
+ internal_properties : CAAAAAgAAACdSFGsOJgH1SuMzSZphbzpU/mRvfKUDutXlGQUq6vOrboH/i3g3uC9PTahd+YOOluUt9y0K8hAgk6OVr17JxWUTjMTNdnXme84rMz/rTPxb1AzOEZ2qhIrpDha2KxXr5onq3GJ3+ebWLBuVtAuku2s2OQm0g15YBBNNlbSfhARLP6PYEEovoOoi/NjIoHR7aSFxJ1fV/3peKOsFCLFYZXQnSj2tGjTkOAm6xLIBpg7ICwiucUOEJKQFo7GQSiEUrDswIjY+vwXVxSWaC9BxorgVP37CQLuai9vYDF5dhAShBvI8QvZT6ERzcprdfWXWoZY6DY9VwQzKw/9yMLjoggKxjj/s0xmh3wp+gYzXzWc7dI2zY6KGKgizHBhQ9mrDbI2hxAT98MyWgMSPuKUqXTG/cG9FN5WCdL0rmCQ7z9PpRxhytU7KcUcDM6mXZURbERzlD8R9cfmWj8zEHo/hUk/GyBA752gvacG4i/ooLw6vB/zBcolwvukL6/DL6GMNFIvB6mWdAIHCcNSKhYGzdGVtdWSGjr2gl+I7jDEVwtWSHqNRuFxQuN4fibMB9uRzmy/FVGW3vUJ9i3r8yU6Zk/+6/1J7gAcb2hCYHB0/0b2d5KKXb7MEiN7KNg2rjG3/jDdR68pPeHeWZ01qdSDfT5cz1AjxO5245lwKFg4RC1TnkwsUNhok1vNQMSlZWn7un0uvpwiNslshqZMh+kJTaFjslLA7uXXDv/nxGAG0vJ8Z8yOZEHcdIucubNmVTERw7+yipD0n6iKlFn1
+ properties :
+  width : 381
+  height : 270
+ controls :
+  -
+    name : BTN_ANNULER_ENREGISTREMENT
+    identifier : 0x20bcb9da209a1c2d
+    internal_properties : CAAAAAgAAACoX9PiNKWM9VR5yaTjqzw6/lvTRFQUL98D3dsQbF9mbQCOqsHByHSlkNre4fmaYYb6qMZqqtQh9KR3O34sgeKVqh+F0F3Hptmej6AASG9K61fV28GYJFMzD79iVj4/+/FFPbtJuEPg78t8MrtMG71NVjQiMnYVJWLqxYTWNVNhKVucgS6uruL064GsTUlT1pG9oNw6BLjydCp6W4giuu5w33hQjkWrZkUs/lXFdWDhggKnu4r9F/m0OWjpWkLJiDEgjz00yjq9+61Qwde7jzv71qKz9wFuPQqJv44qtqWE1bTtprVeTCAxZ0jYqo1PIdfcviy/0Y0JRiuMWPzw3PGI4it679FzMAVvUeV/vxXGeA7eLZ23WXGjx68IWPTKfhIyZyokedk4ed+zHyal/8aNkF0trh0xqRb/oI5K6eiI3JTVsMCES6NNXaKk5IRPv0fCw8bjVdYpRKG4dhmB1oEdfWU0x9KfOs657jK4mmzNF2fbHO/ONjAB8YrNYjAdlxG6Xob9mQlZRLAyyCMuayioOTnqHJzDYb/0Pz7hfC5ss3XZ5J9tDby+Zc4osDWo6GI2+52P2Dgc6sdPExImuJ9XdC2Cwvou1Hrce1g6ahM4j2CX871xtmd+3XutAcHEPBAJChaQRCtouhCjj6/IX+upWtL8w0pRmqo13JuxyQ4vmF1Mo1A=
+    properties :
+     x : 193
+     y : 204
+     width : 150
+     height : 45
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         ferme()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_VALIDER_ENREGISTREMENT
+    identifier : 0x20bcb9da209c1c2d
+    internal_properties : CAAAAAgAAAAsdJdjgu938ez5NzaSWasu48wYXbWcrjmxmLu+Jzx4jLWPbYBGo5nid5UxlP3+a+NNL1CqN87UJwPE6EYvvAYyQmWYd8j2qp0l45Y7LdVMXMduxqK8/p6CHGI1lKtiE6IAByxwhuhrzUtJwPTFDRkuljuVNgXQQ6p9dMvLNcptze4mNioLzBvDiQw5xPJSdNvo4NacVrJhLmzPq7SPZ+FjfZhtPt+enoz9SF6XlJHwEoWNxVeLcfpgcARUZe+ak/XBDdNMytDqwbJ5YUosEVABaR1vT3rZ63HiXvbr8IPZPw3T/nAT7WnTJBv0kanQydzXZS1PZ7lJ81oDi3JPmLdZg6RTbq3kYTPXvQTXgKdVQFcqiLOFy9SH559erXVL87OmAqDdwENj+He1D76rGU/nWHT716/lY2t1JeEnPD38fkxQUcstotKMTQ2UF8ELHF3LcpGbA2duL34cku8eaB9H5MKgttZ4HG1Ap7wSrIAd2ZfBI6QqL98bWlNrMQ+ckQoffY5tb9RTn/kzuFdbXqRGXwUJJC6gzWt07NBzYG/Y6d9L++Fbeor1OJ7KgMdwJ5j2olKWKGgc3XkZCw70UtXGlYyaWISYrPxcdhwmgPc06hxAbekaRRq1DaZaotcLN3yloNzD4ZTbJrPhQBjUTkzuRuVW2JqVzlAZWMukg0MAFNiFwQvqS9omBj4=
+    properties :
+     x : 37
+     y : 204
+     width : 150
+     height : 45
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         //************** Vérification de la saisie
+         
+         // Vérifie si le nom n'est pas vide
+         si SAI_NomSondage = "" ALORS
+         	erreur("Veuillez indiquer un nom")
+         	DonneFocus(SAI_NomSondage)
+         	retour
+         FIN
+         
+         // Vérifie si le nom est déjà utilisé
+         HLitRecherchePremier(sondage,NomSondage, SAI_NomSondage)
+         si htrouve(Sondage) ALORS
+         	erreur("Ce nom est déjà utilisé")
+         	DonneFocus(SAI_NomSondage)
+         	retour
+         FIN
+         
+         //Enregistrement du sondage dans la base de données
+         HRAZ(Sondage)
+         Sondage.CrééLe	 	= DateDuJour
+         Sondage.CrééPar	= SAI_Auteur
+         Sondage.NomSondage			= SAI_NomSondage
+         HAjoute(Sondage)
+         gbSondageModifié = vrai
+         
+         mafenêtre..ValeurRenvoyée = sondage.IDSondage
+         
+         ferme()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SAI_Auteur
+    identifier : 0x20bcb9da20a21c3c
+    internal_properties : CAAAAAgAAAAHVglZ9iHUcCxqn5Q03fW5Lh8QzAlB8ay0l7TwonEbIpgsht3t68dHGVqAfHycY5yW8hnhv2CXWfp3PYma4Xa4KPt7WpXYYCowjl8auYTH3vRKJYiNYiiKS4AqjyzRM6SPG/aC7nJ8KLYrEdxhbgZo6Uac8ZNUBrQYmLS3FR/X4e3ULC5CKPaAGMT1v0FCri0qbaDCmzGTETW6JhU7QvY6xgrefuB8CJ6Ko5Bxk+8XrDlwHfo6/f/F151WNly7Rk7m4CHtMx6pHeqqW+hvYCh6UTWH3RZUr9fX27Ahj5r7glbcoYstSR1Q5v2KXWHbJoaeraX9Q/o3bQvo9Dt9FePZs1A0Eahz+p4tk9vlvna296ocJcQ1wzcda6nzHmH5P9vvgFeqbEFcOYO6cItKDF/FmiSu5HrtW3Ly5aFvn9mwuc5nG34tC2sxx5fXxAa7YYeD9QLwa6CuDpAyRlwf/h8FcW/RFT2QtqJ10gpdecT+lyWOyDyes1tq19mlXL9vmrNXqO8HQdZH0cLs9yVYqrxwvRxzq5XMAVb1G7lQpRPI0PUK27y6CilnGkVw6Nx9hAA7mr94fLcfLrCeH3kYy+BI1KcKX/GMk9eHjNIWyzfZQJMFNsLNlEceELhWQgywwnaJJdyzhax0BWq3och9RX0f0mN+dOpOtB/5HF2HMKVdQO6jLpjDx0LuBpQBvKfyuCNzIMoX6PqqaKeY37SlgSTvJ2mwWowrL7EumHee50p1QooWdmEoQL3NCK5zKgLW0eAAiaQBT9WoaRp0ByZoPSRT9rsZu4s43rTCCPRqH0hCHWm0LEvOn/yqgWJFPedPqBGYu97AsUQj8S3dtq7wf85Z7qUCZG7VBz+QzcxzPAupxo9wzJKXtarh3elaGcpqzh8T04bsc4gnf0EkXApbqk/Xi6ZhnJYsq6/4+yiTpgWwKuPksx6CVwVJHPlTi/5sgTHs+858wzn18AiTnvvX//V7WMI9mp5GxCeOUjf+/Vzyd1byb0M44x5Rswhgmv4d6wuPLxAmGvmIUlUM/P18Kw==
+    properties :
+     x : 25
+     y : 133
+     width : 331
+     height : 44
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         
+         //// Vérifie si le nom est déjà utilisé
+         //HLitRecherchePremier(Note, Nom, SAI_NOM_NOTE)
+         //SI HTrouve(Note) ALORS
+         //	LIB_DEJA_UTILISE..visible = vrai
+         //sinon
+         //	LIB_DEJA_UTILISE..Visible = faux
+         //FIN
+        type : 17
+  -
+    name : LIB_DEJA_UTILISE
+    identifier : 0x20bcb9da20a41c4c
+    internal_properties : CAAAAAgAAACpDY2vWw/G1xLgz+BvVhWt5iCoP9t20iYDVlc2veahGndWX0g4Dh/9LlFj3d8FV7xVJkN9mq6W0wt96TB0DBVyKBlfqp8wKydypWa+ymPYLDPxnPhi/Fqi2OmCRon4W1BPVEuyV/JNpu4fePZ3uc3TQnOW+dPoVafs2Kp/AV6mrKNJ/Z9yWa9IQ1yG6te4Evq3clW5EGH9CRwOlbCMuKAG0XBZi6K1cN6ZrVALK0kJuKdHugzu/ibjSIFZ1dJKm2pTUvPq0ISidMRUoouGPM88B1RYPdNM45uekSRMBGk3KtejNtyQ1enlCINnDWgxmD2C1h+OBZW7XlqJopIDp6mcHF7R62QO5X1lwQ==
+    properties :
+     x : 90
+     y : 102
+     width : 268
+     height : 27
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : SAI_NomSondage
+    identifier : 0x20bcb9da20aa1c4c
+    internal_properties : CAAAAAgAAAAq/OIu7ihanFB6lCxN3H3yQP1fRcIM3dsejh7irj9/Cwaya1Z5JbDCph0FVbDl2r7porcmuPKnfoerLGEHWw9zJrVBadb8aSBK0uZ3Nb6IbdtYvgeKj2plfY9Vvjc2+gUrnfjfSt25YXzzyrKq14+1iUhuuUUTKPDG1YVmuIfUsAWBh2nIYfkKVcgy/iBj3hVbsOTyZkbwJmKnIfrPISCQqzgQ9HyGamQLU/iECgBbFkyia5Y1RWhMgp9lOIWq0Xq3iLMDy+EgSuBRNQMVOrv40WW4uYQEJdtwpVDzp0vk0BlBwEZsNnx47PY1jp7gt2L1qpTW1pxH3B+MAAximjqIiN6Ls8ial6Upxy5lZyPYUiYCjGfs2cvFPRnFdl3NlzHycT9ONJxh0aEU7RdtJ+anHBtp9yliZ1HUPoLLKvWEAzcl4ds/K9FyBMqaw7H8fN+klafRyGoBSE1IucnkY+JJmZfx1QrpoIP3XKGsWarABvFtJnW9xjXLkq3JMqX3346Rj5AnfdtuER0Er/k5uhsjEixciLBwnWp0PWFMkrEPo8o87j/HlgFfMZ3WrrUBbXV2LkprG0/jmvHei0H3tQM/f1tLFM4OL4vEvHbWptmgnz4bZ4NwehHIYbgiagv8FYmS873QZnIO1/1ZF+ZCF0Tqy5dlk8Ug1K/22u1zyae03/klv13Wa3oOjSrnMv72B2pu4Glql6yMyt7CnSr8w0HQUNndxzeb1Vd17Deq2sTYaRHWn5pD7pmZX+YL5i9aYm3de/s0gBmCm9Na6aDTDdMmEyW8MjIE2vgBhkAyAPbhUOaeAeTZCzpIHDBFuWgzt7RHv381YiYRp4AvVCRlfXGcf0FXCaltWwt3kf7dhzWIUehgA0lsafLh1LPm0fOS/5Aovx0fPlpZ6c7wGDLo0EpoWqL2mWcqpNTBGlRU0O1VCaJFtccdT1SUuyoo2n42PdBcUfrImtOZPgaI+hzH42MnQ+b3VMmYKraff/TWcKKlL7xVoZdIA9ONMjnXvUiqEvKiQHygUf1e8sgg
+    properties :
+     x : 25
+     y : 56
+     width : 331
+     height : 44
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         
+         // Vérifie si le nom est déjà utilisé
+         HLitRecherchePremier(sondage, NomSondage, SAI_NomSondage)
+         SI HTrouve(sondage) ALORS
+         	LIB_DEJA_UTILISE..visible = vrai
+         sinon
+         	LIB_DEJA_UTILISE..Visible = faux
+         FIN
+        type : 17
+  -
+    name : LIB_Nouveau_sondage
+    identifier : 0x20bcb9da20ac1c4c
+    internal_properties : CAAAAAgAAACwd+/zeHD6pkMrFNH+YUANRb5AlTp22pO2Jbs6ncJTYCjGYf4YrjaaS0jHnGkk0X1hcgPQzsk8kuC8PI9rOZTmY/DALllRcKTi+kuhNfaWMnIEf5a/rd9G1eRzxAvkzNVrkrzLmlqFdh5tl6K3M0nIu1ZHcqa6MNBD2fpJMBPGUqwNRM5zZUiCGOUq9tsQqQyGvHLhdG6Fqr7y01/hdkfRJ4FEyp+wM//utqzh2hr7EkDQMzBfk6xwsvYp7EO6vQ9EigDn9fpXYnCM7hFmpQoflreu3QuWmVwtBDJOK0OkDdgjkttqapWFls8iffYKBe5wvmkNBlRIVA0+lEhloemNBYEUpjFsqw==
+    properties :
+     x : 19
+     y : 10
+     width : 343
+     height : 33
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x20bcb97c1f36ad92
+  internal_properties : CAAAAAgAAAD7Tbz5dJkYA49Y5J2BzSDqUJy5nZaaLiY3bd1LvIBgGCPqUz0D9i3ezzuttpOogmHeKuYYBZzzT0v0YpZhSD/Jkf8wjE85UILgaDQmM1tagZk1jBRmZpmttCM0KYoxRIzO27mJ/699uPiujmDwGwDDHhI83LhgvSfYVXWYlFTNeoL4j1hUma6W4TTQLKWVPW31oc0HO1rT1IZaWTfHc/eMnBtLnt1uJB+JXITWrmV4zoiPxVm5MRMWpOsmbI0Q0C7DHPyzvSXuTqmF83CWDBx1ADRAqdkgcagpY2J6XbgZaKv3cn9aVANs2tanPA==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAACThDVXgnZMxJ4d08OqTi5BtzlQb3uFnWGG+GieD8ZbNyNSA8cEBkfpQ7EcL9QOXKVRd000KadAMOwrF6THzOL47fc8uC/a1moajqbUpYqGie+Q0OFT0FE0GVrS
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAACJbkdTjM3LryRwE79hNH5G9cmOrGu+13t2bhuTDYPVSJ0dMta0IcN4LdFyU9nS8Dmjmf+VuPbv0+LjF54Xy2xmC2y8bGSBNjzLYw==
+  type_code : 1
+  p_codes :
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FEN_SansNom
+resources :
+ string_res :
+  identifier : 0x10bcb97c0028ad83
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : Question n° %1
+     index : 0
+   -
+     text :
+      fr-FR : Vous devez saisir le libellé de la question
+     index : 1
+   -
+     text :
+      fr-FR : Vous n'avez saisi aucune réponse possible
+     index : 2
+   -
+     text :
+      fr-FR : Le nombre de réponse maximum est plus petit que le nombre de réponse minimum !
+     index : 3
+   -
+     text :
+      fr-FR : "Le nombre de réponses minimum est de %1, alors que vous ne proposez que %2  réponses possibles"
+     index : 4
+   -
+     text :
+      fr-FR : "Le nombre de réponses maximum est de %1, alors que vous ne proposez que %2  réponses possibles"
+     index : 5
+   -
+     text :
+      fr-FR : C'est la première question
+     index : 6
+   -
+     text :
+      fr-FR : C'est la dernière question
+     index : 7
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,351 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_FicheSondage
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_FicheSondage
+ identifier : 0x234e4673108df8fe
+ internal_properties : CAAAAAgAAAA2ZodGutrI7ikdVdWGGYFdcRbOykHcAsOE6BC+juP4lj4Zo7s8wX+kdQ7ZkjLwu54XVRn6eT0VyFq1Qn5U6Z8nmKjNvBeBicj3jRy+O+KtLudx7jcj1pyjlaTNBxMfXRK0lcUNl1Y9y2Pmuf2ZEhFadqF2jZdG/NuvuA+FuQ3Znhl/NE3AjRGkS6fVcS8gQEJeQvJbyMXrNV5tFCINKyqgLxjXBFqFma6HdIxOJZvA3oOQcw6ungXFsHW4PpKEXeKKDlDWY0uV7hNYRLyC/r8xTZrRYOktV6pQPxIca+kb+/9aLbnCXqP53KnDC4PlgC6xLl7BJEMn4pE14EgbUwj9SYQn4doCoPCSKi1kPc5F7EMThxJAHYOrYBFdELSB4Id45hPN8KUCkgwUdiII8pwaJE/rLOFS7EXf2klE4IUUzS93C2sBozmirGgqvbCRyDbAuHMvoTQ2TXjfvDaum8iMNDmc73eCUp/kC2oe/m8vaByHSJ3xAL7So96YIopIS+LyceY19y0T/XB0GCXU9Y1Wtxir18YRIfbYfGNrYKZ9Butb3xUJvePfOXfCa5PPxlsRSGnnCmYRQ/JsJoH4c6IYOBlB8wTb27TAveeHlxh+nAyLwl3iZbcg9qe+Om/7UXOjXHusYUtZQxcnvvZ7LUOHoAESzF473snoEjNMlLOQ1HJ0xNdhh3CXFN1iUGgU6exeqfKd2jN6GeYEW32MiCn68M7aRPyaz0IczU8xpQ==
+ properties :
+  width : 320
+  height : 407
+  heightMin : 480
+ controls :
+  -
+    name : CFI_ConsultSondage
+    identifier : 0x234e4685108f40a8
+    internal_properties : CAAAAAgAAADqW8aE1P+fB6dyN6IUXI6L35T0mjEZKjz7uvlcea2ngRfEzYGzHlEhNQVVAV7zZB191OmqoKSL/cdvZMhe2JQ9ZTo4k9zrMAYXBuU8lImxiqVLTEs8H7/RKXTOGsPuuwshmyUlqh6alvluTkcMYdAqq5DFy6GvLeLk0RmCper+QlA85iQYxX3iqEOlOI0rdcdLADWR0p5UanFbI+bK+VPIq3X1urJrU439bP2bC7xYkxH4WisSE9uPu9A5D6mCUuCy0SbeE32BQGIFeELhVWIIF5O6XAqyXUkpJYm0QOrbVpPfE4hFgsxsDDgu+QLV1H/cyEedxwGHtdBmN42JNgi1ClGWbd3IVZ3hN4S7bv2+xbpZ4rA47LtSSzTJUjIQgoWaXhjfF53MFqVLhMgStnUMT4cID5x4L4OtowP6BIqkU+IkIo84KKOk0b9MaJIUY8Y+QcsusGxpmOp1uwImOleFRmr0vJ7y6KBFuFwwWrarhdh2mvITiOcPLvPm9nKiC9MkQJPmBrQVfrwaEBbosDkLbEw0mDs8Cp0oAA==
+    properties :
+     width : 320
+     height : 407
+    controls : []
+    type : 31
+    code_elements :
+     type_code : 73
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAA3jGsoBi+VWKmPyQFLxxP1jbUpvqgJijN4bOMnzDaNFPQNKoUwtLdZ6XaBFiGNkxgZ+E2GYytZ5B9ebaEwCX/CPT4OsaURVy00nfpob0bEl1XdjrPFyZZm0QrP8PWOa++CdIKVeCPSkmz7Sya3aMmTEU4Zz6m2eSRjDGPqtformUHaVdV0Xtmeqt64UdQjPEQwfyJSArtZxur2pyuZEaDHTC045q6jcEsFZAxN6YHJPQLewUoNTqTE6Ukq/hx55egNnMTSPI0sT46tfxXHH8aRw+U5jtfQCpc5+H6fu/7Hywar3FhLr+vy9EaeBP5xnQqo6EHECM5zmeW3TasfvB6RAlWqvQ==
+        code : |1-
+         sNomFI est une chaine = CFI_ConsultSondage..fenêtresource
+         si {sNomFI + ".gnNumQuestion", indVariable }  = {sNomFI + ".gnNbreQuestions" , indVariable} ALORS
+         	OPT_OK..visible = vrai
+         sinon
+         	OPT_OK..Visible = faux
+         FIN
+        type : 33
+      -
+        code : |1-
+         
+        type : 173
+      -
+        code : |1-
+         
+        type : 174
+      -
+        type : 234
+  -
+    name : SC_Explications
+    identifier : 0x2357c97e3cdc97ba
+    internal_properties : CAAAAAgAAADKDAAW2qWeEQGfmZP2k8Ncf991+sIbP8SY3rFZQM+vk4rGbaToo/QCM/RuQXZuSlzq/rSWw5314lEze7JyzcNNjApDoXvJtPwcoF9w5BH0rT5ZYNFLFjala8nrBEBAN9/VJ7dV/No9XWFxT+xPstCYFt0JMhiw7r0P+J4ftd/OOIK/CAe1KOIrRs0dDGQfaJ6rj0h9p3kHF2G4gQJhc2fwZrb3GzRa6FqDvcvpVc/s29mzOjpcAsCk+QRv0abML7v2JXjqadxoCTtbE0iUYA1CrMvsvzS3p/6tuxRGqICb+USalLfTvNqBCJt3vvIjrHcVbQHPqDD66qMAY5tu3o+ip94ltv9ZO6fCTeLpICDtzbnQvm6cJO4GwfzRNEIAHgOB4TiIv+CqjldbpMCzunYP+xSi4wpDSwXKZGXAQQ0rgHEEdnfOC2MdwOh3qpvdWqcjs9PGPRB06XRCddY8Ap1VJ1CrvWjt+mazw1t1kOf0YR6r7gbwbuyo8X1JP61epLO96Ar5IWb+vm2FjrzEjaAjL0D+uLgHX88MyHNFQE39rl+8nabqqsojMAp63Hsox9i500a/fNm441gaV3+/pCDI46ARt8GcXLG9HMWxyy6XnoJVhfM6AxFEhiN0ywx5m9OLVMnPpD/Pj8UIt1GfB7cspOS3/w22gmYexm5RlvrrzzTHK+TxlnqaFxY6hNE9uyZM8akwmSSF/3/+WenV0Fu4ohNjS6MYTh/pe2oqTt6hth4KhwaE0kp1OPylyDdQ5jqfgueEPbFxBXR+aOJmbf6TsTcy+1RmuvOjEpG10Q==
+    properties :
+     x : 18
+     y : 72
+     width : 284
+     height : 241
+    controls :
+     -
+       name : LIB_Naviguez_dans_les_questions
+       identifier : 0x2357c9843d05b1fe
+       internal_properties : CAAAAAgAAABJIIGjx3WXMpqbecXLv+ukyy03/Tu6TNPKrzDsZ6IgBvjPNuwaHrEv3gotJAYAo2ka609NpYhf/taOt9nzkhkhK8Zn7EWfgb1UgcE2ECYXBeZnU27EDn4H+RxnvGLcq0jPJMxOiVy+fmPFBCqlQ9y8pVDPBqsWAU6luXy/5M5hJK91rIFsYhC2L/XOBSUVojF3sy+8/0VemQJrVAEwlcBsjtDjgRj2fGkj6yuqxvMmtnrt4OaUoZ0M31c0LSvZL7VEup9s8WA3x5RwXktRLgokCqPZpXj/yBUEvr7kyLKjfjCcivpkDHqH0NnWRDtltRM2I7U1P3btvhumj5+ZySqPp9KWd/IkfN34t6+DWMxGiwv9hJP7E0nsciJV6A4rIebDuUTzgf+/iL2dG1CUlfssFPnBtlNkVX8/dnOkkEieLV2nXYvq0PNs8HyQfH76/skzXwHtnr6bUZjLp442SIs/EjogmKQD/ZREQNNSYcTrJNt/vJsKmdAQIVypqBMhdzW9XCGtxWKoC5E/dqG3anir60i0RgkwxKSV9Xr20kS+
+       properties :
+        x : 13
+        width : 256
+        height : 239
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : BTN_Fermer
+       identifier : 0x2357cbc43da579cf
+       internal_properties : CAAAAAgAAAD8CliLA4Ly6nKO68W0fWsxS14NCRRKIK3mISEMLMQGjUIcUvyfkrTNZulstBKC/Jwkw6ORjnlxeSBSMeRSei6a3ccHwJhzeE0jst2DStG5yTUNnalmZcGjyFm1JxPXHZrWIIjM3g5Zg+VUx3ijPrVy5s25alBSZhkqDiJhUl8iRQ2q6/nfft+CtNIHQlZ6VTUFjqyv1xr+2YjFlux67sJF4Z8vR8ymD8pEYRu2qLoNGKx+e6hwYnI/PX6DSCvms3bXtk7Xt0q0eep6Ifdg6kGbJRxjNV5Uzcfjkr2yeL75LUtHiz4UhhIVNeHw7Qei0fE2OlxLwpGG+bhD6QFrPUsw18lS+G+Tee6nGA4v1fyHnikoKuTQu3/NpcITUBS4oPk0DVxzqhCu9lRvOvXkOrmm5CKrVGc70x0JoZyMyb5hn70heJSI6wenBRJckcd3KzCdRDfYRk7uW0EZYdyOTlMl2tBCDb77MniqRjlnibOmS6ZMQSRZdOcTrs4EkgxYHTS0RmUePsEc0ElkU5WZVdiw9J+smzVLlU50K9BKVOPbFTuf92Kw8wj53x6b3/5k14j5JSvQrLfHO8GcyeBKJnPqZLNfvVkoPbtDnLL4Whk5BLIDFo4mkGJM4DShx6N1FKaguwFxfa+NnnLndEb2L7Gr+4UNSmatHT3VfOTMXly+T2c8LKMzOohGnuDVqnDSZB+P4I03UyGI47odI03RZbKSpGpKIt20BrRGITpyFX/kYX7LFfVkaNLROAMgqcsH+pKH75fQ8zaaD/4VwJs=
+       properties :
+        x : 213
+        width : 69
+        height : 40
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            SC_Explications..Visible = faux
+           type : 18
+         -
+           type : 161
+           enabled : false
+    type : 40
+    code_elements :
+     type_code : 34
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x234e46f910ae05f9
+  internal_properties : CAAAAAgAAAAme0RCagUv/sW+h1OdT9Yfqa9gJApcYNHDLEcW8oENvXHd70WonJ2Ff0eXShqetSoIOaI9UPLK2nyms7l/Gx/iYhTkYu2V6BCf0MFVg6JRg9XQUF5WwAD7S3/WJjv7r1IJSs5iYrZn4nN9Sj8BQ6aY+nYGtgBc77Vysua3zrN2vg9MWAebruUOsfL3jUkGsy+cgubGIC2vHfG7yr7r19GHqHkkLkLdIaDt01uNu3xICaMCuMA1nO1fIZiVClQnMb6MQKLjOqhWT3/Ggz/HHIaT199U1pgFgTxZet5WzuorZLtqP+30y9OW0wMRrTUOzAWHlwLyI51EEtm+WKH+uzo003AtRXjNUmZYy4EEY6DXPM1zUTHnUHHRuZtB3SSOYHSqJeagDQK8TEuHP3WS2t/gff7h0cHKM0PujdI4ZAEGgP+Ri3ES1adeT0A/s2H5O6DYE9LwwZJzsKzT4gj1HI5DhfB6TPmi
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      code : |1+
+       ferme()
+      type : 18
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options :
+   -
+     name : OPT_OK
+     identifier : 0x234e83af1edf2e74
+     internal_properties : CAAAAAgAAADf+laCcDeIWyG6PsEuf0MrkTwuT9oLGsi7LNi4AuWUW45i3NNwbUAsh6m1cvrLJY+IjgSeiYJ4XmIVucdKE42XjXmfaeaZlKUDPMGSmWxVwksH2UgflhE91zA2liqtZg3yHBnSVhWz8MEdACGkeBIRnD9SiKygCaTJBgcIYNKxavpsJOAnz4DS/ggo9aHH4t+q4BxKxABTJFmM41+kNi0mdvdqi3TMf7hAjQXNQf2c9ulAerW53a6H13ZTX0LMjASjtn6TP3ZL3WhEE2tXEJ/eDn6fcHi6hxNPYX8n+6OYGnWTUPvGiFm0dVGDGA==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          
+          
+          // On vérifie les réponses
+          SI VérifieRéponses() = Vrai ALORS
+          	
+          	// Toutes les questions ont une réponse, on sauvegarde
+          	SauvegardeSondages()
+          	
+          	HLitRecherchePremier(Sondage,IDSondage,gnIDSondage)
+          	si htrouve(Sondage) ALORS
+          		sondage.NbRéponses = Sondage.NbRéponses+1
+          		HModifie(Sondage)
+          		gbSondageModifié = Vrai
+          	FIN
+          	
+          	ferme()
+          	
+          SINON
+          	
+          	ToastAffiche(ChaîneConstruit("Merci de répondre à la question n°%1", gnNumQuestionErreur) + RC + "Cette réponse est obligatoire",toastLong)
+          			
+          	// On revient sur la Question en erreur
+          	FIListePosition(CFI_ConsultSondage, gnNumQuestionErreur)
+          	
+          FIN
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAvENED3tKoYFKpf9+WWvq9O63U4/8J0aVCPDyBk9b5o012J6VKPPtfXUH2xeDhe/bIVJizkIJFQZ1EbmM2eX+kObt4/OtmWu6eAipI0X6KjZM8BD33dP1gdeZu
+ code_elements :
+  internal_properties : CAAAAAgAAAD6/c0tBl5Fzb2NpSCbxdnsVST5pc+rMXi+MT1lx+K4u+jvGiXm+lK52DkW3oh7HEervP0I3alSdNmFS6fAcz+9uCaFfg==
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE FEN_FicheSondage(gnIDSondage est un entier sur 8 octets, gnMode est un entier = csRépondre)
+      
+      si GetUtilisation() = 1 ALORS
+      	SC_Explications..Visible = vrai
+      	SetUtilsiation(2)
+      sinon
+      	SC_Explications..Visible = faux
+      FIN
+      
+      gtabQuestions 			est un tableau dynamique de TypeQuestion	// Tableau contenant toutes les questions
+      gnNumQuestionEncours 	est un entier
+      gnNumQuestionErreur 	est un entier								// Le numéro de la question où il manque une réponse
+      
+      HLitRecherchePremier(Sondage,IDSondage,gnIDSondage)
+      SI HTrouve(Sondage) ALORS
+      	gtabQuestions = RemplitTableauQuestions(gnIDSondage, sondage.NomSondage)
+      fin
+      
+      pour i = 1 _a_ gtabQuestions..Occurrence
+      	FIListeAjoute(CFI_ConsultSondage,FI_RépondreSondage, gnmode, gtabQuestions[i], i, gtabQuestions..Occurrence)
+      fin
+      
+      //Si qu'une seule question, on affiche directement l'option "OK" pour valider la réponse au sondage
+      //sinon on attend la dernière question
+      SI gtabQuestions..Occurrence  = 1 ALORS
+      	OPT_OK..Visible = Vrai
+      SINON
+      	OPT_OK..Visible = Faux
+      FIN
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : VérifieRéponses
+     procedure_id : 1391196394626826210
+     type_code : 14
+     code : |1+
+      // Résumé : Vérifie la validité des réponses, notamment que toutes les questions qui doivent avoir une réponse en ont bien une
+      // Syntaxe :
+      //[ <Résultat> = ] VérifieRéponses ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si réponses valides, Faux sinon
+      
+      Procédure VérifieRéponses()
+      
+      nIndice est un entier = 1
+      
+      bRésultat est un booléen = vrai
+      
+      pour TOUT ELEMENT UneQuestion DE gtabquestions
+      	
+      	// si la réponse est "" et qu'il devrait y avoir une réponse à cette question => erreur
+      	SI UneQuestion:sRéponse = "" ALORS
+      		// On vérifie que le nombre de réponse min est différent de 0
+      		SI UneQuestion:nMinRéponses <> 0 ALORS
+      			bRésultat = Faux
+      			SORTIR	
+      		FIN
+      	FIN
+      	nIndice++
+      	
+      FIN
+      
+      gnNumQuestionErreur = nIndice
+      
+      renvoyer bRésultat
+     type : 458752
+   -
+     name : SauvegardeSondages
+     procedure_id : 1391197240735449604
+     type_code : 14
+     code : |1+
+      // Résumé : Enregistrement des réponses au sondage à partir du tableau des réponses
+      // Syntaxe :
+      // SauvegardeSondages ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure SauvegardeSondages()
+      
+      pour TOUT ELEMENT UneQuestion DE gtabQuestions
+      	
+      	Reponses.IDSondage = UneQuestion:nIDSondage
+      	Reponses.IDQuestion = UneQuestion:nIDQuestion
+      	Reponses.Réponse = UneQuestion:sRéponse
+      	
+      	si pas hajoute(Reponses) ALORS
+      		erreur(chaineconstruit(<§$0003§>,UneQuestion:nNumQuestion))
+      	FIN
+      	
+      FIN
+      
+      
+      
+      
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x134e465301ad7dd6
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      fr-FR : C'est la première question
+     index : 0
+   -
+     text :
+      fr-FR : C'est la dernière question
+     index : 1
+   -
+     text :
+      fr-FR : "Vous n'avez pas sélectionné suffisamment de réponses. Nombre minimum requis : %1"
+     index : 2
+   -
+     text :
+      fr-FR : Impossible d'ajouter la réponse à la question n°%1
+     index : 3
+   -
+     text :
+      fr-FR : Enregistrement terminé
+     index : 4
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

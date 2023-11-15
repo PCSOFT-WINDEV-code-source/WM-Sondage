@@ -1,0 +1,335 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_RépondreSondage
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_RépondreSondage
+ identifier : 0x20c606c7106ab514
+ internal_properties : CAAAAAgAAABxylvJtZx0i8LqYrPD+eIY8rOADgXql1EnmW8p1UfE6P6G5IuGKnDs1of4fdBj0h5bTI5YD8lDN/2Ssp5gmd+AgeQkx+jhiAUIt7oux4XzldS4aBD9zUZfg3BzzusUwNOzBNfNHwh6gKoVgb4JdjUX83sVBsxSJdVoWC1Ys+5pvgQM7E+K4H36cqisKaiNBPSKjW+wZ2wprHDmYOExQaPAOGViTMJC+lQx5fKYPVnHjKSPFPgWlWBBzVbJZ53GDovrxJg0grf5NRdTjH9WBsGipg0dbmJvaSK/C5S8m1Zhy2cLBVoojIh2uUhCxt2ikd/sEZ8t093Dm5astAr1as0vPouuzHNu0zgWggSNKH7OFAiXFiEfHdMuUV0SFb1SW7hbOm4QhEPtZZjUzDpUh5hHb+qCg7Mx+ByNu2UVNLbOwfQAJTfGOBBjMx+78/MP83rexYUu/sWsJ/h1VDv6MhpeUcZpUAJ0CEjtTrolHf9NCxsQi44qfompKWY6e5mIIGlIzIQDx3fqoVsGvv3zEoMGcTB1pIIC8zJqoeG4uCJ0G82HQP/l35prjrPxcDq0pPhFisu0A9jKSNytKzq+CQiobHeU4bKLCrIBTWA1iuQ7SkP/mFCmcF9hYavLDFVT4a1+IqD0lJmeeeTr5UEld4F7E+VyLaigVR3tUkHU2o8ChC8AKEi2wgrF2+ipVF578TQewk3Z8VentmCH1+khKAd8fSfrSHJk5lfXtbiMxuzw48wfbdGb0xJbTzp5Hse8ob7oFMJ5to32i/bNpGprUyqqvYrPvo32AIwB5uX80oLiHui5rG3gL/x+NBnZTEL7nsDDysZrR918xFgbHMclLzZJEJHqPm7SkM8kuCDmUh2IBkBHfAs=
+ properties :
+  width : 320
+  height : 420
+ controls :
+  -
+    name : FI_RépondreSondage
+    identifier : 0x20c606c7106bb514
+    internal_properties : CAAAAAgAAABThjMTcRHBjpmCpUPlfPFS3T0+bHpZx1nhwoNKUeV2et7KbnWIa4lo3G7ygWFTmqwgqxllNaFfdbfp85YC6qvhATzjozlXEZWAqLW8kVHmcnIt3qoAAzmSfUkysxF7WSA+SQY6agWC9LIc4rghMAQHEW7E7/rMPMaPtTSYHIyS/b/EuEmrk+DD7xAW6cnMKCUtvxa/vNiFQlaFq8SIYwaFh03GTosi8JA+/b5X4oVlRL6MkR8EoUc61iMqV+nfBr4cy9SiAMQa5ZfBz6JyW3ieajqn6+FHfMXtJSLrfbRMLn6SFQD01PkOSZcTu9DXX8NE1yZ4jGhQNCTuJ9Yy7AtnD37Yu+NqazmgHEjKqnIoVlh8MZosGgPVOn4rxJDJjL76jMPk3bwqIOt+tCwnyfItupu6q5nlipaF0ynFmeiktW+KiXRnKsx4vQBMMAuJ0FlLmhcLCuTU149AiIBpyQTnrymLeggCtgleRX93B+F8vw==
+    properties :
+     width : 320
+     height : 420
+    controls :
+     -
+       name : LibQuestion
+       identifier : 0x20c606c7106db514
+       internal_properties : CAAAAAgAAADB1bPQOfri5tpJc8vViTtPSwDs7guZq2xFNIa0L4aiZ9E71Jh0X3UlocWqcpH8wtfluMaBbM8KPVIoKBBOdHut7y8iL2I6LjatnsSjM7Q2aqJd7FlhNCNItBE7WdJ05Zjue/QHIhWgDZXX9ZxUf1mSk2aazhkSyLMHUTcwSCVtwQHRta4RK6jAj9nA0Smh3MPGHzfU9PpkCaIamWsO6mrp8foJj9jd+GcYYpbI1wyjuBq2bVgG6/RaRHQqyPDWpXP5651L4XViqxVKXVDr5P0OKNrkb8D+/Skz7iLu0xhIBrEPPd3rCIl8weJVZpq9gR1TVC/egZIllgJQMMxFls8J6Z64ucr+4jifqU2uJZkooS02pn4bfADnn+3xfeR2IrVmmtE0Zso1cMO1RCfjrBY=
+       properties :
+        x : 13
+        y : 41
+        width : 294
+        height : 72
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : LIB_NUMQUESTION
+       identifier : 0x20c606c7106fb514
+       internal_properties : CAAAAAgAAAAqOlykub+NXZhUTTrKlwRb1tD9A+k6jg8UsCzPUD8yNbrFFl5xP16EPrFQLgeAfA33DQYTUhYiwKMiRn/7yY1DT9TqfZFdzP5V5N/o3BZK/Mp5SdcHoDlsTu4Y+e5pl3EXywYyO/y1URdPuaAPfFBEY9TzFlTLO3OAux8euoyBlJ9B9881gC5g2u9jHJfX+jOOyzpT1vuBVmaOFLzsvUWnHPes1paxP7gvI1/JgaZ3ck9NKDfQK4QnWrbc6dGLAeU21zAhomJL0a20CoOMsAIGTlvTzGK6rfHk0qYAHxHs6C8T4VQ7FJDjECRmgOkZA/pTRp+hXI5jrz8mZbx4jL3x4Kz+3rpi4bj2g1EE2DpwQMYOENlsPkZjwAuCN3h25Cs2h/EJYECebrgcdzq/fpi+L4uHsA==
+       properties :
+        x : 10
+        y : 10
+        width : 198
+        height : 19
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : LIB_REPONSESMAX
+       identifier : 0x20c606c7107cb514
+       internal_properties : CAAAAAgAAADIFIuGnnASvEyqU7Wobjvgmx7G2dQB2SLI5SZfM5XeiWFGhRlmaJNhhbU/kRCyZYNFhYoWgMkr1G9RzU5A9YrJLl8pzHVnTdMwQVL6ULg9w156JHg8ng9aN4fT/X9DK6mMR1wzep9F2ZGQIPIdoPFpH1evKz9KieQDE+BTjce4x/KJN7BMEPwGbZJlnWIqZrz88Y5GD45FV+WackVYXYweaRM67NthxE3HYE9Sz0KFC0gRGPrCLMDTVROJZTjjPRLOEBZWaQ2ufnW/sCc+mzBwZYcXiTh2vlugMwaIBVRLbnh3nLtdRoKaHLHkSQQL1stFA90giw3f3XyTEJe5gV6BBr+I6zdts2t3yUhpQPZbvgQq0/+uc+ZHP8KApKctEXb5rikBlaoa+Gt5aHGerqsnwgm3mZqp7mpA
+       properties :
+        x : 13
+        y : 137
+        width : 294
+        height : 22
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : ZM_ChoixRéponses
+       identifier : 0x234e7af91d6a26a6
+       internal_properties : CAAAAAgAAABrrJtCu8Bbr04yJqm0ricU5uGR/v8cjzyrtDxh9HDZNV6sukpCRlv18Ii75CeJGv/k9gkeutqVp0CVdom3g3y5X2bhilYrOtPxuAGb8BHErKrLtV2PQBh0SbpqR9poz0CQzWw83Bin+9diIp9cZjVerjTTwZDTBSvRz7g8jEVg6/MZO3k34pFDaUR18vc1uCe2y4jboize25ycDvslRx8UgZplkrZCY1bP1dzL3TvsH/kcOazOH/epDskXKmNGtlEbpNzd/6+gPyA2HTQ8NiPTsl4n8Cem7gSw4rr224L5FrSOaJjfNomfvNO1xC7ks8t0iyJBWVhSCF3tRwhNYPkHIxa8M1j5u/Sq2syzAs3pkx+FZ1cYrRyjlwtiVvpW5uFLkXH57nA/uphMQR7W1E19tRlLOWycrqmEEatGpjv56zNbAb/G3F4YEckut+aA8C4icgV6Tht1+0BGqiQn7O4uxj0du7MII7ACZsFcw0/jivVV3fFdZxnZJvWM17atEM0S7IB/81kxoFV/e3sEv/X6QF5r9XrlE08qz+e6HfN+ov7FYHK/PlKetOl5opRY6jnPUunmHXrLrGUmmBnq+9YheH6i9expKjJZ0Ykq3RMPWfXas1Awx7LNf3S4w9Pa/7e8jCdAE15vNRKlutNYKcx6UCgrQmEfHl6FKul3rIdYL7E/nS2ddfzPYmecx/6NxP6jX/x5QEbjAdXYlvcPJor1hjoITlHKmHDxYuo=
+       properties :
+        x : 11
+        y : 165
+        width : 298
+        height : 46
+       rows :
+        -
+          internal_properties : CAAAAAgAAADrkx6k1/m2JpqozTPymFFs6RtXMi2/7Zf53UF4wfz46HQcuCNp0n7/Dx/qYakWzTDx7NX3G8JtOomp9wKknXvHGPtf6YXF8/+6LfFMVNCAifPcmhBvG3EvegAdFf6/SRcYCOnTuTMZwFAIPSf5Hjk82m4=
+          controls :
+           -
+             name : LIB_Réponse
+             identifier : 0x234e7b081d9962cc
+             internal_properties : CAAAAAgAAABkHKjsI9Cai5CQH447kVKt7LuwPXywrj+bU3oKIDyDp8vFyNsHeXWOwZ6n6fzVzHEsfl0ecT9y7UYxQJVsbrRi3mZh1yPBC42pHo9ER2v9Ve5oiu5f4QRTpw48m/T0nd7dugqdJI9sN7HE/BiHc6ei0BCc5Hw9bJxitTiPb7s6EpSejiHAQzSLbQULwldF0vryV1m4VQUkluGS8/Pf91MjKcJlReTqcbpFpFEdQw75PTl2Y+ZwUpoDb66rEG86LG8gq6iorFwu4o4PJgMHqWN+HS80FQsB4+R3PNkj9UHwMbfYKyWMMigCqRsV8KsHjP93JEssNXj/t4JgnbNOXs5mq8B73lJodTqUnJ39SeNf62ICgeE7HmnJoZj5zlNlY9m4bzIEbV+6CuXXuCM=
+             properties :
+              x : 37
+              y : 12
+              width : 248
+              height : 23
+             type : 3
+             code_elements :
+              type_code : 2
+              p_codes : []
+           -
+             name : IMG_Checkmark
+             identifier : 0x234e80161e6121c7
+             internal_properties : CAAAAAgAAAABtlE5qSA7EvR5HiHTP7BP25MfQIFChHVfz8WkWFYMbcSI/Geeq+wdWALYoFZ0yYl7MHu3pxzIvoTGW46OyaBuTZwwgxzJHAK5Th7/vm8FXR63sw13sV2hICSZIynBJMCsLimB0QPDR4Z8DBB98UPAF+0zHreUPh8vonSjGmSAyx/SwmUl1/70QUHlTE6QFwH+VBVqdE6mnxjRI4xThdhian6YWtiUhVPiR6swMglvjThbtWk+Ti4A4S68CJxMfYcl1ilnHNYhVrhF/DmmRmDOhIOazvnGfrW/UVDhc14QU9nC1oKmwKl9wGE9Evl5JXeqGA44EjSluQqsKb1Cqwtdcg1IPk1V39po8tV23zwoycj6awDK1s44HLp7kPCpzYQ+DdJw41wqrQHJPq48BY1Q5wYV9lEFGp0oguTs8vOi7BKK0gfaRzxhIyR07FwyHvKFK/oia9zapSkkwDL2e+sAlhnFNxWJJTvtj5AV3cDlyNxjrv9nkN1Vh6smhLzlv/oaUd/VVNSYXqewJZEo7VUeYkMZ7DukjUANhfgrHX36OpKA6a4PfSANktpponn6Zu25lZuDqMKFIbev95BebzEKbOjVL8h9Eheldr/Bt3OAmuEANpUf1ubDK+PeMV9IhnKkvJCRLnF3LDNZrKRsUoI55LacGqPCbr6+Hgt8t42T1jOldlOPXrAvXnz7NSKnQM1eDemXyvNJAZCKZ8U586I9b52EXeCbEFZotbH1/GrIZP2asM7bpI9WgoMFvQFljv8RjhVyvipf/jFiS+PsIQ74pAbPfYT32cDe44eNrqwSJAi8zZ7vE717q5czHV4m4wXuFGxN94PJ2VugBBMUWkZxvRm9F3vXrP1d2nd8Arh489P7/DG23Q==
+             properties :
+              x : 10
+              y : 12
+              width : 22
+              height : 22
+             type : 8
+             code_elements :
+              type_code : 8
+              p_codes :
+               -
+                 type : 18
+                 enabled : false
+       type : 97
+       controls : []
+       code_elements :
+        type_code : 126
+        p_codes :
+         -
+           code : |1-
+            
+            SI LaQuestion:nMaxRéponses > 1 ALORS
+            	ZM_ChoixRéponses[ZM_ChoixRéponses].IMG_Checkmark..visible = pas ZM_ChoixRéponses[ZM_ChoixRéponses].IMG_Checkmark..Visible
+            sinon
+            	pour i = 1 _a_ ZM_ChoixRéponses..Occurrence
+            		ZM_ChoixRéponses[i].IMG_Checkmark..Visible = faux
+            	FIN
+            	ZM_ChoixRéponses[ZM_ChoixRéponses].IMG_Checkmark..Visible = vrai
+            	
+            fin
+            
+            SauveRéponses()
+           type : 33
+         -
+           type : 222
+           enabled : false
+         -
+           type : 223
+           enabled : false
+     -
+       name : LIB_SansNom1
+       identifier : 0x2350033b03f6762c
+       internal_properties : CAAAAAgAAAAPk4bWXtpk2ogcINZ6h9jX5IPemKgW5FoKnpNE7SZNZLXRFeL292gOMhToODagbxYW/R91FXqoGoBmCpgkEihFtzz4XWbsHY+Tkcf44vbbuWpf89SVLxC9afFc16KZuCXEvJq1oYLtIyPXC4u0lEdEAVKgooZW1uIXQbsHHZQ8E9jDKll94KrXwcw4aQevSigG9LEkgTdzHTwQqwdQR9JXy+6q6c+2o76VUZeCdDfC8KH1hEN6DDDhGTD4d7pYViVIRQceeNdfHDtD8nfAbdKeFFjAeUfq1DJRMNHhdkkSobWlelhQ4u0nJ00bVr+nBFXUzT76ZjCst9uSzIP+N3rTutMx9GBE8R4JXRlfGxSeVrQFZBBULkL1B9EfzVm1y6tsp0Q+l5RwjyuxhW5fbnOKUXJXI3fU8fHgFS47jjbqNq0Ta/Y1etY1HxtzLnraqwID
+       properties :
+        width : 320
+        height : 123
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         // Résumé : <indiquez ici ce que fait la procédure>
+         // Syntaxe :
+         // FI_RépondreSondage (<gnModeOuvertureSondage> est entier, <LaQuestion> est TypeQuestion, <gnNumQuestion> est entier, <gnNbreQuestions> est entier)
+         //
+         // Paramètres :
+         //	gnModeOuvertureSondage (entier) : Correspond au mode d'ouverture (csVisu ou csRépondre)
+         //	LaQuestion (TypeQuestion) : La Question à afficher
+         //	gnNumQuestion (entier) : Numéro de la question en cours
+         //	gnNbreQuestions (entier) : Nombre de questions dans le sondage
+         // Valeur de retour :
+         // 	Aucune
+         //
+         // Exemple :
+         // Indiquez ici un exemple d'utilisation.
+         //
+         procedure fi_repondresondage(gnModeOuvertureSondage est un entier, LaQuestion est un TypeQuestion, gnNumQuestion est un entier, gnNbreQuestions est un entier)
+         
+         MiseAJourInterface(LaQuestion, gnNbreQuestions)
+ menu :
+  name : _Menu
+  identifier : 0x20c606b410306a9d
+  internal_properties : CAAAAAgAAAD7Tbz5dJkYA49Y5J2BzSDqUJy5nZaaLiY3bd1LvIBgGCPqUz0D9i3ezzuttpOogmHeKuYYBZzzT0v0YpZhSD/Jkf8wjE85UILgaDQmM1tagZk1jBRmZpmttCM0KYoxRIzO27mJ/699uPiujmDwGwDDHhI83LhgvSfYVXWYlFTNeoL4j1hUma6W4TTQLKWVPW31oc0HO1rT1IZaWTfHc/eMnBtLnt1uJB+JXITWrmV4zoiPxVm5MRMWpOsmbI0Q0C7DHPyzvSXuTqmF83CWDBx1ADRAqdkgcagpY2J6XbgZaKv3cn9aVANs2tanPA==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAADlXCwOZXjVKgWzSsdSmWk8iF+Yezc4/AdLVB3V0+K8v+DnEDPo+FC3um/aEJwX5qidThscjLv9xd7glXozeyCcmQfmnQ==
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : MiseAJourInterface
+     procedure_id : 1208661598771467288
+     type_code : 14
+     code : |1-
+      // Résumé : Cette procédure sert à mettre à jour l'interface du plan Question
+      // Syntaxe :
+      //MiseAJourInterface ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure MiseAJourInterface(LOCAL stQuestionEnCours est un TypeQuestion, LOCAL nNbreQuestions est un entier)
+      
+      sRéponse est une chaine
+      i est un entier = 1
+      
+      
+      
+      LIB_NUMQUESTION = chaineconstruit(<§$0004§>,stQuestionEnCours:nNumQuestion, nNbreQuestions)
+      
+      // Mise à jour du libellé de la question
+      LibQuestion = stQuestionEnCours:sLibellé
+      
+      si stQuestionEnCours:nMinRéponses = stQuestionEnCours:nMaxRéponses ALORS
+      	si stQuestionEnCours:nMaxRéponses > 1 alors
+      		// Mise à jour du libellé du nombre de réponses max
+      		LIB_REPONSESMAX = chaineconstruit(<§$0005§>,stQuestionEnCours:nMaxRéponses)
+      	sinon
+      		// Mise à jour du libellé du nombre de réponses max
+      		LIB_REPONSESMAX = ChaîneConstruit(<§$0009§>,stQuestionEnCours:nMaxRéponses)
+      	fin
+      sinon
+      	LIB_REPONSESMAX = 	chaineconstruit(<§$0006§>,stQuestionEnCours:nMinRéponses,stQuestionEnCours:nMaxRéponses)
+      FIN
+      
+      
+      
+      // Mise à jour des valeurs des options de l'interrupteur
+      POUR TOUTE CHAINE sRéponse DE stQuestionEnCours:sListeRéponse SEPAREE PAR rc
+      	nIndice est un entier = zmlAjouteLigne(ZM_ChoixRéponses)
+      	ZM_ChoixRéponses[nIndice].LIB_Réponse = sRéponse
+      FIN
+      		
+      // Si une réponse a été précédemment sélectionnée pour cette question
+      si stQuestionEnCours.sRéponse <> "" ALORS
+      	// Applique la réponse précédente
+      	pour tout element nReponse, nIndice de stQuestionEnCours.tRéponseSélectionnées
+      		ZM_ChoixRéponses[nIndice].IMG_Checkmark..Visible = nReponse
+      		// Si l'indice n'est plus valide, stoppe le parcours
+      		si nIndice = ZM_ChoixRéponses..Occurrence ALORS
+      			sortir
+      		FIN
+      	FIN
+      FIN
+     type : 458752
+   -
+     name : SauveRéponses
+     procedure_id : 1208661663195992172
+     type_code : 14
+     code : |1-
+      // Résumé : Sauvegarde en mémoire, dans un tableau, des réponses au sondage, 
+      //pour les enregistrer toutes d'un coup une fois que toutes les réponses au sondage auront été validées
+      // Syntaxe :
+      // SauveRéponses ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure SauveRéponses()
+      
+      sRéponse est une chaine
+      bChoisi est un booleen
+      
+      pour i = 1 _a_ ZM_ChoixRéponses..Occurrence
+      	bChoisi = ZM_ChoixRéponses[i].IMG_Checkmark..Visible
+      	
+      	// On sauvegarde dans le tableau
+      	LaQuestion:tRéponseSélectionnées[i] = bChoisi
+      	
+      	si bChoisi = vrai alors 
+      		// On met à jour la réponse
+      		sRéponse += [TAB] + ZM_ChoixRéponses[i].LIB_Réponse
+      	FIN
+      FIN
+      
+      
+      
+      // Mise à jour du tableau
+      LaQuestion:sRéponse = sRéponse
+      
+      si MaFenêtre..nom = "FEN_FicheSondage" ALORS
+      	 FEN_FicheSondage.gtabQuestions[gnNumQuestion] = LaQuestion
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x10c606b4006c6a9d
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : Vous avez atteint le maximum de réponses possibles
+     index : 0
+   -
+     text :
+      fr-FR : "Vous n'avez pas sélectionné suffisamment de réponses. Nombre minimum requis : %1"
+     index : 1
+   -
+     text :
+      fr-FR : C'est la première question
+     index : 2
+   -
+     text :
+      fr-FR : C'est la dernière question
+     index : 3
+   -
+     text :
+      fr-FR : "Question %1/%2 : "
+     index : 4
+   -
+     text :
+      fr-FR : "%1 réponses obligatoires"
+     index : 5
+   -
+     text :
+      fr-FR : "%1 à %2 réponses possibles"
+     index : 6
+   -
+     text :
+      fr-FR : Impossible d'ajouter la réponse à la question n°%1
+     index : 7
+   -
+     text :
+      fr-FR : Enregistrement terminé
+     index : 8
+   -
+     text :
+      fr-FR : "%1 réponse obligatoire"
+     index : 9
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

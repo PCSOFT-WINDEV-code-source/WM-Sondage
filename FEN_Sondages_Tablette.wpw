@@ -1,0 +1,1847 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Sondages_Tablette
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Sondages_Tablette
+ identifier : 0x234e8fd62393a77b
+ internal_properties : CAAAAAgAAAC4ac/4REzJUF1pQjLmBJ7690jCLm2BOxhBYkknx2aoyPnx9yvgUCc+86FCPiK6orBWhwg/Jz9JeWc3hwArxGLtHnB7LMHj/7/0M35d3k2nMVpHC1X5rUNIN9lKV9M8U08JJB3X0gwemExdYhQonHIkOjxVnS66WJiyqWpqa4nKOOozCGU9kehjmocx29xa4NBr8SkUuyMO54hahTthLxM76J+ZgMoX55sWQP4nmRXh8G4pZi2l95njiidOXn6wOh379djmtOzA8KJm1L4tU8+vHjpXTQaT11IVIAM0svt8/C71VqZkM4dWdq/uuXO3n7Ga17VlR1AzogZk6wS80R3dTE7RaIIJkWiy7G12elQd37YOZqFM0FcCWkXvY6b8bU+0yC4o3UPYnhEq60ETSQ2hwB1Q9uYkfXHNIZnFYHwuTgPiI2GHeEhLE9Y2LKEIkn2liZCsQnxdhYKMGyIZodqc8dCJimBIk51uZEN4wJSm47q7XkRIbAmgAFVHub49ZTY4nC0aHhf3ZZNBSJS4AW8qiO2J4sh/wkPj4yGapWRq3UYzAlWcLRCm7j3pbm3zVwUuNVJyByZxSFmk/pkihqKl4MZvsstfpBQaWlnYjzXV88i/s9i2cqEghhaGgMzFaaYVct26GcaEZ8uiIL1UH0a/eW6LW9vh4Zfaa33ZEWtJ395oCAsiBugIbybgjML6EbpdtFM9G7sXdP13UwxmABqojUz21Uuz9h0wCNI3m9Fr76pXGdXyZU9DiLxpbk9IbNPV7EwLKkeksyYH/1ynURUqsZZE3YHXYgAQiNHUqde0KmTgPTo=
+ properties :
+  width : 948
+  height : 455
+  heightMin : 528
+ controls :
+  -
+    name : SC_CoqueiPhone
+    identifier : 0x234e8fd62398a77b
+    internal_properties : CAAAAAgAAAA1HH+5fWBVhk+iytlzXTMI9sKU0F9/7nnfDGO4qh6zNes8h5CiGVr7En7ESewa5JzjXTE2DXH5MoHcNH/YP73TXX5Aj5ViXzRJRwyKuszs25DK2zWSwzb6g2yljYgjxIUrhVxnBmn6WA4imcHQRZfqidox0uW3MVBVkKtMb8m+b0jlhvxrCL9wtmJQrHZa3PkUuYesNjaAdTgPE+gmVQCLv51EGxpD/67g3FvRzIq++4uuIDOKZC2OJN67AG5S6XYajRnXN25DLjk06pWJQd1Xc6jBC6jcTeW1BwEQkcRaU6sYfSjcDWXIfzDckPfegcPxH0Cc9SqfcyMBc2bqyl5BHfZPuzK7g4dLLgoQn8FnIfVab7HaFVvx3PDhammpTQpP7YTJBwiosb0UnRhVtuuTOfV+r7VmIZSU3z/PX8CWmLngBmhmKs/aNSIKyejInGE2BUvxsOU2TnorHPFEFOuqVt8LDMZeVtfa2SE1aiWil8uCpmkET7Wi72beVYHPpNKVhGW5WBWzEftgrx/0bMeU6avOi4xsQtOtLecnOAOEz2EbODUE4OCPEx3ygCtURzhQrdnrS9ncwamJi+PBa3hl2iOn30MAsRAbBbveLBNIXOeAL4iP7yQKQCykRJhKRS7DfboOX/sj0KXu4H6KA/scFBMiJjG3hp+ZaDcZFLYahzjv7XhjDe/GEOgn3JHf9/A2zjrVaQgwwNJ1+QvWcjQeHgxA5ocWlO0C55pPMi4Hic6kaUCeDxK07yxI7D5LIPYIa1KYmISXzMC+qSBENN1SEBe1egW+Cfyb9ziS6+OZFuh5AM0vr/KQHYqna0EkDwwBnCLYgzmysBr6yEUy7zo5
+    properties :
+     x : 321
+     y : -35
+     width : 369
+     height : 642
+    controls :
+     -
+       name : CFI_ConsultSondage
+       identifier : 0x234e8fd62399a77b
+       internal_properties : CAAAAAgAAABtOOqVVAFGXqHjWnVyHF2OMeDb5XUGeDOExjf2ByS2p96wq7YI0i800V8YmrpOktmOZqkpPdRfbs33v6uKLap/WpW+ulFPmEsQs0odB4rDPoHcNdKCP3qUvBDVCuSLxipU3c+6kFer2vLM8mFH2+jcSdwTxr4lhAV5AVxcIYnT4wSvIOW7rR/GiRhqNgnHQ5U5++I9u8fd/t2ZyVicmgmFNSkhrdrzbF/Tfj76h2lbQ4i+POEy6Tn1gAat+RxmraDqEqL5OcQTxF1p276UoVgS5S4pRIH/wDeT3TU4ziI7Av1iUcuEaJk1krx1BaEhzoyJNV72G2nhq4R0fIiHz4f+9dGrLd5x9SBu/ZJlontbYFequidRS5pFTO6j8fX9WNyQdw3mPP5hLmK3Ekqb9i6cXfSMvZMXt7MSJYtUpfw7kUHZBc6qLJgjdmI4DXHtxDajKyCNZZXWFQTAdtWS1tOsY5NPsc7ukrEk1qw/1tClkxPgGKfd3lXfHlCGWdoWYhbzBou+kcKfsAL3RYMbikt3dAvfFOfhLV+bmRchyKveSHFktlaCppxkqYU=
+       properties :
+        x : 23
+        y : 133
+        width : 320
+        height : 386
+       controls : []
+       type : 31
+       code_elements :
+        type_code : 73
+        p_codes :
+         -
+           type : 234
+    type : 40
+    code_elements :
+     type_code : 34
+     p_codes : []
+  -
+    name : LIB_Note_Vous_pourrez
+    identifier : 0x234e8fd6239aa77b
+    internal_properties : CAAAAAgAAABs6PrE6PnppStDTWb68Ogid7ynfrw2MH48wkLdTiM47Hey5HQe7hjGJfxST6bNKzJrXv9Vd7rC22VB0mAdQQQ/Hd/FAOQWIWa7uplkc1BYCyaWt9dP6De7gGJBu+ZUgHAkylqNV9bHb7OxGrhF0BpACdT4N2mBQN0sPRZ86YcKDmyEQ1BSlci61qdMYBu/UhWt0C8zk8ZEq4DuL2o+zfSy8+M6P3kKwJFZ6MjDOj3GYUziwUHBfHa1jHPWx5iwhw3nj1mno/2Y2G6GyHfQEudC0VTlXS21Pk2/KGUHnzFhfl463wFazKlNu7r5V375C1O3VO2UYmL6jTI/POSBXG5NlVAuqTsQWDuKUnEb1EjbexyuDlGHaIrEBfZL4mI7YprnbZHLsCiC0YLe8mdUldUSDgayLMHW8jawsZTgqLcgrw+i/HlaT/FGW0kAQJEa1q/mCrTWN+cLBquppYIjMuoUXtteLVSK3G3UlJeSH0uaJ4/LkbRtWGfKILOZjNBfN/G1k6oyDmV+REn3WHiAMVwfAsjhTdCJTVbk63Cjqv0YdL5AuLNO40Zv6H1MVmq+/KHelmMwicqftj0VoGpcWZM=
+    properties :
+     x : 28
+     y : 336
+     width : 262
+     height : 117
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Explication
+    identifier : 0x234e8fd6239ba77b
+    internal_properties : CAAAAAgAAAC6WPXnqzdQfepTgXnlm8xzyoF77Hvdp7HMo3f0wbAuiQQ53sSK+qBWfIydgnIkyx6HOGT8WMfWshrgww7BBKGaiFc69MP8n0lbJsPl0WJdSfcU24Gz7DCBIeS0GnzzoP0vlejKQ5Fbz1VpVQewQ1O333ui/ETTWlz7jL8vqKqCNc8RSWyTW5uIVHNdWavxTiUcACpjklc4ZuwtiAIPf6XH0koQ6l4M0ReejMDRaEbWkusiBctuMHRKA0r2A381kIUSq7fj7KA0PAedDCkFqC+9BtaOzFNTvJR7DfTY+TRjMOz4RGnJ7K0PeeaV89rNya2BDhVM5vOIwz+YhajcrTr9XTC8u+MkZxCh963NZueybWJAHzTYvltRUCA6MKgBCsJA0AVr2G7Yh74Ci6w7InTrmT+AboZ/keOQFVrNOfa1dOpWtEV7bD4spdJmxkB4wpBGuomP7UUi5rWZlR6v6fEjjYz9PnCGvtuMew3DelRzdBgUcxtFhQZrqS0M7RBg7nl6BChcyer7PDnGoTZPPsE4vTbfQ2yulDVT4ajAUoAe1Kwqfr415VFbHHTrOLfbBUaaLzhEFhu75HdKeWxf9fuEatbjarSwFZEOfJhNyBet
+    properties :
+     x : 28
+     y : 107
+     width : 262
+     height : 212
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : SAI_LibelléQuestion
+    identifier : 0x234e8fd623b6a77b
+    internal_properties : CAAAAAgAAACpFRw3nFsQbCS3y8/ZoxKphLLH4JrxQ/s77+S/c9HLpCNgC3uYH3VbSuJD1v0icv9k4fm3pA645vSyMLLv5Ad3HoKZe6ZNfF4AAhLwQFecauMlu5zXxvZ59/Qa9l0VK/nycl0M2G3vxeO/jm4UZXfc2iivaRJq2jYbg2tkcYQkf95k2hijhAgqyQcxqhdG31Qda4O6cOpmZB9meNzxrz/M+TVNzuHVxTGC+e+hPDALHnUlcay3w8jMJdQra+973iZgzN6DGYuk9kHkYo9llrPP1jXdNzH20krqbD21PzWovun1TsFJoc3blHsZ3PjLw/9FtqXTM/XfEULqBqNFNFoyT464bsC7owjkXmyqnbBXX8MITlqOJGVuDiLnuMqUa6yVaOZSUEvhRNLg02AlD2kNEKkwnN2y41ktTABffLyLtdjx1RI61nqF4onvhPJa/s4KDDvIRePwSwObqpJuqMtu+cjRF6TSlBvefn5lnGp7BzXAA3dB+GtC4KtOZGLy2csyfUySP4PziGq8HWPVZu+ah9zRWH7Soow/0BQpUl1YvcKFNIp0+U9gOcykSMOtYHM84rdAr+7mrrAh0sN3d8chDmKtDcpWl2aJ3F0vZIjeL/sVIlUbpyPv/pbYu42Oejqt+QiLXNibvgMnbVbQ06LcE2ySRUgxV9vzACbcaS+L/OKQnlWnnaGx8axddH4K0gfhlqi3NzT5mjbFLYEOgX24M2Iq2rvm08pUS02zkhpE2pVr90t0K8YUGSAkVz+CKeNKnZ8vtcHZ+9MyHco/oDg/YRK7B4SqJS0dMJbDQFv29B57Pvbi0eW9mH1gkPV7oWLrt2sJ1Bt9Y2WSDVgymplsHidY452/1pdHFwYxUkYdXCiib2Tfx1hOvX9Mw8O3honUz7iQcF9Dq/67CzmoqdI6LvzzcIfvdKfPZr70+o8tYS7Llff2LfDBFXZOslqbnnrktarCdH1Wp0+OpyAv4RXiepqUGKOfKkP2+WnIM9Pg2ty0HFRhPTGBG1grCJzIyfSfI8PEInK4h078oGFBX93XfBsof4U5pQFAP6Ge1Y4wCr4i6yaCGXjthOXBugNby6cw5OZsIykyL488oWxdF5o6IIrnO8j22eEKCP4tgw5HOSse2SCw3ZKEGfKND1F7o1Ka7eXjHGt6PEFe7NoafQ==
+    properties :
+     x : 76
+     y : 91
+     width : 837
+     height : 44
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : LIB_PASREPONSES
+    identifier : 0x234e8fd6239ca77b
+    internal_properties : CAAAAAgAAABTrZcH1ELvpmO6CD0+rJ6d0FdcmrLbKtD+uruo+zy3ZPRQA8/t9KybTELjobjTQxomz/FmIYgChdkzwR8X9zZD0CJyedJs0U4i8m+V4NKbzBJQ1foQ/cy/uApzggkVil90Ahe4o5YWqYA9Y3EiaA7neWU7p4F05tbE5+5MMxzU2xSaB2o21lzWiDC1SmiYv+K+HiobEPF9fWkaxnaCBbxmW3PhOil9K2Ui7JBEq/LwYyf8Mwz3EZA5TqSFWENPDJC7YlOb9Vau0wjeFmIxB/YEXB+M+RwCjNGX0ah09RJjKeWh4tDi84TWsn6bGZqRmh4HNrRRwklFLZ/Az/+KEqzn+zdg/kONMLDjDZKe10aHAe8mq9NpA6vff2NQbmeczqsYK9fdiUi3Xl8L4j0SyfrzS5IVkr0yhP4DrakoHCWjKrt8sA==
+    properties :
+     x : 437
+     y : 186
+     width : 443
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_LibelléQuestion
+    identifier : 0x234e8fd6239da77b
+    internal_properties : CAAAAAgAAACW/zarZBuYJLELwQWVG+snboo1iEYww5dWxcpD0RX9ShTlmtGWUs+OWT3+ah36/Z1Yrz3Avd8UG8Nim+XqC2JcacAF7HWncVsXrp2lqUD+eSCbJiUIyrzE00n6H1dx1Frho9E6S+mXJ+E3/7BmA5PtUwa1fI8KhLHjkejd+Gosv205XxXn673vPw3E+b/mdqxBFUgUYp4837uHyzkRBPnyF45WTPE/pIKAJWsTG7oHUwzzDUH2dQn2jn0AjJYF0lN59korDF9BuVolduC7GX2R6YnxjfyHArhxYlR7ofaSSE2DOn5et/7N7+GftJuBz+7rkgk/wh7++Edo4oib5Hy8aSOh+o4FR4vGYltEEn076fR853lzzDi2Ns/9hEVmRgIifWfJcOMQRPBDWIyozyPF2hMs8Gly
+    properties :
+     x : 73
+     y : 67
+     width : 931
+     height : 49
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_NuméroQuestion
+    identifier : 0x234e8fd6239ea77b
+    internal_properties : CAAAAAgAAAC6LCloZOrdf6NCBnwnYYYUUzAC3m7XYv7LPXGe8Mo1FBYfA50lioohe8xtvnxBs0+dfQO8N3egRVzX9xgMGlkE46fCSuvs3R86mLHO0qv/q+f16scqWmTMwHgqt0SaKuK10v3bIErI9+MBjLFfKjo6prrAeeZtRdoBdb3tOBj4RUlzWXIXpmX/zj3ILCoN1Z9d9IhzjyPSwozYyuZTmv1RFBfKG92PKgg+0E2Zns/xtowkLklTb3m9QOfSK1YweoN4UegW60MyDPiCMQDR0T9qKK8DFI9jXQQR366TIVinhAsiYs5M/DpbWsRVsqeT4mJi/NbH1f+S+6umcxejXUeUIqqGI0c/ogJyCVBcoeykwfIIQClZo5fuxnIc+XOCR5z3P2m83y9DI52j5avBJeRKfKQOLnTUHw==
+    properties :
+     x : 42
+     y : 43
+     width : 172
+     height : 25
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : SAI_NbreRéponsesMax
+    identifier : 0x234e8fd6239fa77b
+    internal_properties : CAAAAAgAAABmqyZzid/mtSwKEjCHhtubKfeFscmFbZIdhCyfJxhpn5bzs6gcy3dNJ2Vl+8b5plO9t28QVsiXrsQJtGB7/Wwe7IzMjSbNvD8bP5qPJjKxOhiyFbNNIFjJHWx6+aYGpv5ji+D79Xun+ktz93q97T8zW8wkCiPMhs698tzpZamPKMJviAKzKK1SLfExVX+w2ZE7/ufvSNlTa/3irJMyYTD8bVfyYbadwJrUlYeBA5NxYVCcjEPrLkJbZltZ2qYrT7ISd2DdmMqIT/a0RbUcBnqyfwOc8qKehQtpy3CIIYv8GNNZrvJO9rv3HLE+RsGBWCS8upTA8BjqZTr3TiS6nrCl6/3sQgMzdAsBahU49tP7aGP6kwwUR/GNqYmtFaH2SYfbKJH3a0vhcejltVMwJoTaJ9e6fs3a9+2Tj73jiLr9J39g9MpoNEbG4Y06VrmXndreXkjDnN0YLk598yF+Z6AEKzbYLLHGrhLpo/NSHw5BpDxBOVkQGx4UtcKaAOPJYOSyqLYBB9mITfqv8yRFWFWvkuanr0/PWTrruIn4ngAsKB6PNazBJQnwaSeYCBXe7F/nGFXjUp8NEZn9NW2P47zDqh3CVSDS8bsFrm7amopE2zZisK1byASSORgh1cU9O3U6Higz/pmHVwEx99DRTy4DghRk1t5WC/i6Uyi2sbMcjNOmmErAcbaFrTlQt26L+xgxKj5p33b7i1jp6Huj+4sJKE/9sXMZjhFU208OWg29I158NDBqN08dEAH734TWxv4GyWFW0qilE7wJfF+96+V44MfyoYSc+oheODRSXEhhsW5dkuSsDtZ4p4tr2DDPwrJ7CcOYvy6IjLFjhmQawwwjkcp4EoWsiRDSphORBojVPFCS/XXgy+3X2/swgrwj/YJkyyMgQowwDCnBqNHGOXN8fKJ7hyh1VrZldx86hVDoBQqDmQ6XopO9r1OrV8kjPtTKsK8zJF4l0rhZCDoApcu0EFhc/coPyOkVQpS+KEssdkMZ5fnCdUx5VhVE98pNGJT3qzGvT1rOxZgmls3fJ0toN+7GCWniS6GpZnyzHAxxyKtniW2p67UCeCyHEAk4hXl+C0hOJl3nuLyPzgP+1S0wZH56uUwQ6fl1V3SEzoFKHSmIk44KA9bU+ef760ZcUfieMOeBb/XfY8BEZJ0iCpJWEFqcjgugX4qyh+4BblLGntT+axw=
+    properties :
+     x : 636
+     y : 255
+     width : 277
+     height : 44
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         MoiMême = 1
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+         // Si le nombre de réponse max est >5, on le remet à 5
+         SI SAI_NbreRéponsesMax > 5 ALORS
+         	SAI_NbreRéponsesMax = 5
+         FIN
+         SI SAI_NbreRéponsesMax < SAI_NbreRéponsesMin ALORS
+         	SAI_NbreRéponsesMax = SAI_NbreRéponsesMin
+         FIN
+        type : 17
+  -
+    name : SAI_NbreRéponsesMin
+    identifier : 0x234e8fd623a0a77b
+    internal_properties : CAAAAAgAAAAiGUeNecG8gma5K50N3MrJWjrcXEb95LxBhRoTeXmIKIUrxIsEb7j8o8FFfkFX905MBfWnUJIFuR8/xPWFbv0t1saQ6ru+mL/zA5rNc9Y5DHexVlJN4+kTnHwPXkNNK19wOQvvO3WoMV1T3EaNzaGagoPRYHRBDjHGvo93ibwvrU5cpnYzNXA96ePrdUPUiwt5tezwqkxzLnk9XBcUHKimNC6sMQy2nbrqIe/0ut07dnHL3+YZEQMK2l8TTD66NWEZs/rNEhAwonvBJ74NsacI5ZDdDv7z2dApih5d8vShXFUndBGVAVh+R/TKUGlb+O9HvK40dmnRetnAr+fQywgJlnTdzpDJoR0lcKWoggetNlYS6fPkBjTvGV+mzhAtQirkf+dQPvHmCR+wioz93WbCgHAJq+SUqix670qdOT57IgTAzvS0CIbvGrQDZQE+C+d1aPTKui6H/ZhdipPSdcaUoVCcsYmAQ/P8AIiaUFQawMcNF2QWgwECbBdVaS3NLcNGSJ5HBBrqWCJfxWdw76+VibVLvwio2pyv51magXWBXS+BIKR8jJjU+SSa8pY5KmzkghNTx1ZxB8D89COri/v2IjCsuSbBh0OeIUnhhHk5uEG5EIeMccZCv2Pa5qKLrXmnyDSk8/SEYW1KgZMd62GFUS7gH47aRdf9lKYRGZRNkM9YyW4viJb/yYa64V76JztENRBojBp1jlyRzHTpN1TU48MbG35ujXxV7NzYDYtAclVnpioKWtzJGkvJ8f0AxQEWt2l+/GonIK/Vli9JTW6Jn0v1d7jDUBBLLBGTWRt83AbuAmvvAI/bEITmw2G+AXiDhRzEwHKkuYFxcyaMcFlA9gNfbgmwU/JlPepwKTPZGiYSdTRXTDYoGmcKOGJtTQSINeoglcvmzkfL/rKAR1blMTE1/HThQ8sx1sqgXz9H71xVcz1YNBE6HlwCoHf3p4hLQ0FW+qPemgd9xx/tELfOvbWPT2xt94opwavxdJF2rGSKXwEfN2dr+CKld0DqqvciprR2+hAQhFZA4N3lU/t3222/Lk5S8yI8BuxddNBImBthTUKcxcPISKTMmzf8AQsfjdgr0GV9tSw/iXgGNw1V5RchwrI4JhJysxQ+YtS96MMGqCHLyX9WUa7yH5jMyX5PqvCtdjYzQJgjHwD+uMbeifDY+q2n4gEpQn9Sozv2oRDeztoAXi3h6kY=
+    properties :
+     x : 636
+     y : 207
+     width : 277
+     height : 44
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         MoiMême = 1
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+         // Si le nombre minimum est supérieur au nombre maximum
+         SI SAI_NbreRéponsesMin > SAI_NbreRéponsesMax ALORS
+         	// on met à jour le nombre maximum
+         	SAI_NbreRéponsesMax = SAI_NbreRéponsesMin
+         FIN
+         // Si le nombre de réponse min est > 5, on le remet à 5
+         SI SAI_NbreRéponsesMin > 5 ALORS
+         	SAI_NbreRéponsesMin = 5
+         FIN
+        type : 17
+  -
+    name : SAI_AuteurSondage
+    identifier : 0x234e8fd623a1a77b
+    internal_properties : CAAAAAgAAAAfLqiFt0iBnxK2C9jDbZlmLK+WraT4/cxbWkmPP3fBzVMHEd/OWRp5zNhNBq+frKvIH/LcQQEC4z12Lx2nrJ+WoRCT90C1tNHK050xgn5n3F62ISS4KD3E53kw4bhG4ep0DQfKZ6/gkkt/kiDzAkLjDdwA3zwGvPpOSwsdVa1piKy0DxzEAxgmstglgl4jOteO55socptOEj19uGEKQCpQTB+CkVObhE50W00ZJM0W6OCy6fChJQuN6h4YdRbI7SmUHWfSScOtgiH0ddcayK2OHvhm/XQ+f2soN/4dMa98bD2N7oS7TXoEYg8OdWERbMhARlg/XPo27XsoK9yGE16jT+6+22ozw8HyegKX2ZTe8MCLkVZWVs1lfXYUuPgCX3MKSczJGmUWkSzNWGG8XaEZe1vhKfdwdzejbXqer04vNBLDiPd4uVt+S/PpJXyrdzlWt7kD2dDbnVuTnOqwvgwwDOZbbBebCwBvVSTGlYidI/5yHSC8YVdWnc5x8TGxGQWrMrinMtqEbLXQUZNGioozgzIlvSEBj5vN4HAY2l278RisIxklgcXB7wt3kKeS9/GmZwSIOCkLKN0Gp/YWXamFnYw7dL2vornZ4cdP+7rni8vS1CzZmpfKV0WbtNebTwHQoNJWtMdHblIDNbgbfDtiVa/2I2/q7IpqWs4ya+PNYrpABhm+l7EoxQi6mid7lFgfo+TF1gnaOU9s0rDxIHo7mEPR8SJ5EtdkLTS244zGAjMMdyEmyx89OqFLhu7HQemL/1mbgAp3zPbR+mrCNz+6vYCiyg7WK9FNZ7Ijc9He8MY/pTg7GsUtCiRkkwFg1Ye8L7yCFhH/Cvja8KObM1otqR7KA5m/sIkKRE5a9PKlyBR28ullL+fn3nxUg3f1oKct8JtJz+X24b8Cj+7A02hNQLQh++j1TXlwu7m5BaAbKOH7oIAgv4CdR+vvA1lJvvzeofGyB8uPdewC04ksB2MaHqHNA6Fj/2zU1LZpkxMN9TtvVCtWjFHnt9DbvmmMPuqlnZJV3XzWq9oVjnXw2e9D3pdD146jojeJo/2SLAAqR4TWF0i3xEUuAXFwnvR+i5QNHvOePJycUOlR15QO4oGCbdEyPgJzTVlC7AV4dVFoqdvMoOQ92Egx0nx77RbR8wzxGb0TqNwXwNdxWlHzgNzGh2j+A975
+    properties :
+     x : 76
+     y : 156
+     width : 237
+     height : 44
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         Sondage.CrééPar = SAI_AuteurSondage
+         
+         HModifie(Sondage)
+         gbSondageModifié = Vrai
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : SAI_NomSondage
+    identifier : 0x234e8fd623a2a77b
+    internal_properties : CAAAAAgAAADM+wIoXj01t8pVLi+Xd+0cDbp2HTajyYWpC00G0kXDewNqkOuoi5emFX82COlUGa9fv2XefkcQhIAvKJF4Y5gqRY3V5v0pqXURJ/j3vW6sdVCwac8DdVxEGVnpLT2agCvxDuNJgDWk1cutQUSYlbIFKu0nIBq10iljRJshmM26ePvtlid3ZMaR6zp7mY0j2nX/8oAysEKqXtcKZJoAZ9LIUBf9dOARE03+44ZTG2ImtxhRC8OnWPXce0+W8DVxF+/zH3eDvosy9E2ELMTssZeAR4zlvUqL+82KsJNKEQPoFWWZ5EXVZ/jS7Ta3F9F95a9JCmZj9TnbNK0ob3OTe7KIu+v7BdUSiMOWPzkW3QSmRvMDXhLfFAk8meZZr3W8jsldQqltQhy1TBJkC2x2vYpioduXi/gtl64aen6quI43JmtMSp3M4AT9vywFTwo+mrKDrVHLSnYce1yv7uN3hagivaPv3hIx8Pkt5FWbQO42hq0mPuXL8H0nSRQCVli2s1+yBAN+RTAAkH0sbt6kgSHnl+O9VMmX1wal7G/Sut+LxFg2D6XJjVA3XRjvdlqhl/tA99zvyRob3/2eUhsdLvqhq3GBVntN95D+NVDU1i1r4RrYOgajEToJRaCXlg6okvH2Bo/UHIBzhMQ1/ha7miErtULl8pg85WpRzl3PfVKCaWPbvK+v7DcOOdmjk1amby1khRxY+CiCQyLi28FUwDgySJxguo9J35R6s1dJTlZSTkpIh6VDTSQz18x2WLBp/zn2STYFOwdVhCB4NyJmRMy9mm6UPMfAnuCAPWS0+k5cWiuRuRjsLytlhxkrHtQ/S8QwHIf1xx3WmZ0iBm8LzZ/YabimQ2BVAZ4B136wqbcWB+hkJTA3WPW3VFNmeBLBkl2OE4zSMxkr/0cfzjszqDJKRvQo5Ts2TyVs94uzHnBA/HBnH5U+YHJjTXII7gfTLMDc5lo551pk1rzUgFKYP6OIGLkN8Skv+OllgyCfa6i03H2aZY9D9gEQWufgK4DEFGayzOqk1FHCmJXfLjX3feK2NTPxGC7u0k8vM4Ay9q5tV8DGOSulnGTsx0KssMX2MQPCtRp/lEmw2T2uQbgNwzXXpVjp5pt7lSq7fFV/FWEktgY+P9SsuTrm1lQPD+6OLKS1jKHDdvF5Y9YCAqUMjD06wVU=
+    properties :
+     x : 76
+     y : 96
+     width : 528
+     height : 44
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         
+         Sondage.NomSondage = SAI_NomSondage
+         HModifie(Sondage)
+         gbSondageModifié = Vrai
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : LIB_NuméroQuestionEncours
+    identifier : 0x234e8fd623a3a77b
+    internal_properties : CAAAAAgAAADBbNPI0PfXvhwgM0coO/q4rkQTOr8Fc9SGvZ+4bo5NEGveJ2TFXrVAua8Y9pAKCqEz5SGZUNP6pMEzLU47WpkL8LFmCnRSMIOkXP3jK0N5cYUShHnyiLVKahW8S9Rb27dacisvcgTUi8JpLa5B0rI+STa7prO/ebqDC9Hmd/xE+XW/MJDjqyIY85U9d18IwXLomlOm5aBPkxS0m7VGY4WCMXuLa+d2Dezyqr5HsDc5y0m0eYuh/cttQJSfbYvyGTsw6ZEISdpB/Eig8rN2VgA/vH6FVYfLCtdHvIzYXQ2T8UF3bdX9O30V+cr4KoiPFeenC1na/9x3iDl6pjJV49D2y+uhBZd57bXyJ7ZaxXTHCT13vm569hoqbEdKgUizcyGOS3O1VqYdHPip6OJKD7HHfEFv74rWjL4pWcfxMrQ8JVSqjH4ACUvUIWIlwot/P6qZWFOAQHnQXRlFYMITQYDjva/P4RcHioBUm7M5urNuuM3sGocJKsJH
+    properties :
+     x : 42
+     y : 65
+     width : 172
+     height : 25
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : SEL_TypeRéponse
+    identifier : 0x234e8fd623a4a77b
+    internal_properties : CAAAAAgAAAA7oxmTEM92yI61Ek2rfB9jIAFGNI/0JiMqItha9FSHNwqiD+mY5twt6J0mYYn+n/B2dEpSSRQfHX9I/dYkz6FoO6g0G8+sorADGMBYBOMv+vSnvKrJ8eOHsMbttcrygzqFBNzdeyzjZWhqkIkJFF8sTXQ366Cokctj2DCcvCyYJ0e0471J0Rw4qwsCRkcZvDuu9MOqFg77DCe6O0OFJb3ltyJLsuUeSBO1hkWR5breE5ZA0hlGfO4DN3UH2IdPB5O4p+QLZXmx4OkbHtK8AenSUSQapfXPpIsJuNskDlcPLf8qfb9NSlfk5OZ4AKIcTBsmj9U5GyoUHTCXZqOrABmwuK/eoO41t4KwFXjlRpaqSkhSSQgGGU+nDpX1UEMa5gV7QlEtSQzLpiIO0AXHRymKAxhgd7kX2R8/7tL0Mh4/OIRVH01Yw8dJgMT3a9jfcTRwYPYAy03kpmJWdTsLnMmixzX19dRa8mSACqgXq3hS/kjeVfc+vR94+VBCTkvB1wazrZx8AJbkLBj9Lb0ITT8HWe8Z4zOVtq4iJtomFB1O+1vFH2as/wsS3pJLQ7Br0wVGy/mJfzLzXmqQkOsnC02TS/TEpAHXCU0v8GcPvxEPWG4SAd5eEdvDzvJMnLwkB8ex8Pg+dq2UVyvv+TCBudT2LZtKMZsYyLS3NlnDU4+ddGjWkwlb9S2dyDlfWvC9LL1ZqsWvEXkqymdjB28SikHoSN3a4+mlUHX/QrVdiTuM1XguIhEEd4x1jEqKhDLlDv6FAAlYDr7Z2q5sYgIoabrDQXJdxnwiwXOkH2V2JBSd3qoSGst4KTf6OHUshKiOD9ATA+A+DYFzsQLf2VN5Z6hk5pO2d/h6Jr034yN9kRzvIZNmAXuFfL5yvYm5QcdUUu4tocEbe9ECp4VXzwUwHPXjOyXhB38Y5mAx2boWyPisKigo
+    properties :
+     x : 83
+     y : 198
+     width : 460
+     height : 111
+    options :
+     -
+       internal_properties : CAAAAAgAAABaZ0CQpw250X8jOewGlPXoS7f99BmMUEV/FK6fau1A6BmBwbZ1MFV0Um6SUY400AJNSlohQYC28mPXzf2R0IjAs473YgYQ4kO44SEakApn2VombL9adJigcrMjv81uAMQ4zDuIvjwy1iY4KmNfyS66nsWy4K4j9pIYgLNgdIkUt6lIts3OewGjSf1i2HAA8P7PSw==
+     -
+       internal_properties : CAAAAAgAAADnJlLkMi8eGOqLwkMgDB0db66AR2q/M+prIICetRdf6pVDkyqSS/nV2tFTg8YAjBv4n2pP56hI4/12e+H2mn4Xi6jZvl5WXBsoG3d7rcESqpjzSAQ/syqE/emtTqifZQsstz1T62u2PFU8YVObgJmh9FrsA2K19LSBGliPZwGPQOlH1pE=
+     -
+       internal_properties : CAAAAAgAAABvsxm95SkAmiWTKBhfOAmu9qw6EFfppcUxOFNzDhL/mvi4c/uzlZh6JC8xxtHLq5G3H5M5KOJsCKddpdhoQndnCQ1mCDCdU8VMTUiwwNaDGWmMwVeoivXZ1maAl9mW4JDTxsQOApzJkZ6FwtIQM4KoexGnffbPTrwJ+HufhJOKs0KpCg/gooAq4zf0mzpbGk7u3WEU
+    type : 6
+    controls : []
+    code_elements :
+     type_code : 6
+     p_codes :
+      -
+        code : |1-
+         
+         	
+        type : 14
+      -
+        code : |1+
+         
+         nLigne est un entier
+         
+         selon MoiMême
+         
+         	cas 1 :
+         		ZM_Réponses..Visible = vrai
+         		zmlSupprimeTout(ZM_Réponses)
+         		zmlAjouteLigne(ZM_Réponses)
+         		SAI_NbreRéponsesMax..Etat = Actif
+         		SAI_NbreRéponsesMin..Etat = Actif
+         		SAI_NbreRéponsesMin = 1
+         		SAI_NbreRéponsesMax = 1
+         		
+         	cas 2 :
+         		ZM_Réponses..visible = faux
+         		zmlSupprimeTout(ZM_Réponses)
+         		nLigne = zmlAjouteLigne(ZM_Réponses)
+         		ZM_Réponses[nLigne].BTN_Supprimer..Visible = faux
+         		ZM_Réponses[nLigne].SAI_Réponse = "Oui"
+         		
+         		nLigne  = zmlAjouteLigne(ZM_Réponses)
+         		ZM_Réponses[nLigne].BTN_Supprimer..Visible = Faux
+         		ZM_Réponses[nLigne].SAI_Réponse = "Non"
+         
+         		SAI_NbreRéponsesMin = 1
+         		SAI_NbreRéponsesMax = 1	
+         		SAI_NbreRéponsesMax..etat = Grisé		
+         		SAI_NbreRéponsesMin..Etat = Grisé
+         	
+         	cas 3 :
+         		ZM_Réponses..Visible = Faux
+         		zmlSupprimeTout(ZM_Réponses)
+         		nLigne = zmlAjouteLigne(ZM_Réponses)
+         		ZM_Réponses[nLigne].BTN_Supprimer..Visible = Faux
+         		ZM_Réponses[nLigne].SAI_Réponse = "Oui"
+         		
+         		nLigne  = zmlAjouteLigne(ZM_Réponses)
+         		ZM_Réponses[nLigne].BTN_Supprimer..Visible = Faux
+         		ZM_Réponses[nLigne].SAI_Réponse = "Non"
+         		
+         		nLigne  = zmlAjouteLigne(ZM_Réponses)
+         		ZM_Réponses[nLigne].BTN_Supprimer..Visible = Faux
+         		ZM_Réponses[nLigne].SAI_Réponse = "Ne se prononce pas"
+         		
+         		SAI_NbreRéponsesMin = 1
+         		SAI_NbreRéponsesMax = 1
+         		SAI_NbreRéponsesMax..Etat = Grisé
+         		SAI_NbreRéponsesMin..Etat = Grisé
+         FIN
+        type : 17
+  -
+    name : LIB_NuméroQuestionEncours1
+    identifier : 0x234e8fd623b7a77b
+    internal_properties : CAAAAAgAAAC/b7nbsF0cW2T0gm8wCXAUWiMeyTKma//ec9mZNhcbdkmyUzqFWd9mHthuvX/gXXc8+cKvJ6R0FmxIZuBlCV++6NlfS2njPmP9mmhPwTIdtH+vpeLXRL/tZO7aPveaDR225Nq5/o238oWRkxnwbFu7JW6Wpih7qZk0e4qXwgP3COR95tsahdYgMxZ8PzVmKbsCAcrYIARb6cjm7B6AuT5nP1t6PXPHG6KDVGFvZ+qvtE2TuO3NYvloXwCmX6Xn6Gpycoft90Z4ua6HDN14XUG4rwhM0/RIPOEmHoH1BM93544r5KlSmEUolJKt6QXlfaE+e47iuBmB5qxgk60mmBeZMCPwa86BEjynesGe1o9NcSCCcyKBynP4D9j65CbF6bUEqSAU2wbUCbEvXlA/XASyvMEk41cz/ohrxqPzefhf5HUZuAkO2ER7aNZREZE1q7ia70p5ZA4+tJ8bJsJLIVQ/9oTP3IL2xpcMNRWv4quAn1ONHHIX4yQ=
+    properties :
+     x : 78
+     y : 238
+     width : 172
+     height : 45
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : GRF_Graphe
+    identifier : 0x234e8fd623b8a77b
+    internal_properties : CAAAAAgAAAAfM1LeKmcbsMJsGdunkN6m3sozvdGImYdrc/L0gmCCy7aGeYpiiaMEZt4Ecj5xyCZ9VGjw+RAVq9/criBctAkPBU9/QoSo1A5RjEprNawzaM4xphmUxGxWPxy2pWqcP/XHu7tGN1CEBSU6d8YL0fbWnMjpkiyiQyLYg8eM+ru0zIOciKk4EURpZlMPJKT12A0FT2eqyTOyPueR9savwckPTioxwzTPZVFRX8/uh+g15hgElw081MQO2p4J5y0FKIddFU+aCTof5a7n617qFEfVU88hD+OuxoN4QSqmEe39wuPWLvvDr/G3I59zhvPLCnM0Iu73jkN8djDBLydqcsgzILd8Uv45F7LdX6a2ECFM5LPdSwkM43tlQ6ewQDpVtbBaR8z3jnFGgepjwrJ++ql91yTClCwKkM2e89Xou/aRYLsHNadBKS2fKEXoDEHNss4JC/9rDGcZ8prY9QlU9wsoiSSNEfLp/ohe8AI6uuwQZoN0bu7DPyIp+a31xVDBQ9LQ8wIeAFG7aZGnfmgSxAASInGYC9RPnoO1ruExePj8VsDrBI6n9iKnKFms2ReZL69X9lcEbaLjNXZJfXjopTCHG0H7StJ8H9uKvNujwui0bQvvlZd/95q5+XTfK9HK5/LujBtnzp0T/klQgMyKWbihHzSFRhDl46VhFOB8t3cfAuRWLGe5sj7I0Btf0Zze+2U8UWC8UPO9BRMCcCE+J6lST/ZC9l3WdAQ2PJOyBihkVBmfG0Gxgcxf9IBTWMlWlAgGc7byKhej7m0fDn6GRPoRq0Y2TtE0HA9OoDJw5VAhypBrmx3X3ZNNvH/zFsAkei2+k8FjzmvzdaXHf6pyviPGNCe7RNWWor9Apf3Z6YovxrESdYREPNT9ZAwiEpb9rHO9aFWNkDR2gJtAhJV0hAh6SBhXaWnkwjOgZiIn32KOhU3fUMzSNjStUlR8PKjAfuf32sg8anZszgO98V4MlkYSKWYr7iA4Ufd9hUgfvyS8juOeSTMbJWJgHGTt64BiBnD9heFHQL34sWi00KqPvLRKiP+ZR3VQnK22wUbXEYfVYSW3y5R71011wrMc8S04I2L67EEysLqfg1yw7v1UJ3ysE91V/LhLblV9bL7IrXHOoiw+T87HU51VrBHErOP5gj0C5+35+SmMwsDiK8dx8msA0rz4iBo2dWFbCTV+HvKyOVrjC3l277FqrVEJDg8r+g7BXgR/Ot54V3FvCX8kvmIZzTJ3IV8lPYsyb3ARlGMQgIRAiHgZEn5tGPPLMxbcgvlaVi31VupS4cY7gS6QA46yXgMGHNvmupq+UKlTCPgVpkKnoFLT75Qjm51aZv0MOWRtDxBlx2q4gy1Z2hn/HlJwWv4=
+    properties :
+     x : 342
+     y : 130
+     width : 513
+     height : 310
+    type : 33
+    code_elements :
+     type_code : 72
+     p_codes : []
+  -
+    name : ZM_Réponses
+    identifier : 0x234e8fd623b9a77b
+    internal_properties : CAAAAAgAAABluoW4nebRteCwirgmuje1DpM7pL02bSHOpUPu0Fh5Ns9YKUF5s1e3ivla//h1sicearsNNCJj7ZWH1Sn52JxMzEs49V3ruevg4SwcVxEvn45M1BcN9YoRo8jBsB/0eBB4Z0+USRNatkEQ0aDvubcPEeRF143MUkMKMHkMItRaaxFPika8zM+wMz9DWOiYsauEeiUm+q6iNKK0mk5whTUNSaou98Ixlh4+6zKWAwqdcHCAYi+OCoi2jc4PNFoVAAwVGsLZvX2UHXb9ax9HIHDkmF7jGujA/9QRvmzl9mtF+4jbDDuFEWV8VtgLtMOu3CmwSRMoJ7khJ4kHNoYEgxSxx3bc49hxOxRKKqxrUo2hE0+db18QoRinkw8GKhY6Qm0PZaVdcuTLzoRgYdQVFCyCSVGxLDw5pxUdvlYdIGXYMlD5DZSFipZXWi3K0vMk16hyxjgNwvfW7KXjNZbAGcD1ATH9v6FSaZhiEs3v8PM4W6TvzuGy39GkjMdrbU93Ioy9AYB/yHtZE7n5XzBr1GU9Z4MKZ0Z95b7agO6xcTJ+kGoOV4oVRpWOA/h4O4vC5kncRtJta6mfZk0O0amYuJoS5LFeFwXrr/BbnmEFpJNnr2V7Y+Z1zor0sI1oAzNlOGYR/XZcVX+e/u806UDzrcqaJYGzPsUtkNlq81Au5foy6h0WIs4WhV9LM+jgFgPAQ04WIYXROHoLOR2UlFqqeXklCLySPL+kflbrbOQ=
+    properties :
+     x : 81
+     y : 323
+     width : 619
+     height : 46
+    rows :
+     -
+       internal_properties : CAAAAAgAAABKfH1bvBZTPX9N4tDXxfwnNEDync4IXiY+KcupXQjeEkbQ7hlh0grDvbMMI1ZKmd5Ow1sHe8K92okhP/pM1UNdpZdd6/M48Or36AKrGQtV7FxzY9eUPg5eK5GuhG0g7rq9tR4uXFA85bWtUsqkQxIbO88=
+       controls :
+        -
+          name : SAI_Réponse
+          identifier : 0x234e8fd623bba77b
+          internal_properties : CAAAAAgAAAAF+VrcXT0/fR+xUSzDNaTYmFzTHv2pHhJ2aHSOrZGzOonE/SNSEj4N8qgv7bGqDOx8VEQI3aEdeo7pofn8zBgQVl1J0TWePhr2SsJfWe+NOHff8WOqyTJI0DDogt2EP7He6gQNaTVfIeNWEaWAJ3NNGAY/A5ChUstRs/Q80SdV4OWgwwkEUJS3puvoRtMPy+ei19uZehE5To0vH8m4ybh1yuKSyA4pR42dxlVTkcbVGQRvxlZqKw3qhBZqeUoPd3HFodm8Gye2xK9Uxn1rJO5YbhG6uiI9yk0DCEe1zxRRH35cCGokKmwtw2Nu6iEYr48a0omiDFzrYjlBMe9n9fdJLMcKadRJVviiYG1bIQwPiCZ8DaG33j2B6zSeEjTylTFOgg1HtIFtIZSsi9IQ+uRwvv620veV8l/t9XeCT8RZ1geb5/A9Ut6C1/V4eYgqfs73J/NY4isUJn6vmL1s1N1JYy6Y034zOG+JjD4gvTomPoOIqqkkn9yJHUZ0+uod+T/DDvWCKtKrKJQLVWZ3utjjJjFha5Ml6Hj/aUWYqfZqEZ2gorwv/LEljGIaCzkXEy3z1qFz5qaobRVQL3oPEHJIK7cSpuu+MVTujdOe2QBs7fpfIGO3O0YA55/vrDThAoze0qomCaWFSoitryZI9LS1/W9doMCCOZk8zcpntOEzcb2ujp9M8hwcp8ZXZ0aW6VQP0Ierqfz3jgTS32ybhvZNA7ccTMueSzao0RxdJt3NMwO8XR+O0ZF9nmwDoVRjWytunet3LORJg0TI5cIh1X9pdm7T9ZPiRTAJ5Jhp0NYhK+PrAl/PlSjHvEel2I0cxbkk6ZtNE2m/8tbQctwYfPeZwkbCi1GF/ElZ3ObS3OP4bn5fjjlxfzYvOPLP9wiJXIPCXwRnc1kG8aCQGxZsz5wf4oLWXLctgrOrRoyyr7wWb0y4CCsy7CGk3L04A0JIFrSO40WG+VGUSPiwLERF8Y+kOrr30IVSr2C9pPuMW2YKhzfIOjlcrQ51tp6YZS2EUI5G/sFp9ejztVcT7m3mwDKcv4uQZTqjvZ+7OgqvkirFdJJ1rPTW+sDCIzPksmznw1/vEa+fejCQSdI6lqMKIM6pvUrpWPDNhLPszkyTHlc5dKdGtpPKgw4bXOTxnufoUg==
+          properties :
+           x : 7
+           y : 2
+           width : 562
+           height : 43
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              code : |1+
+               
+               
+               SI moimeme = "" ALORS
+               	
+               	bEtaitVide = Vrai 
+               	
+               SINON 
+               	bEtaitVide = Faux
+               FIN
+              type : 15
+            -
+              internal_properties : CAAAAAgAAADKNfbQRV4NiBcWO+Z+8wQrT7itwaAxTL5lG8c7ySsOg+u4EN2huZeXQiKzCYEedxhzCAPL34c7OhnurAeh8im9Dvls+UQo+Za3r2xS5+JH78QDlp+vvyPxUTt5KNbB5PuAJ1X5QWvgafoTOw==
+              code : |1+
+               //Si on n'est pas sur la dernière ligne, qu'elle est vide et qu'il y a plus d'1 ligne dans la ZR, on supprime
+               //Le but c'est de toujours avoir au maximum 1 ligne vide 
+               SI ZM_Réponses..Occurrence > 1  _et_ ZM_Réponses <> ZM_Réponses..Occurrence _et_ moimeme = "" ALORS
+               	
+               	//Suppression de la ligne en cours
+               	zmlSupprime(ZM_Réponses,ZM_Réponses)
+               	
+               	SI ZM_Réponses..Occurrence = 1  ALORS
+               		ZM_Réponses[1].BTN_Supprimer..Visible = Faux
+               	FIN
+               	
+               FIN
+              type : 16
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+            -
+              code : |1+
+               
+               SI moimeme = "" ALORS
+               	
+               	bEtaitVide = Vrai 
+               	//On ne propose plus la suppression de cette ligne puisqu'elle est devenue vide 
+                   BTN_Supprimer..Visible = Faux
+               	
+               SINON
+               	
+               	//Si la ligne n'est plus vide alors qu'elle l'était
+               	SI bEtaitVide ALORS	
+               		
+               		//Nombre de réponses limité à 5 dans cet exemple
+               		si ZM_Réponses..Occurrence < csNbRéponsesMax ALORS			
+               					
+               			//On propose maintenant la suppression de la réponse
+               			BTN_Supprimer..visible = Vrai 
+               			
+               			//Et on propose la création d'une nouvelle réponse possible
+               			zmlAjouteLigne(ZM_Réponses)
+               		fin
+               		
+               		bEtaitVide = Faux
+               	FIN
+               FIN
+              type : 17
+        -
+          name : BTN_Supprimer
+          identifier : 0x234e8fd623bca77b
+          internal_properties : CAAAAAgAAADDUgXAS9TopLIuixPst1m/O3nSzG9YyRAv02omm3Jh/nTgnqlDYGmt8CFjPlWXjQTvWA+70cPZAjE/Z7gW/aQxaq9ZUCmRg21CH0GOPGLkC5EID//aImqzTjlz0N4R8uFmXT7pjzAcZwBjr4hdHRYPzw/niw8dUUy/nqG5R9Pmceousvx5FQ1Gibn/4vCZ0RW0635UxcCupQ433ItmYl1sXD7oCLIXKAwP/zp+JoOTAHI+Uwes2hmISSzlKa9cnAIQ8aVfRXBrx68KynSyKTKMfqQ1GcUFm9GDCxPju3Vg6HZO+ZrOT3FWlI/uUb17O0nOWFMujd9VYuosAuLa0RMRuZlfTbfFZbc61DNK2nQun6ESZq4Ip4LkmattfQmB1JgQnM35xgn1mdDmKEmcgYVdJ5TQrY6BYh+ELHCcrhla5gVE7v9Y5QJDfrk9wW6Hus3TJqDXY8aUp2g9QK94DTbef4BIHaxESy/koMG66zac0phcJFXHTjtknfz7mvuFYmHSCOmc9P+kVZI4SMuy/8uTe2m7oM+eJXxx0FwcF7OK3CfpGA5TTLSaP5z8hHWCuLxg8HoVSpd5MWuVkODKXFS1HNmEvRB0BV36jlG5SjQtpwDO7iV09eDT8Ph2I2hMwcDqloPc74xBBD+lDKn320dKWh3BpI6PS34ooBzdW1Wqi9IxHgjhshGqDmzVfWCJBGkIwGS9byx4gynWTgmEsvBukvAPvNLvYZsoNLTnr/6eMkLtsr+w8bK3Qd6FajEUz71Br9l6HjQKxMMiOg==
+          properties :
+           x : 573
+           y : 6
+           width : 34
+           height : 34
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               //Traitement différent de si on avait atteint le nombre maximal de réponses possibles, ou non 
+               si ZM_Réponses..Occurrence = csNbRéponsesMax ALORS
+               	
+               	//Suppression de la ligne en cours
+               	zmlSupprime(ZM_Réponses,ZM_Réponses)
+               	
+               	//On vérifie qu'on ait toujours quand même une ligne vide, si non on en ajoute une 
+               	SI ZM_Réponses[ZM_Réponses..Occurrence].SAI_Réponse <> "" ALORS
+               		zmlAjouteLigne(ZM_Réponses)
+               		
+               		//Et on rend l'avant dernière ligne supprimable
+               		ZM_Réponses[ZM_Réponses..Occurrence - 1].BTN_Supprimer..Visible = vrai
+               	fin
+               	
+               sinon
+               	
+               	//Suppression de la ligne en cours
+               	zmlSupprime(ZM_Réponses,ZM_Réponses)
+               
+               	SI ZM_Réponses..Occurrence = 1 ALORS
+               		ZM_Réponses[1].BTN_Supprimer..Visible = Faux
+               	FIN
+               	
+               FIN
+               
+               
+               
+              type : 18
+            -
+              type : 161
+              enabled : false
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : BTN_Précédent
+    identifier : 0x234e8fd623bda77b
+    internal_properties : CAAAAAgAAAD7iyhtojED/nyD0hO3u6NHItHlex1SZ+LID0fDkRo34qHyhKwQaiTtUS9Okq0+Fd9LPozr3OV9dahfP/0p3QnUFQGI5zfVkC0jGwwhxbBW//LrLX+RROwKHK/K0DAwaZHYNIpCApq7QjBsn8UpipPmS4nTNfnZs/OVWIVYqApCgJbCZsmx8v7tR5IbVfrWAAgHMpMP/9dl94+QWtRFeI3Coa9n6kRSFJ9T7G+mslAMh991Gm4TBqKGHVX8SPzt9uL+GxSJ7v4Po6/li2pDQpCBlqLOQp0VEmWn9kTO9Lq2h2TB74EfEt7s/I+YivIcKdXQA3s8qz3TtNXFx91a6p7FXxJf38E1gHbvQyDx/+wfGh8R6e0mZGfOMBtXkBqGSvf6j+U11kz8+WXRvHu12htRzUxP//Mqtxx4RuIT+DXKyKq5WPD5rY9MQgcZTWjT3AkeCeAb6zqTI+lcS0JWmAnGUP56wXwihxazJ2COdxUgU7Ujd+g7XZdb/6cYwj0flY/SDVvD3gmX2Xas0AthxHsHOLPI/gnyqry5xtKqIn0H/KO8I5NCNx0OKo+HrCiOgVcMNjlG7kG2NCb9YGkm4ofmZV+2zDIF3RtEbkaf9vwCX04CtqkIJYdVGmckQjqCtfZew9bVnolFKOtB7qF4HWJfOCYMMRmcUOj6WAbwp3YZvaHFUEvXlxE3GvwzR80XHVGArRTK06BLEbD/ABG9gLFZHwZefj13oLDHeP6rb5nd+kTsNqfImm7a8lxAEC87tCUEoU5VdtJz6cAwGBkn4CD4Z64QPjkg6+UupV++2UBbUnjkrq4C0ViAVw/nfGPfYSfO/XkRodoCWd9VGItoUF3kV4RtToNsA8agtEajxoUKcgbAarZ1cRO5Uw==
+    properties :
+     x : 14
+     y : 195
+     width : 64
+     height : 64
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         NUMQUESTION_ENCOURS--
+         
+         MAJRésultat()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_RéponsesPossibles
+    identifier : 0x234e8fd623bfa77b
+    internal_properties : CAAAAAgAAADuMf5JyXvF1EJzHdXB1hVlnquNdGT8Qe0zbyZBcOIJH70tCOMiXwPXTpLOZhgR06lcnhz976rvZ9ZKvvvn0ejmAO3yqQEKkPo/gNp9t3szrE9ovzbX22CbA15zCojF0q8bOcEsCxHZq73/8JByFQ+O2m9oVaEpoMftkjAiP6bOPUHkBgIRK5c6iLTcUQyOulcjx79jsbLYqqIRKaotqvqVSza0PayVXaQvqMmPskwG0LwcQtjAXxFfOV7xFxOU0vtHkZLFzUfJOE4Iyln4CP4m7sBPBaAgsCZUjnNNJoaX/jW5JFt9a3rs9ZlJueG1cGUd2RlGni9diLgAhv+9Gas72VBFIzLGQaU+tlZhKav8dYlEzcaN4l5cozxRjdO0HSXihzrm56bq72wxpw5xWwODGZ4oJ75/cyh2528=
+    properties :
+     x : 42
+     y : 149
+     width : 183
+     height : 21
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_REPONSES
+    identifier : 0x234e8fd623c0a77b
+    internal_properties : CAAAAAgAAABIOpxLGX/dBJ8Uyvojh9ncHUPzB9OVScb7Zq/RdX4/LwYA0+3psiohY7F5t/V3jJi4GwC4KnCYc1lKVQ0ZyPtid7FiV6oVoSncJIrHSsh/opDdjM2wkzcrNblwK5dVuUHjwYK8WVmWaaeKMYzELhc9NzcW7MKqr880V/yhnvzW/GN/axobQL7ndCKtc7ca9soIlhl1Dtn+Ny86Aiu59R8p78IMbML6iPx0WNUoiheUnnICUMV2yrZvEFhPeqlPwFFpe7zsT9BQxMVimvq+o0T0mFg7WOC1qwpBsoum6CFbToHXKFsaFWClKyAGa7Nry/4oKOIy8RjIlO99x3sbdPBqG/BJQ/PUPOaUFFWP83lG/fmm+2xTvqJ5JU6Bsr5OKo9N9hirwRMpjr8DjWs/Ci6PT9c=
+    properties :
+     x : 84
+     y : 182
+     width : 309
+     height : 187
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_NuméroQuestionEncours2
+    identifier : 0x234e8fd623c1a77b
+    internal_properties : CAAAAAgAAACSVRZhgYLM3UuqFc8KtoSGnqB2HkYbYIWWHCECNGTSx4eeP4eavFWROedFa7LNr8k/PWhYQEv6HWYryLOoMhl61SBJsm60ehHx0UKwbxxxRZNoRaSJ+zs/v8YkDVXralPMk95vmozuZWXlA2JrJKbJJB3b1CYMi0GzxKDf1rYIwH9+i+xJNE7lUigHT4v7eBT6i8+JHvMJSeIRygk9eyE4RmeQt+RXd9QS1PR47IU1+t3NOwT0oWPphsipjEqxVZjChAFT8I6M/lSS4rvZpXg2/rhuJi3A5ZkIjXOA3kY3jZovLWfpyl/pWAPvvVg5qGKPAZadoTdR/PH52CSmFobisbkz0LDsI8aKSipmLTpXZWCjhzTUsr9wtilSyuLTutnuxloBEre3/Uymx3cTRBfGYamexVH3rzJ0avKsFVGtBwMFdbkt82qy//hJuMvDJJWpL04wicsJtVwEZUMXae9lQPoq/W37ID9I8A==
+    properties :
+     x : 42
+     y : 173
+     width : 172
+     height : 25
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : ZR_Questions
+    identifier : 0x234e8fd623a8a77b
+    internal_properties : CAAAAAgAAABh3C+DVSyY/VF+bOyJxolRF68Zg/iOLtDVPrZCsayPtNRPb26RAWcFwPgTezhnD7CrcnWIOn9LlWg26lfhP7kPJt8KMN0zPBEqaYIifH2HqOLOhlFkBhjiFJVHrOzFEi+HuIjY0/zZ1ZniANhFIzy2c0SXdd4E5Yn6/q7oode2EpsQ4PEXHap1RCM1vho6F1q/TVL9hEnUe0doU6xtlkhQ2uByL7Ej/gviMyIfKtI+hNbVPV5vHdkq7DsuqATJ8FxXVDnD6/TGgvifZT5F65TzqWw6UXtGTSyl9qreN34pH73W9xCznXLW1jOPnwKbVx4WGKLfBeWnb3+vnl6jAHTJWsTZO5x6VVsycW98Tr53GmO02qKXwfdXjEl3+QqSltoS2f8wnJ2cHF90+fN1uOckEbgeFZcbjXx5pNmOrjqCLYpxbIsubWlLCC74X5HC3v6ZydRh0P2HXmhE5J1+uakfIrkcNrjHINRrxznv94mdQMShruVkbgZ2NH21ydsv6CMUBH13DCfy871Xo2zmU+1H6WhzkXfFHtSZ9oqFaj/hFp2CANdABjuOcptTJYvhL6FfZG3DRAqEn5hQPonyid92RAeBdWX5EcxbMDLQExSkO2B26cKD/FmWfHjc3p//2YOZRwfpuvW9x0YAiPUmzN8iQ7vGWKkjimyhOD4OjVrD7gGKZxZPBR6hupw+NdTC7PYN839Ob6aIjs1ppNOm+cI9N4YaYTp4mMFPA2MOkBP0bKr+twsNlBwPemVTgiTOrqziPp+c+d9OOspS3JtxE71beQKThmg7w0kGTr+HbtjfUBw5DRFQsbV3dW3O42OVhDP+TO+WHgPzakCWTxTtlvfP/+6s++Hfyj68Ds2LOfqFy1tNx+feeqisGEVHuTdgrJCof+Q0BYJmPLVlQY9MgjxYW0vNs3wAQ0bkMZzEpirpKWDbtub2GLEu9zEBqIdBdzhARAYVrrKrMFWa2yCNagfVpMogDMLDL/M6Z3QbdS3pEhWgZCmHprwUb8gYFE+abXRalaJEsTfUzabKuwQVWEzaM0vDRbS4zkmleZRK8ksDXYrih+7zqBGEa/EVz2bQCvYd+K5Q+2/ALNfN1EztSORx8chTrWO53nMtWdWCB25SmapQkMFtkPmVkDuxHr0hovRT+4Kk659PBVrVxwvzlBooYwe/bk36oiYmecSJYrrARjMFaxKE/wasF9iwDNhybyr4J1qRnThnjV42kJEaNlG6JhDgVY0/7YPtskXad+3CzJxhvh4hewxC1PtQt3UMqdKdKt3J0LpCLdnEsCipy6PROPERhGOWzW6INNDr2/1305y1GYl/rbZf9Se/wWQLcCBluFo/ld4uGJYM7d9kFX6b3NkDzgLZ5TVE/hOAxAn0FR2xHRmAVjC3ksyd8ObGLz1g9vQElUTPpee+TvP5IHTzMdE2ym2JEprpYGWkLbFDGPZBNBushqaFFF2/RzaIai5+fj3xqrKMoD5jbFAVVvQa+W9T5BeKksBP3VL2IasZG/C8Puw6IeOHzYJgmhsSLUeqhhJa7uScbCSg7PYEQ/51ZNOWJWA7HHXP8KQPfuem2OuSX0pRCqp+yV0iprKo/DCYiQbInYcdI6sBf9QqlHsqEwK//AKZqmfrR1Nfms+DgxXn+jaJ90hNWlGOHNM3/0UCNsPbHw2rqysFG/hzs7vO9aS0+X4RrvfMTnVoFm7cuY+TGrIgvcMY/BtAEtgXQ4KIZwKKLxpc9f3B0N1+Hkc+lkH6i+L2Ej4Iypr/I24QZM8EOBcgSq+OvORzF92COU1U8OEPMXjZduxxsp1Vv6LbkUjp0okZkCDf3dDv7bEa2HLfkktyQ46R4NhZEhoNvtQmHxDqAMHiIb2bsixS46ozO58C1YJG6YUzcCOzsHMjElgDlNU0S4r7FctlKRiKdwq8NikGsl6+Vl5NaKX5lajevEG2UWC2Wx1RY/pYtgXIztUrjjAEcS02Gzs744DdkAFYdaZyEw2jlA6+zu7VGnzxUl3O1dNqxpsX2OBqB1uK61qyFdJccw2VTNa+BsJBjiFqSNVngui3NdgrWXOVHZD5yxVseZunWfTjp6wZ95ubFoaDkxJANrfi56+vezA0QToZMr7G1FaMDI0273D498wAIy1hB3hV8lAgtoNiXWfrBuGPBszqSTz2frFmFkVdek9dard3zP6sZNu5JhrdcfnGrV2ZdF4K43dNlELb4rGmAXHHcx/qmAtMUpt+5a2PNpnmHLezS5Oza9aIbr24ODwBLdGeRfcTDtu38UkiiLsAm0bnW8O85ilXnpMhgWZSfK7A8G8FqY67yYvo7jeksh0+D6s2x783Heqqp/ulLqmLNB1wBFCO5EF1ZTanwIHMtIEdjqtWgBCMK8j5DmPVTe3sIdnoeDDEt4n4BCpd/un3D0EUuQK4z4NdYaloqBfHXg2k3+nY5vpBJjccesPvbSKJDpZdidIQRKeXRP4d+AzMdWsKSjrBVdFgSw4s531JMzA4bvVQcNaoMwpfUKQJGusA41A0jO3vIaCDzToYnQ+De3dvAJOc5nat+qBO5JzMa3vXzeVRFAQjwc9anP/KKXrGcZmhVdOvyjH45aDdncKEjqZhdeRBleb/EA9nEQdrDtNVd9SJlmIExZpoAGt6SBBQSQHsIrBx21Xbz1zxL/I5TAzVDcw7KR1KO4IWzqX9LBTydgbNsPtv77c+MvLFnTMKvvu0BDbJJf1QI/6VdzwdFzuy1U3hFPAcekwc1PCz1VUGtgE7b6KI65+I+3kRXXxW2DjSS5p1GT00wkPAaaUCqgEK2MsSgsJlLggIQhWLTLqXGHr1TKetHvIWlmshiTcPpN1A5mRJHfh3T0TyEMkIzi9chDAjO3q2owsrxRsuWsRT2UEql3W2VMf6FIWIqVCoeL8f4XHTIaYUAUUyVDubUUveTR7RucrguAxIW4ne1TK8EKoKE8sKXcd6rIYC4awuscjK0NLc1gvqYOgPebd2syWwZkuPPhSeNTBVQavjaNRCa1uDIZDSJpsbgX6cm0W3zioMdo70omUbx7QgOfe72gq2LbEQU4dj4VtQE/gK+alOE28N3jzuaPvxA/5a
+    properties :
+     x : 104
+     y : 288
+     width : 617
+     height : 54
+    controls :
+     -
+       name : LIB_Question
+       identifier : 0x234e8fd623b4a77b
+       internal_properties : CAAAAAgAAAAS0qusFZ6ykmSQOC6s0IhnZvQuJ6QD1JxbHLr3+TdYLzc3qW7GYRm8b0Bp1lnqJsXm3C5qQr/TfDIIYc+gcbaTxoZ8TpvGaY+IwfoRg0bc9CToba2uEMTgpC90SwigKgfNup2kXpgGSsoaF9d7N1xUgPNRl954B5tjm1+GdmT5admSk7VEMVTPQAn3v/MZGMfwGeLVv0u/q5Tel0527WLwEIBsa24gnTC0UQlv13HSY2Yq02iwlwevL2g1KNLqY+wpmaUQDZ7illeW+Lua3M6DPe4sfWpiv3J919TOY+Lc7A2/+iFBCjOh1hDj/ZS2udlj7fy5sgE27c8nVkzkBvyN7GMPknqecbV+5lGnZkVba+SDT+uwsNGZFaYkx8Jy4v+lLm6C96qaUaimJeicq6qdUJ61iOnBH9S3BW67dJgzfoXn7ruqQVMft98EUghUUcBMUmEQ0qUsUDo=
+       properties :
+        x : 14
+        y : 9
+        width : 546
+        height : 32
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_Disclosure
+       identifier : 0x234e8fd623b5a77b
+       internal_properties : CAAAAAgAAADgyc1GD0j7kkvSIxOYc2pYt1y+Htw/lZvflYxOULOJk9bFAh/S+ZF5YY4OfN5ZBYQPMsRYNwyBJAjbgDf8VYSDwS0SRn7MGWks5KF6c+R4K5HRud8jJ/WiRK3Un177v5vOgZ5DILfYili0mL53hjbmlvXHu1zObVanikp0MsKasMMyiQJDFCsDY3pt4HOK7EZFhbBK3SZKvrN0hPNxKMN67nz48a0hALEniUGQbLiX8lLIJpFfXiwnTp1ykaMtHdkLZ8JMYuW0kqWMV+GBFNqPcPYGHkX6cRpIrqsZV9cz5SgMHkuCmHaLePe8jJpaup6n+ClNT+xqZ9+BAsWBEtAe3/tcFSXcxxAKUbHvFD9hVoOOPkhi07l0ndFxISS60QZSz3XM+BjgDR1rvlEY7ZRPQXRavHE35udmFMXLPk1RfbyZBoU394LcsQGRpmLfqIsrUF+mBHqD4k1/hELDtCLdQwIgHFLlX1k8v864uMGXVLspRVN6chl3G2arMm4crMt9u+S6ykfdjhVOQQHQux3OJD5Ye3qfF74VN76weh9Dwbe56OZ7D9DoSR454xCjYaTCA0gYIbeoz7Ju0DYibF/h+OJ5QXAQ1yD+8BtQBcPN6K582yVOuvFEvQXwA+qhODp26Y3NUgO5vI5eOeRnXIP11TlYmp2vdj/bbZjQwzq9NHsZXCkJO8JhXRSAogAjG9aIL8TQ0PEjP4+YLgoMI8GdcYFA3b86zZdNs0CCNiadfMJtSBCdEt0hetp5wXlNHovAhmYCf1U08Iu+SyAFkvggCxE122rxU1pYAodpiIaHrINrqklpOyYRWyxYAdhDGtf9QU+lf9bFQiUxq44dS2dABSnM/3o/YWmzR6PVMEYwGho0/suTnNWDX4wVpZecRbZzyVNiVPkU9C2E9tlcl+CXNEU0A+r5lR+hDtdPwGKG8cLMIDHOv0bNLDF1YubZ3rj4DCZZ67iMz/3remE57Rc=
+       properties :
+        x : 574
+        y : 19
+        width : 16
+        height : 16
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    columns :
+     -
+       name : ATT_IDQuestion
+       identifier : 0x234e8fd623a9a77b
+       internal_properties : CAAAAAgAAAA/zfneWelGq4gmJsONSEXUJH9Ls66p8vO3thC3dcDiJXRjpY4eFXRMLEXShCtz4qIGArTDcNjpr7oZrb8aANzuC5v4Wu5Zy8XuRtJOtN744+X90nQprd053v3hh5UaWtPQYYeE2ZkwNQ==
+       type : 3
+       content :
+        identifier : 0x2543dafa06e6a035
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Libellé
+       identifier : 0x234e8fd623aaa77b
+       internal_properties : CAAAAAgAAAD/dkPnola16HKQwLRR9WtubdXAIWUXA2kR1xkpxPnPrHPa0wSe9vbGVEXrvLqkh6mD5oDR0EKMnZ/ffdxyVDKtbR3izns30KhShT5sEOcbUDv17ZjQmSYFdQBT50lhaRMuMc6mvtmE7JDCEYoWyiZ4yyVjZR5ln8HLsmDNnCZivVZv5vnwiw==
+       type : 3
+       content :
+        identifier : 0x2543dafa06e8a035
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_NumQuestion
+       identifier : 0x234e8fd623aba77b
+       internal_properties : CAAAAAgAAADMfnpf2GjBLBedz6S2Y1L9XRSA8PV8IchebKQzmUSAhV95fGZERw78zBUEfrUtPrSs9LzDkb+eJAkopoahicvNehLpeVNrt9CfN8UbiSmxGrrKJ6/s4gjitwb6rvyD82pJ2ggDWBq/Qg==
+       type : 3
+       content :
+        identifier : 0x2543dafa06eaa035
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_TypeRéponse
+       identifier : 0x234e8fd623aca77b
+       internal_properties : CAAAAAgAAAD3BYFW4YFOs4AuPsuFEA1szOcjm2bxiiu/CYijacyWGu9G/4Iwm/q4cHk0IgFRAoRkGPhPs+UMThs6TNjzW/mLvNw/g7X4QxoQONhAtsAQ+501mjxRRXVRJrUpf40SYtvYaZ/8UWH4fQ==
+       type : 3
+       content :
+        identifier : 0x2543dafa06eca035
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_NbreRéponsesMin
+       identifier : 0x234e8fd623ada77b
+       internal_properties : CAAAAAgAAADuHKhtLrq3et1T/QpECQST57IeZmP2hzY0S/hnPeDclvGzMiIqObjAKGmasNfnRqpeFkCn+r7niaSzMzG0enpktY1O1MBgLifDG8kfxT27IKAwnTlWeKJ8HbwgQE5RraAfMNY1KkjhZA==
+       type : 3
+       content :
+        identifier : 0x2543dafa06eea035
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_NbreRéponsesMax
+       identifier : 0x234e8fd623aea77b
+       internal_properties : CAAAAAgAAABunCjtrjo3+l3TfYrEiYQTZzKe5uN2B7a0y3jnvWBcFnFT8uLqObgAaGnacFfnBqpeVkAnWt7HqUSTE9FUGtrEVW0u9KAArqdDm0mfRb07oCCwHbnW+CL8nTygwM7RLSCfsFa1qshh5A==
+       type : 3
+       content :
+        identifier : 0x2543dafa06f0a035
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Réponse1
+       identifier : 0x234e8fd623afa77b
+       internal_properties : CAAAAAgAAACyQHwh8pYb3iH3Uf5YdSB/w54qkk9KkxJwW+BPBbjU7UwcI5IqObjAKGmasNfnRqpeFkCnej5nCSQzs7E0+vrkNQ3OVPABjrS/FyXzsTmfBIQc8VVKTH5YOZgMXKLtCXx7lLLpZhS1uA==
+       type : 3
+       content :
+        identifier : 0x2543dafa06f2a035
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Réponse2
+       identifier : 0x234e8fd623b0a77b
+       internal_properties : CAAAAAgAAAD8DqpvKLixfMdt/xRG08ItjSTwQAWMUVjOGT5laxZ2S6GOt2a8N468dFW8Ru21BmzEJKTbHSPyWF3silLlXZchFm4tpS/acZZddYNd2+9hSkpatx98EjiSZ3ZqPkxTo5oZKtgzKErvcg==
+       type : 3
+       content :
+        identifier : 0x2543dafa06f4a035
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Réponse3
+       identifier : 0x234e8fd623b1a77b
+       internal_properties : CAAAAAgAAAD8DqpvKLixfMdt/xRG08ItjSTwQAWMUVjOGT5laxZ2S6Eu96b8tw58NNV8hu01RmzEZKTb/UNSeH1MavKF/feBts6NxQ/6cZZddYNd2+9hSkpatx98EjiSZ3ZqPkxTo5oZKtgzKErvcg==
+       type : 3
+       content :
+        identifier : 0x2543dafa06f6a035
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Réponse4
+       identifier : 0x234e8fd623b2a77b
+       internal_properties : CAAAAAgAAAD8DqpvKLixfMdt/xRG08ItjSTwQAWMUVjOGT5laxZ2S6HON+Y8N4689NU8xu21hmxEpKRbXeOymJ0sSpKlnVdh1q5t5e8acZZddYNd2+9hSkpatx98EjiSZ3ZqPkxTo5oZKtgzKErvcg==
+       type : 3
+       content :
+        identifier : 0x2543dafa06f8a035
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Réponse5
+       identifier : 0x234e8fd623b3a77b
+       internal_properties : CAAAAAgAAAD8DqpvKLixfMdt/xRG08ItjSTwQAWMUVjOGT5laxZ2S6Fud6Z8tw58tFX8Bu01xmxE5KRbvYOSOD0MqrLFvTdB9o5Nhc86cZZddYNd2+9hSkpatx98EjiSZ3ZqPkxTo5oZKtgzKErvcg==
+       type : 3
+       content :
+        identifier : 0x2543dafa06faa035
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1+
+         
+         MaFenêtre..Plan = 3 
+         ChangementPlan(3)
+         
+         gnModeQuestion = CST_modifierQUESTION 
+         
+         
+         
+         NUMQUESTION_ENCOURS = ZR_Questions.ATT_NumQuestion
+         IDQUESTION_ENCOURS = ZR_Questions.ATT_IDQuestion
+         
+         LIB_NuméroQuestionEncours = ChaîneConstruit(<§$0002§>,NUMQUESTION_ENCOURS)
+         
+         //Ré-initialisation des champs
+         SAI_LibelléQuestion = ZR_Questions.ATT_Libellé
+         SEL_TypeRéponse = ZR_Questions.ATT_TypeRéponse
+         
+         selon SEL_TypeRéponse
+         	// Réponses personnalisées
+         	CAS 1
+         		ZM_Réponses..Visible = Vrai
+         	autre cas 
+         		ZM_Réponses..Visible = faux
+         FIN
+         
+         zmlSupprimeTout(ZM_Réponses)
+         
+         pour i = 1 à 5
+         	si {"ATT_Réponse" + i,indChamp} <> ""  ALORS
+         		nLigne est entier = zmlAjouteLigne(ZM_Réponses)
+         		ZM_Réponses[nLigne].BTN_Supprimer..Visible = vrai
+         		ZM_Réponses[nLigne].SAI_Réponse = {"ATT_Réponse" + i, indChamp}
+         	sinon
+         		sortir
+         	FIN
+         fin
+         
+         si ZM_Réponses..Occurrence < 5 ALORS
+         	zmlAjouteLigne(ZM_Réponses)
+         FIN
+         
+         
+         SAI_NbreRéponsesMin = ZR_Questions.ATT_NbreRéponsesMin
+         SAI_NbreRéponsesMax = ZR_Questions.ATT_NbreRéponsesMax 
+         
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        internal_properties : CAAAAAgAAADzBTWmbOAdkMQqNxiRGSok49WE5Ww6rRtiUhyVk96/fhZURw4XAlOfbUE6xRAp/b860bedLoAUlWa6x1x4RU1pU1fIS4tZze0T5VgMFTIzKgdkrKazU5FNJhTs1rFSatbI77HSX6XCTol8wfwxQliwazQ7Ko30VT7tgtQI/KxtbJA3uprz311Oet+N+nO0n3pn9pvcyus1U8RVOOXVy96RvG32sguMI6jWvbHzFCpbxdHnFfByqPpA1dUUGjgcnX7At5MSDeE4sa++OE7pNQNBiNeUIQPis87b44pHPdfWh84d+p4+Nmhxi0j6jMWjM9ZZMD7J
+        code : |1+
+         
+         SI OKAnnuler(Vrai, "Souhaitez-vous supprimer cette question ?") = Vrai ALORS
+         	
+         	//Suppression de la question
+         	HLitRecherchePremier(Question,IDQuestion,ZR_Questions.ATT_IDQuestion)
+         	HSupprime(Question)
+         	
+         	//On redonne un numéro correct à toutes les questions du sondage en cours, pour les questions qui étaient après celle qu'on vient de supprimer 
+         	POUR TOUT Question AVEC IDSondage = IDSONDAGE_ENCOURS
+         		SI Question.NumQuestion > ZR_Questions ALORS
+         			Question.NumQuestion = Question.NumQuestion - 1 
+         			HModifie(Question)
+         		FIN
+         	FIN
+         	
+         	//On réactualise le nombre de questions pour le sondage
+         	HLitRecherche(Sondage,IDSondage,IDSONDAGE_ENCOURS)
+         	Sondage.NbQuestions = Sondage.NbQuestions - 1
+         	HModifie(Sondage) 
+         	gbSondageModifié = Vrai
+         	
+         	//Mise à jour de la ZR des questions
+         	RemplitZRQuestions()
+         	
+         	MaFenêtre..Plan  = 4 
+         	ChangementPlan(4)
+         	
+         	
+         	//Permet d'annuler la suppression automatique, car on n'a effectué notre propre traitement de suppression
+         	RENVOYER Faux
+         	
+         SINON
+         	
+         	MaFenêtre..Plan  = 4 
+         	ChangementPlan(4)
+         	
+         	//Permet d'annuler la suppression automatique
+         	RENVOYER Faux
+         	
+         FIN
+         
+         
+        type : 222
+      -
+        code : |1-
+         
+        type : 223
+  -
+    name : BTN_Suivant
+    identifier : 0x234e8fd623c4a77b
+    internal_properties : CAAAAAgAAAA9AsxaSV/VtqAUFl9nXq//9PJ054iPKl2sBURMe8wvmmUDNbBVqkMPOEYiblkcWptQzmv1fqQAeKjqrTZD3MlO7sgxem9++JZKIiWYATUhGlPVoJEwc1kxPgf3tWAXKm9O/wPO1G+/Ho3ghXakV6izbOjYbAIViZW+VeJtNoiMoN1zMJPN2A/wSjTPILNS3PYC5k0JbsuC/Z03n8A60bKK31plqlVT6dop8jaS2oXYpUr0L4tQPh+3/grUiSJ/fWqyOp2SANj/lZZ3xsn97CRWYmZnMPmyPoNGg2XLH2tgIRuR4oNgsf1/jlUBf/6edJbEgKWp7+YuFVlD129XlJ2j3aY73RLrzbAaIJXInKNkA/SqPaC3UQdCn4NPO//uQXIHl7QuorBnYoB5CwFk7KWtMHFAClUssk8XH2yGGYtdB1eo2JgtpYEDkkOGy2ntsIo5JJ448ExgDIqiopLnpeQNtTjpd6oETIQqfdg/Ae7xlUVoF1W8Tx5Fbu6Pr0WgsLtjE4SacbUhxbEi8oOyesmxgnmkf6wK62pAw7PmeaylVw5jjxNkUxg3w0YUpICw/1GHWUmrNR0zmjYmJ9zyWtO8rUL4xje+1dCqEEmkHLvq9pnDRTN5Zy6KWiyyZCKq3R/kRXM9whb4AcQRIcfrEmS9yCvsIMbsfMNnhtnxchj5boBPH9FsJeOvv8KJqk0XfUmVJzh1SFa2jQ0co3H9zOmoKPkD6ema5XmU62NsJSmwDKNaW1qoLv5q4Ls/KR/xNgqh/rFlExDpGmqgnJIBhC9/I9OQtjTIcLuSJM1tRBtMC312NBnBzsNe284miCinEQfaHYJuZ4WoTjxK4soF5DuCv0czpGJtS2nArWa9k6coLw==
+    properties :
+     x : 869
+     y : 195
+     width : 64
+     height : 64
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         //Numéro de la question suivante
+         NUMQUESTION_ENCOURS++
+         
+         MAJRésultat()
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : FI_Répondre
+    identifier : 0x234e8fd623c3a77b
+    internal_properties : CAAAAAgAAADryPj8ws2eothL+jyiqblL2vCJu5YfFIkN5YVSF3c4jlKE858BclcBteEb2tOD03K9Ng6ykVJ9r0mOpVLoEPw0NVNlII1PM9Uh/0KU+arBFlwDWyBLKwI35N9NJf4+dWHy7CeBhvCmKg2nBcO+n1U5CAUs3vbcyN2W7hTKNt9DBhSugWlwMYHVXYFE7TrexNSBTm91v5VVTtJouh00rVMiruCFjF1KXVkgnMBRevv9lcgXMTrokTDLJ3AVyQ/hlHIFnUXLkVx2Arutoy+hyn/LhdBxWYjC+4hjhNYRqdFEafWVBYMYcgNYLPvtgclMrdxcJz7vk/5w+tAyTupolbH7oB6nXoG1AFsSO0RLFJ9eAhyJkomjtz+m2h9upRtvc8A8Xg5ZbpS98DSqPe0BP7g4WVp/GOOLTntD/LhdtVGV8RB8mBlDb95K+B1w7EqE0aXbOvo5WnTPbRaN78igiXIMiWDs6qP+18Cku2UW9v/X/Jl+MzJW+rdgMKwozEISknSIsQic/fFYs5flfctx2GTevglNtETglB27hIR71G3iZQ==
+    properties :
+     x : 1
+     y : 2
+     width : 947
+     height : 452
+    controls : []
+    type : 31
+    code_elements :
+     type_code : 73
+     p_codes :
+      -
+        type : 33
+        enabled : false
+      -
+        type : 234
+  -
+    name : LIB_Cadre
+    identifier : 0x234fa80902943658
+    internal_properties : CAAAAAgAAAA2C9EuoSrTYngfYlCEvwAjc0OXCtJNKTMBDKocTNYMCPqxp6UliM466JGYng9eRSBXWUbqVYFwyFt4miXk8jajzmITggsRM2+klaW+ru1GImaFrrW01fzyyfsr3IzaneMpdUjTY2BsEeg8KHAt6HEVT5XiWYQ4xTid/BjU4dJIH0Xl+4hA2jXQbmBv7MqRtS/fN2pSF/szIibox2Qy+ok4/8JzPOyF97QaDXzhpeeswZbBvWcZ5xSb3ZvO9h6hSoAxduQKoJ1KsrWqqwsr1TN9Zods2mXK2QFX9LQFvM/GSu++hfuZF1dlDlgXDLj0wqmwUxIT4UwaA1hQzpTXIjtmUiiE2Ewc4tS9eBMn+ueqQNvjP3y5wg==
+    properties :
+     width : 948
+     height : 128
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_WM_Sondage_Application_disponible
+    identifier : 0x23566ed5052c713e
+    internal_properties : CAAAAAgAAAAKFr3x8uNNAnDebxp2XECEQ9Na1jQ2VsAYdu0cTiVvHYpbj369IBjz9pz3DLCY0aLvOzDXn3P5tU0yCExtUzkYTN1+oPVUyGLg2Kou+ZsjYPga+2cdAykN69LdB4RS+98+tfrGY5/wuP7yCNsim50nK/3As05YUAd5F23thfVRU2Fwl9FApNrOcCzedL99vYw6mTaqT5wRz0OksiftyoUIN5/N9GwlEb3MZClfhNLzNoziYc63gY5j0VUIix5G/+IZ8XHTpMGku93mO2RMor7YpeUYcOfk20ktzqgXv+kQwDc1Su+HxtSxIkRqsXppmNlZVynIAKbRctLwwLq9s3QJ3rdBMnXbWElTg6fBFH6ATIvcfpacVUaCwnYZ8n7RoQy/VkUmbovz6Hf8gLQXlC2dDddoN4tpmdvVZJycVitaMwEsRnBgwCOpi1f5cmzGlhoFhVQ6N2zlJyx003Eifrglp5WNc43b7tIegTeYCoKAgJG/51og1OogZS2B3wOO8i+DR2qUuowQESGoHGUEvPXQyFkK7KB7HWgazCAKQOwR2w8BTbMwQljGk0am1T3bX5K5o6EPOjnDkXjvY91RyYc5Hxs=
+    properties :
+     x : 244
+     y : 114
+     width : 515
+     height : 193
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x234e8fd623c9a77b
+  internal_properties : CAAAAAgAAAAmcnetPRztEDWHZeV55+wfgzH8E79wQASMXae7M4PRv4cYAMD9e8A6gCASy1BonZ+wDOTkOveMUH5uug6jYhzK8wjiXCCuB/qbcJsikd56XuX+zCOOhgY58ts4I0fWT/fv9ttWf4gg/jk26jaDHbhF7FQnk8eUOx4Eb+FpYDfWNeWMoEYs0LXAclGKxUEc8Iy2egWYvVme/sXufELdXFzOEE5MpbbUDylGcFKBeWufvkmBr4YyRinbaaAzm8ONC5QzVbX9z6aQuakwOwqwSoofRdaGurgmIctaQt45c166VIz9xVVpQ78yRQLEnlErxyI3+mPhxevQvg19ah58a7xSvHwVbcYfo5wxqEBYgJ42WevmO89jhIjH8JsoBCXqE6Fe+QeaMEiG53REIkUqel6ZaY7WIc5Kcm05UqcKEWryZowUFDo2Ui5YqI0aOiMNv8VtWOZZX8o6KESlmsE=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x234e8fd623c5a77b
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options :
+   -
+     name : OPT_OK
+     identifier : 0x234e8fd623c7a77b
+     internal_properties : CAAAAAgAAACjsfDVyUu9a3NA8AgO5TwDM4lZT8zSsZplICvNvrAjAdy1lB5oAIgnl4oD6hGUBC+Cuhir2t2PLbfNplT7oO6MSQbt4yGY4NRA2ZyMnnt9miK0sXeZV2D1WE7ik8T3WW3hgkp63vsRUD2Shl2bmBkPdGJml90gCJ7NcQCBQEc7buMW00H1/VHmlpF/rvceDgm5JLPN0l5cwkm9XkrS5YUMEVExvrRwwDyMauw2s25uEmQIN3JJoQP7N46Nt1pcfiDISh9L5FE0eTKdyl4/yj1MZsERYEs8OdpfGbLWb+iSQK4R3gpkYt4h1gvujWsj4X6f
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          
+          SI FEN_Sondages_Tablette.gnModeSondage = CST_MODIFIERSONDAGE ALORS
+          	
+          	SI VérifSaisies() = Vrai ALORS
+          		
+          		AjoutModifQuestion()
+          		
+          		RemplitZRQuestions()	
+          		MaFenêtre..Plan = 4
+          		ChangementPlan(4)
+          		
+          	FIN
+          	
+          SINON
+          	
+          	OuvreFenêtreMobile(FEN_MENUENREG)	
+          	
+          FIN
+          
+          
+          
+          
+         type : 32
+   -
+     name : OPT_Ajouter
+     identifier : 0x234e8fd623c8a77b
+     internal_properties : CAAAAAgAAACM7Wg9r1rbJLpE0qsA3szREWi1mo1rWjS+fzdGDahQwiO5UfGvjJB3QUS7qRsibruxRI/HNWcjCg+XJGaMyFi5fizgPb1rvMVY3pAOLaHQ1WC3H06nI5YtR/1dRpJM/ZVXtvYrBuhMb/n/4dYu2oyUJVqhXPHRgIlqNx23GgG1OBKKvot8WzuzA6USmBGGVSZHk5tSJ38IZeGOzw34DqBBLLeUbwLN7Fu2DbWKAbdfsoSEq1QswHgM5NkMEM9hBYJoUSj4H+07pdOf6fi8dGxbirpFLnwnR8KAt7BVICJyb97/86lJs+6X5f0d+Q1C53Q=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          gnModeQuestion = CST_CREERQUESTION
+          
+          //Numéro pour la future question
+          NUMQUESTION_ENCOURS = ZR_Questions..Occurrence + 1
+          LIB_NuméroQuestionEncours = ChaîneConstruit(<§$0002§>,NUMQUESTION_ENCOURS)
+          RéinitFicheQuestion()
+          
+          
+          
+          
+          MaFenêtre..Plan = 3 
+          ChangementPlan(3)
+         type : 32
+   -
+     name : OPT_Annuler
+     identifier : 0x234e8fd623c6a77b
+     internal_properties : CAAAAAgAAABEIKlHEatAKviVCTMoyRZa5sw9abeNt2dRnLT76l6nxlZdVnC1iEjghMJ7cJZoXWHVhqSfwhyF7EAiEDsvfLR0Z97xvjTkZYEKnIaMyKlf8ZFZ6kpBPOqY6E3mRiLoz+YlJK7imHL9z29S3WyN7+Ze6b1mViiDdbxHq3lZOEAxGe3mr8TQcYh0bbzEeySbc0iN60IqSIKGLE6FUqlEYR1OcIGIZ/qp702nwl/h9vMD4h1peQcmIgWf/tgvS1B+pQ8xIwp3ilRMcYjUrmC6iolG4QNNN8KCMLavr9DsbgFFYmx41WOUl7cDpvd/fkuF/I/L9CxX4w==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+          
+          MaFenêtre..Plan = 4
+          ChangementPlan(4)
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAACn6Fn7tnpAKIrxJ/f+cuKVo9UMK4dBWT3K1FS9G+a5i3XWx/X6xCuPXTFG/bC1NyIMiLxnJCbBNdlIArfitYO80dMAZHOekqZGepIg6VaytbvkvPVP3GXI7W7m
+ code_elements :
+  internal_properties : CAAAAAgAAADoX9MLfGfWKwayS7h3VU0IxYS1fW9zlSB2kZU1q9ocHwiflE/MXMw7jrvAUMb9rvXxetcSO4tMZt/hlnkyfCGjngzjkA==
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      
+      // Identifiant de la note en cours de modification
+      IDSONDAGE_ENCOURS	est un entier = -1
+      SONDAGE_ENREGISTRE	est un booléen = faux
+      
+      NUMQUESTION_ENCOURS est un entier 		// Numéro de la question en cours
+      IDQUESTION_ENCOURS est un entier		// ID de la question en cours
+      
+      TAB_REPONSES est un tableau dynamique de STtypeRéponse
+      
+      
+      
+      gnModeSondage est un entier
+      gnModeQuestion est un entier
+      
+      bEtaitVide est un booléen 
+      
+      mafenêtre..plan = 5
+   -
+     code : |1+
+      FenCoulissanteVisible(fcGauche,Vrai)
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     internal_properties : CAAAAAgAAACpi7z3B7xtFtHq56gET75/meterDa319Mx2PPe6GUp4RsOQOC92r3h8olf1nRKU/wp3CgUJmqdYblIs2TZ55Pvxq7fAnJ/n/HD3Q2b56G1PayWb7brMtHgE9Pg+xhw0HuKlooQz4Xw7OL0FU4=
+     code : |1+
+      
+      
+      selon mafenêtrefille..nom
+      
+      
+      	CAS "FEN_MENUENREG" :
+      		
+      		selon MaFenêtreFille..ValeurRenvoyée
+      		
+      			cas CST_AJOUTER_QUESTION_SONDAGE :
+      				si VérifSaisies() = vrai  ALORS
+      					
+      					AjoutModifQuestion()
+      					
+      				FIN
+      				
+      				
+      			cas CST_TERMINER_CREATION_SONDAGE :
+      				
+      				
+      				si VérifSaisies() = vrai alors
+      					
+      					AjoutModifQuestion()
+      					
+      				fin				
+      				RemplitFicheModif()
+      				RemplitZRQuestions()	
+      				
+      				gnModeSondage = CST_MODIFIERSONDAGE
+      				
+      				mafenêtrE..plan = 4
+      				ChangementPlan(4)
+      				
+      				
+      		FIN
+      		
+      		
+      	cas "FEN_POPUP_OUVRIR" :
+      		
+      		IDSONDAGE_ENCOURS = MaFenêtreFille..ValeurRenvoyée 
+      		
+      		// Charge le sondage
+      		HLitRecherchePremier(Sondage, IDSondage, IDSONDAGE_ENCOURS)
+      		SI HTrouve(Sondage) = faux ALORS
+      			
+      			mafenêtre..Plan = 5
+      			ChangementPlan(5)
+      			
+      		sinon
+      			
+      			SELON gnModeSondage
+      			
+      				CAS CST_OUVRIR :
+      					
+      					FenCoulissanteVisible(fcGauche, Faux)
+      					
+      					mafenêtre..Titre = ChaîneConstruit("Résultats du sondage '%1'",Sondage.NomSondage)
+      					
+      					NUMQUESTION_ENCOURS = 1
+      					
+      					// On remplit le tableau
+      					RemplitTableau()
+      					
+      					// Mise à jour des informations
+      					MAJRésultat()				
+      					
+      					MaFenêtre..Plan = 2
+      					ChangementPlan(2)
+      					
+      				CAS CST_MODIFIERSONDAGE :											
+      					
+      					FenCoulissanteVisible(fcGauche, Faux)
+      						
+      					NUMQUESTION_ENCOURS = 1
+      					
+      					//On cherche la 1ère question du sondage 
+      					//Et si on ne trouve pas, on passe en mode création
+      					HLitRecherchePremier(Question, NumQuestion,NUMQUESTION_ENCOURS)
+      					
+      					SI PAS HTrouve ALORS
+      						gnModeSondage = CST_CREERSONDAGE 
+      					FIN
+      					
+      					RemplitFicheModif()
+      					RemplitZRQuestions()
+      					
+      					MaFenêtre..Plan = 4
+      					ChangementPlan(4)
+      					
+      					
+      				cas CST_CONSULTERSONDAGE :
+      					FenCoulissanteVisible(fcGauche, Faux)			
+      					
+      					MaFenêtre..Titre = ChaîneConstruit("Consultation du sondage '%1'",Sondage.NomSondage)
+      					
+      					tabQuestions 			est un tableau dynamique de TypeQuestion	// Tableau contenant toutes les questions
+      					
+      					HLitRecherchePremier(Sondage,IDSondage,IDSONDAGE_ENCOURS)
+      					SI HTrouve(Sondage) ALORS
+      						tabQuestions = RemplitTableauQuestions(IDSONDAGE_ENCOURS, Sondage.NomSondage)
+      					FIN
+      					
+      					POUR i = 1 _a_ tabQuestions..Occurrence
+      						FIListeAjoute(CFI_ConsultSondage,FI_RépondreSondage, csvisu, tabQuestions[i], i, tabQuestions..Occurrence)
+      					FIN
+      										
+      					MaFenêtre..Plan = 1
+      					ChangementPlan(1)	
+      					
+      				CAS CST_SUPPRIMERSONDAGE :
+      					
+      					HSupprime(Sondage)
+      					gbSondageModifié = vrai
+      					FenCoulissanteVisible(fcGauche, Faux)			
+      					
+      					
+      			FIN
+      			
+      		FIN
+      		
+      		
+      	cas "FEN_POPUP_ENREGISTRER"
+      		
+      		IDSONDAGE_ENCOURS = MaFenêtreFille..ValeurRenvoyée 
+      		
+      		// Charge le sondage
+      		HLitRecherchePremier(Sondage, IDSondage, IDSONDAGE_ENCOURS)
+      		SI HTrouve(Sondage) ALORS
+      			
+      			mafenêtre..titre = ChaîneConstruit("Création du sondage '%1'", Sondage.NomSondage)
+      			
+      			gnModeSondage = CST_CREERSONDAGE
+      			gnModeQuestion = CST_CREERQUESTION
+      			
+      			NUMQUESTION_ENCOURS = 1
+      			
+      			// Mise à jour des informations
+      			LIB_NuméroQuestionEncours = ChaîneConstruit(<§$0002§>,NUMQUESTION_ENCOURS)
+      			RéinitFicheQuestion()
+      			
+      			FenCoulissanteVisible(fcGauche, Faux)
+      			
+      			MaFenêtre..Plan = 3 
+      			ChangementPlan(3)
+      			
+      			HLitDernier(Sondage)
+      			
+      			
+      		fin
+      		
+      		
+      		
+      FIN
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : CreeGraphe
+     procedure_id : 1391207484239030139
+     type_code : 14
+     code : |1+
+      // Résumé : Création du graphe des résultats du sondage pour une réponse donnée
+      // Syntaxe :
+      // CreeGraphe ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure CreeGraphe()
+      
+      sRéponse est une chaine
+      
+      
+      grSupprimeSérie(GRF_Graphe,1)
+      
+      // On ajoute les données
+      pour i = 1 a csNbRéponsesMax
+      	
+      	sRéponse = extraitchaine(TAB_REPONSES[NUMQUESTION_ENCOURS]:sListeRéponses,i,rc)
+      	si sRéponse <> eot et sRéponse <> "" alors
+      		grAjouteDonnée(GRF_Graphe,1,i,  TAB_REPONSES[NUMQUESTION_ENCOURS]:tabRéponse[i])
+      		grEtiquetteCatégorie(GRF_Graphe,i,sRéponse)
+      		grCouleurserie(GRF_Graphe,i, tsl(7,i*20,100-i*10))
+      	fin
+      	
+      FIN
+      
+      // Dessin du graphe
+      grDessine(GRF_Graphe)
+     type : 458752
+   -
+     name : MAJRésultat
+     procedure_id : 1391207484239095675
+     type_code : 14
+     code : |1+
+      // Syntaxe : Affichage du résultat pour une question donnée du sondage
+      //MAJRésultat ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure MAJRésultat()
+      
+      // Contrôle l'indice de la question
+      SI NUMQUESTION_ENCOURS <= 0 alors NUMQUESTION_ENCOURS = 1
+      SI NUMQUESTION_ENCOURS > TAB_REPONSES..Occurrence alors NUMQUESTION_ENCOURS = TAB_REPONSES..Occurrence
+      
+      // Affiche les flèches
+      SELON NUMQUESTION_ENCOURS 
+      
+      	CAS 1 
+      		BTN_Précédent..Visible = Faux
+      		BTN_Suivant..Visible = Vrai
+      		
+      	CAS Dimension(TAB_REPONSES) 
+      		BTN_Précédent..Visible = Vrai
+      		BTN_Suivant..Visible = Faux
+      		
+      	AUTRES CAS
+      		BTN_Précédent..Visible = Vrai
+      		BTN_Suivant..Visible = Vrai
+      		
+      FIN
+      
+      
+      si TAB_REPONSES..Vide = faux ALORS
+      	
+      	// Mise à jour des informations
+      	LIB_NuméroQuestion = chaineconstruit(<§$0002§>,NUMQUESTION_ENCOURS)
+      	LIB_LibelléQuestion =  ESP + ESP + TAB_REPONSES[NUMQUESTION_ENCOURS]:slibelleQuestion
+      	LIB_REPONSES = TAB_REPONSES[NUMQUESTION_ENCOURS]:sListeRéponses
+      	
+      	// Création du graphe
+      	si TAB_REPONSES[NUMQUESTION_ENCOURS]:bRéponses = vrai ALORS
+      		LIB_PASREPONSES..visible = faux
+      		GRF_Graphe..Visible = vrai
+      		CreeGraphe()	
+      	sinon
+      		GRF_Graphe..Visible = faux
+      		LIB_PASREPONSES..visible = Vrai
+      	FIN
+      	
+      FIN
+     type : 458752
+   -
+     name : RemplitFicheModif
+     procedure_id : 1391207484239161211
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Nouvelle_Procédure ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      PROCEDURE RemplitFicheModif()
+      
+      HLitRecherchePremier(Sondage,IDSondage,IDSONDAGE_ENCOURS)
+      
+      mafenêtrE..Titre = ChaîneConstruit("Modification du sondage '%1'", sondage.NomSondage)
+      SAI_NomSondage = sondage.NomSondage
+      SAI_AuteurSondage = sondage.CrééPar
+      
+      
+     type : 458752
+   -
+     name : RemplitTableau
+     procedure_id : 1391207484239226747
+     type_code : 14
+     code : |1-
+      // Résumé : Remplit le tableau des résultats du sondage
+      // Syntaxe :
+      // RemplitTableau ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure RemplitTableau()
+      
+      Réponse est un STtypeRéponse
+      sRéponse est une chaine
+      sRéponseDonnée est une chaine
+      i est un entier = 0
+      j est un entier = 1
+      
+      // Supprime tout ce qu'il y a dans le tableau
+      TableauSupprimetout(TAB_REPONSES)
+      
+      pour TOUT Question AVEC IDSondage = IDSONDAGE_ENCOURS
+      	
+      	// Remplissage de la structure de la question correspondante
+      	Réponse:nNumQuestion = question.NumQuestion 
+      	Réponse:sLibelléQuestion = question.LibelléQuestions
+      	
+      	// Remplissage de la liste des réponses possibles
+      	Réponse:sListeRéponses = "- " + question.Réponse1 + rc
+      	
+      	pour i = 2 a csNbRéponsesMax
+      		// Récupération de la réponse
+      		sRéponse = {"Question.Réponse" + i,indRubrique}
+      		// Si la réponse est différente de ""
+      		si sRéponse <>"" ALORS
+      			// On l'ajoute dans la liste
+      			Réponse:sListeRéponses += "- " + sRéponse + rc		
+      		FIN
+      	FIN
+      	
+      	// Mise à jour des paramètres de la requête
+      	REQ_Résultat.nIDQuestion = question.IDQuestion
+      	REQ_Résultat.nIDSondage = IDSONDAGE_ENCOURS
+      	
+      	// Exécution de la requête
+      	HExécuteRequête(REQ_Résultat)
+      	
+      	sRéponse =""
+      	// On lit le premier enregistrement trouvé
+      	hlitpremier(REQ_Résultat)
+      	// Vérification du nombre de réponses
+      	si hnbenr(REQ_Résultat) = 0 ALORS
+      		Réponse:bRéponses = faux
+      	sinon
+      		Réponse:bRéponses = vrai
+      		
+      		tantque pas HEnDehors(REQ_Résultat)
+      			
+      			// La réponse donnée est le cas d'un sélecteur
+      			si question.MaxRéponses = 1 ALORS
+      				
+      				// Si la réponse sauvegardée est différente de celle en cours, 
+      				si sRéponse <> REQ_Résultat.Réponse ALORs	
+      					i=1
+      					
+      					// on sauvegarde la nouvelle réponse
+      					sRéponse = REQ_Résultat.Réponse
+      					
+      					// On extrait la réponse à tester dans la liste des réponses possibles
+      					sRéponseDonnée = extraitchaine(Réponse:sListeRéponses,i,rc)
+      					// on enlève le "- "
+      					sRéponseDonnée = sRéponseDonnée[[3 a ]]
+      					
+      					// Tant qu'on est pas au max des réponses possibles
+      					tantque i<=csNbRéponsesMax
+      						// Si la réponse testée correspond à la réponse en cours
+      						si sRéponse = sRéponseDonnée ALORS
+      							// On sauvegarde le résultat
+      							Réponse:tabRéponse[i]= REQ_Résultat.NbRéponse
+      							// on sort de la boucle
+      							sortir
+      						sinon
+      							// Incrémentation du compteur
+      							i++
+      							// Lit la réponse possible suivante
+      							sRéponseDonnée = extraitchaine(Réponse:sListeRéponses,i,rc)
+      							// On enlève le "- "
+      							sRéponseDonnée = sRéponseDonnée[[3 a ]]
+      						FIN
+      					FIN	
+      				FIN
+      			sinon
+      				
+      				// On est dans le cas d'un interrupteur
+      				pour i = 1 _a_ Question.MaxRéponses
+      					sRéponse = extraitchaine(REQ_Résultat.Réponse,i)
+      					
+      					pour j = 1 à csNbRéponsesMax 
+      						sRéponseDonnée = extraitchaine(Réponse:sListeRéponses,j,rc)	
+      						si sRéponseDonnée[[3 a]] = sRéponse ALORS
+      							Réponse:tabRéponse[j] += REQ_Résultat.NbRéponse
+      						FIN
+      					FIN
+      					
+      				FIN
+      			fin
+      			hlitsuivant(REQ_Résultat)
+      		fin
+      	FIN
+      	
+      	tableauajoute(TAB_REPONSES,Réponse)
+      	
+      	
+      	// On remet le tableau à 0
+      	pour i = 1 a csNbRéponsesMax
+      		Réponse:tabRéponse[i] = 0
+      	FIN
+      	
+      FIN
+      // On trie le tableau
+      tableautrie(tab_Réponses,ttMembre,"+nNumQuestion")
+     type : 458752
+   -
+     name : RemplitZRQuestions
+     procedure_id : 1391207484239292283
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Nouvelle_Procédure ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      PROCEDURE RemplitZRQuestions()
+      
+      nNouvelleHauteur est un entier
+      
+      ZoneRépétéeSupprimeTout(ZR_Questions)
+      
+      // Recherche des questions du sondage
+      POUR TOUT Question AVEC IDSondage = IDSONDAGE_ENCOURS 
+      	
+      	// Ajout dans la table de toutes les questions
+      	ZoneRépétéeAjouteLigne(ZR_Questions,Question.IDQuestion,Question.LibelléQuestions,Question.NumQuestion,Question.TypeRéponse,Question.MinRéponse, Question.MaxRéponses, 
+      	Question.Réponse1, Question.Réponse2, Question.Réponse3, Question.Réponse4, Question.Réponse5)
+      	
+      	ZoneRépétéeTrie("ATT_NumQuestion")
+      	
+      FIN
+      
+      si ZR_Questions..Occurrence = 0 ALORS
+      	ZR_Questions..Visible = Faux
+      sinon
+      	ZR_Questions..Visible = vrai 
+      	
+      	
+      	nNouvelleHauteur = ZR_Questions..Occurrence * ZR_Questions..HauteurInitiale
+      	
+      	//Redimensionnement de la ZR, en fonction du nombre de questions
+      	ZR_Questions..Hauteur = nNouvelleHauteur
+      	
+      FIN
+      
+      
+      
+     type : 458752
+   -
+     name : RéinitFicheQuestion
+     procedure_id : 1391207484239357819
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Nouvelle_Procédure ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      PROCEDURE RéinitFicheQuestion()
+      
+      //Efface tout pour créer une nouvelle question
+      HRAZ(Question)
+      
+      //Ré-initialisation des champs
+      SAI_LibelléQuestion = ""
+      SEL_TypeRéponse = 1
+      ZM_Réponses..Visible = Vrai
+      
+      zmlSupprimeTout(ZM_Réponses)
+      zmlAjouteLigne(ZM_Réponses)
+      
+      SAI_NbreRéponsesMin = 1
+      SAI_NbreRéponsesMax = 1 
+      
+     type : 458752
+   -
+     name : VérifSaisies
+     procedure_id : 1391207484239423355
+     type_code : 14
+     code : |1-
+      // Résumé : Vérification des saisies pour l'ajout d'une nouvelle question
+      // Syntaxe :
+      //[ <Résultat> = ] VérifSaisies ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si tout s'est bien passé, Faux sinon
+      
+      PROCEDURE VérifSaisies()
+      
+      // On vérifie les valeurs saisies
+      SI SAI_LibelléQuestion = "" ALORS
+      	Erreur(<§$000a§>)
+      	renvoyer faux
+      FIN
+      
+      
+      nNbreRéponsesSaisies est un entier
+      POUR i = 1 _à_ ZM_Réponses..occurrence 
+      	SI ZM_Réponses[i].SAI_Réponse <> "" ALORS
+      		nNbreRéponsesSaisies++
+      	FIN
+      FIN 
+      
+      SI nNbreRéponsesSaisies = 0 ALORS
+      	Erreur(<§$000b§>)
+      	RENVOYER Faux
+      FIN
+      //Blindage, mais ne doit pas arrivé, étant donné le code de "à chaque modification" des champs de saisie "réponse minimum" et "réponse maximum"
+      SI SAI_NbreRéponsesMax < SAI_NbreRéponsesMin ALORS
+      	Erreur(<§$000d§>)
+      	RENVOYER Faux
+      FIN
+      
+      SI nNbreRéponsesSaisies < SAI_NbreRéponsesMin  ALORS
+      	Erreur(ChaîneConstruit(<§$000c§>, SAI_NbreRéponsesMin, nNbreRéponsesSaisies))
+      	RENVOYER Faux
+      FIN
+      
+      SI SAI_NbreRéponsesMax > nNbreRéponsesSaisies ALORS
+      	Erreur(ChaîneConstruit(<§$000f§>, SAI_NbreRéponsesMax, nNbreRéponsesSaisies))
+      	RENVOYER Faux
+      FIN
+      
+      renvoyer vrai
+     type : 458752
+   -
+     name : AjoutModifQuestion
+     procedure_id : 1391207484239488891
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //AjoutModifQuestion ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      PROCEDURE AjoutModifQuestion()
+      
+      // Gestion de l'ajout ou de la modification de la question
+      SELON gnModeQuestion
+      
+      	CAS CST_CREERQUESTION :
+      		
+      		// Mise à jour du Contexte HyperFileSQL
+      		Question.IDSondage = IDSONDAGE_ENCOURS
+      		Question.LibelléQuestions = SAI_LibelléQuestion
+      		Question.MinRéponse = SAI_NbreRéponsesMin
+      		Question.MaxRéponses = SAI_NbreRéponsesMax
+      		Question.NumQuestion = NUMQUESTION_ENCOURS
+      		Question.TypeRéponse = SEL_TypeRéponse
+      		
+      		POUR i = 1 _a_ ZM_Réponses..Occurrence
+      			{"Question.Réponse"+i,indRubrique} = ZM_Réponses[i].SAI_Réponse
+      		FIN
+      		
+      		// Ajoute la question
+      		HAjoute(Question)
+      		
+      		Sondage.NbQuestions = Sondage.NbQuestions + 1
+      		HModifie(Sondage)
+      		gbSondageModifié = vrai
+      		
+      	CAS CST_MODIFIERQUESTION :
+      		
+      		//On se positionne sur la question à modifier
+      		
+      		HLitRecherchePremier(Question,IDQuestion, IDQUESTION_ENCOURS)
+      		SI HTrouve() = Vrai ALORS 
+      			Question.LibelléQuestions = SAI_LibelléQuestion
+      			Question.TypeRéponse = SEL_TypeRéponse		
+      			Question.MinRéponse = SAI_NbreRéponsesMin
+      			Question.MaxRéponses = SAI_NbreRéponsesMax
+      			
+      			POUR i = 1 A 5
+      				{"Question.Réponse"+i,indRubrique} = ""
+      			FIN
+      			
+      			POUR i = 1 _a_ ZM_Réponses..Occurrence
+      				{"Question.Réponse"+i,indRubrique} = ZM_Réponses[i].SAI_Réponse
+      			FIN
+      			
+      			HModifie(Question)
+      		FIN
+      FIN
+      
+      NUMQUESTION_ENCOURS++
+      LIB_NuméroQuestionEncours = ChaîneConstruit(<§$0002§>,NUMQUESTION_ENCOURS)
+      
+      gnModeQuestion = CST_CREERQUESTION
+      
+      RéinitFicheQuestion()
+      
+     type : 458752
+   -
+     name : ChangementPlan
+     procedure_id : 1391564490468821409
+     type_code : 14
+     code : |1+
+      // Résumé : Modification de l'IHM en cas de changement de plan
+      // Syntaxe :
+      //ChangementPlan (<nNouveauPlan> est entier)
+      //
+      // Paramètres :
+      //	nNouveauPlan (entier) : Numéro du plan à affiche
+      // Valeur de retour :
+      // 	Aucune
+      
+      PROCEDURE ChangementPlan(nNouveauPlan est un entier)
+      
+      selon nNouveauPlan
+      
+      	cas 3 :
+      		OPT_Annuler..Visible = vrai 
+      		OPT_OK..Visible = Vrai 
+      		
+      		OPT_Ajouter..Visible = faux 
+      		
+      	cas 4 : 
+      		OPT_Annuler..Visible = faux 
+      		OPT_OK..Visible = faux 
+      		
+      		OPT_Ajouter..Visible = vrai 
+      		
+      	AUTRE CAS
+      		OPT_Annuler..Visible = Faux 
+      		OPT_OK..Visible = Faux 
+      		
+      		OPT_Ajouter..Visible = Faux 
+      FIN
+      
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADzAbN/7znJcd1GmKXPawiQPYYg5E/fNEZbCDqxciGk9uyGsQLZKgvIhvogjguc7cz8n9fLVyM1ZDUtF1k833R9Bf+YWiba3msfo6w2acaoMA3TnofBJwwfQ1iEn6ALkRMMcP4TI1X0eQ==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f1e8bbf000b19e5
+  internal_properties : CAAAAAgAAACZEjEk9ePFZOo+39SDkDJRBhrPU5L8MGNkyQkX/peSMADIgmGIamrQQ4iQ
+  strings :
+   -
+     text :
+      fr-FR : C'est la première question
+     index : 0
+   -
+     text :
+      fr-FR : C'est la dernière question
+     index : 1
+   -
+     text :
+      fr-FR : "Question %1 :"
+     index : 2
+   -
+     text :
+      fr-FR : "Nombre de questions : %1"
+     index : 3
+   -
+     text :
+      fr-FR : Cliquez pour les réponses...
+     index : 4
+   -
+     text :
+      fr-FR : Vous devez saisir un nom pour le sondage
+     index : 5
+   -
+     text :
+      fr-FR : "Le nom du sondage est trop long, vous devez saisir un nom plus court"
+     index : 6
+   -
+     text :
+      fr-FR : Vous devez saisir des questions pour ce sondage
+     index : 7
+   -
+     text :
+      fr-FR : Vous devez saisir le créateur de ce sondage
+     index : 8
+   -
+     text :
+      fr-FR : Vous devez saisir une date de création valide
+     index : 9
+   -
+     text :
+      fr-FR : Vous devez saisir le libellé de la question
+     index : 10
+   -
+     text :
+      fr-FR : Vous n'avez saisi aucune réponse possible
+     index : 11
+   -
+     text :
+      fr-FR : "Le nombre de réponses minimum est de %1, alors que vous ne proposez que %2 réponses possibles"
+     index : 12
+   -
+     text :
+      fr-FR : Le nombre de réponse maximum est plus petit que le nombre de réponse minimum !
+     index : 13
+   -
+     text :
+      fr-FR : Le nombre de réponses maximum ne peut pas dépasser le nombre de réponses
+     index : 14
+   -
+     text :
+      fr-FR : "Le nombre de réponses maximum est de %1, alors que vous ne proposez que %2 réponses possibles"
+     index : 15
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

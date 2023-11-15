@@ -1,0 +1,333 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_Menu
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_Menu
+ identifier : 0x22728c9e0cdf889d
+ internal_properties : CAAAAAgAAABudRIepWCO+VxLcbiJ3L+EF6n+f5TNkwXgSwOgFpz3TjZNgQpqgb8Bytoe8wW+pq9tPzT+LQlwe2HizPw8AOl3UF11G+AzuCvEzbn1na77n+fcOJc4k5OpiFvRyZ/vWGsUylYliV6IlhGS2w3dW6QVA7AfR66ndO4RQ4vGXLwPIsGKJJiWzjT5Szlo13CL/XLt7i1GmsWPBCq+TjqoVoj7GR8f/XSRP3QsItb7KVjCJ/VsgvywjxtOPG9onU6iLZj2cKDK2LSDkF+NCKkLHyZhbtRplrO4fb3YrID2h+GPf+Q87Qq9Or2oHIjfF60hGKiSnois/TNcadmS42lKEsaBOeZWPydrv3FtXnbrMocHwsxXCXGtdBlJNFGM87VPwEPlOt7linBNVu3FleM//qzXcil6qyehbBJLw/l7UKHzbh2pQxOGh+L1M/oQ/ASW9+4i8eRw2nptjWlJg7poPgneDFRMSBjegW7cNPEuSoMmLkm+HubNNQ55NQWj4w0Yc2TZiMIo2GB21rXW2FjKaNG2S4WP/PiMvzK/7iZ+oaPqjV4XXFTrtLrtu0QwFEicaCkcnHR8L8l/54LJqLMbY/XbK1q4HFTNMMZLjucylKjy6LHw66rJl+b7O3ehFkGOjufgASGoC9O64Vgv2TTFqRyh8t2dDxhZuZYfrUKAEvRWSNTYgk2ETZNifeS0VKfKAcI=
+ properties :
+  width : 262
+  height : 430
+ controls :
+  -
+    name : FI_Menu
+    identifier : 0x22728c9e0ce088ad
+    internal_properties : CAAAAAgAAADP1O6CPYXmOIPU/nfcLXbuuo1WlrQbvFtr9XQ8LLtwD0KV7qssaXmKg8pGaerJZdX1PwXp8bcgFdkLBDwp43In/5TtrYTDSUg64AwwOht8IdzJ81cQIkJ1LfGZBtfT1GK4VO0D066V3VVAGAyfrBvx4McbvJG6I3mHn0/40RlBpR5vXzgXaKy4Y+VOkIvnogAL8o0uyk8OEZY/L6Bg3FK6/4GM0N+1h5tgmCxXQN4JvaiH1f/NKSd1TzdU/HaGQKAg/pOhHRoLknIAK6Dkw4BEPykToaqojmW01I0hO2zNQzvcP+LvhkfEhdDICip4YmmVsgIYFmuCItMmjLXTXZP5Abvo9Zl8T1reQ4vHpDJ3Pm6NI/5T/mbEvIRa3MjqZ4lBYpUinWWEPFHz3OOkDJ2JhRKIjG+SwE4CTMVWe5/Lgrah+meRnp4/xTgD06kDL6wyKIiFViHCR4x3aI9lIkEktrT8qiz+yybKtJUFtSFqmZkHSjzI
+    properties :
+     width : 262
+     height : 430
+    controls :
+     -
+       name : BTN_Réaliser_un_sondage
+       identifier : 0x234eb03629a52093
+       internal_properties : CAAAAAgAAACjEQekn9TXxYtvnPak8XMvmW7lSlrRs79b33IL+0a7d1M7PpSAxnCZFGw1l0vwCisALia51MCSNvFzZJ4Lz8KLuXcUbQgSEcj3JsJfuR3Lrbok1pezL5vZrKjcdaZN12+dHVlSm0VYsK0PKBDYKjKEVgebuKJV1ric44R2CrweWXZJtsuRqBCiK3LXMwjCkvFTRi/YO+8wHBdVJacmsZHCfDAyk50obV3kCwkujf0uWshqrXv0WEZCk3hQKcU0JuEeHrWJV1KMwTKIsr1dy6fc4vRAKiZ+SrXy3ihnk2rLM8fgHuX5YiY8wuNIw6CNl0T3fvz3hGI8bjw66E2kwe6ynJOz7E4uhfGTYXJPiGoyIGxTA3PQ2SJ5NNgz5zc+E+dEH4d1veDw3M/wp3Rohtj8HNKjA9xxXmb53c+J6AXGcXCBi859S1AeajIOUF6bQarIIzLxYdZ/icJxAgXDfXBH3jMgq3adfRpzsU2I39qL1gSrw1az126aHarqU6KIVqSWQTGqFUzgXJiJ7f61LLB9X/8SidybERLqk3maf6pG9dg/6vvcPxxcW3sq6O3gsfyRFCRaNzc2+nHFRRQrnHhEopN7CXe21ixxBFrd9AsACTHIoH2It7/FZexgY6hC31hfGL6yAgWrUMn57vVHHYMuOBsLAM5dya1q68btahcQgkhxB4eOPUAc8JxZY4hp9+gBOPhQfRH1nelFMM/+WGi6WvemApmAlf19MRwtsMAiJcdMgA==
+       properties :
+        x : 48
+        y : 324
+        width : 210
+        height : 42
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            
+            FEN_Sondages_Tablette.gnModeSondage = CST_REALISERSONDAGE
+            
+            
+            SI FenEtat(FEN_POPUP_ENREGISTRER) <> Inexistant ALORS
+            	Ferme(FEN_POPUP_ENREGISTRER)
+            FIN
+            SI FenEtat(FEN_POPUP_OUVRIR) <> Inexistant ALORS
+            	Ferme(FEN_POPUP_OUVRIR)
+            FIN
+            
+            
+            OuvreFenêtreMobile(FEN_POPUP_OUVRIR, FEN_Sondages_Tablette.gnModeSondage)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : IMG_SansNom5
+       identifier : 0x234eb03629a720a2
+       internal_properties : CAAAAAgAAAB/W9nby5k6CjLGDLw90ZG5Hi5EuUxiz2QEigG1BLQhX6qQ3JsU1zI/xAcVkde6H7I+ya9TV3ekupJcXaDmqVJ93O9CpYsir6xQ2a14NdyZKRTXLVKmY3zRDAE6dZyH3MCGhgSEqFW/Ft8sXLU7EpTxQxFrvD9i2pj6Cy3OMri1GSq/N7PgCH7JdIR6wNbOnKjvROU6OJ9DL8i5V85Z+cRLDmJ3VUFHrOb4nfCx9gbfwvYMT9NheWDvn5x1e7iI94O70/ksk+9uTXTxlRF+DsVa8oItFAlHF4Y/Nwxb2wGaqKdHu/sz/48VKfluGX40rsQ3zWxsbBRmG+x8bzEaJXpDBcAtKiZ0/arE6JzNdvHGfvlbWEmpZk0TPXi6qomV9HSGU3rVM4OG6vkXIBkGKK93yVvMBFdMhPeTEIqi+up3/WPQRkCqsVKkQwq+Feav4uRxWdZzEv4ARt/Q7cPmmU5Rntzg4iONomGo4eFBkgJfBS61w1fOJwIJMS7rPVVuL1omlFOe/vlDcxLHTPe6Gwl8vJyDVUO4GU7UtFDQZusyfFjaIEeUwxW+22otHqS7GFFQECwhqO7WhvMzQ6/pFOyCG0UxYIBhlVTtzntDW2iXGNCfEPD6fvSA9OCQLkPj9fej0bBr3j0lpHeW+Bxy1B/tokOWD84zTjA/IkFmzJ43Ejpc67dxP0DTyGqa/Bb7K8FnDEwSYTghcFWmrS07xGHCSM0YOSB/Mnm+iuIelO/nFbmGPAg2goQux1mxMakZRQy21ok++DTmBYEdXIo06Q1dC5BbJGjkhtaWMwjE9CI8dNxh9/mrBA/DGkoIXjRfdzVKHY42jhCl6Kfa12GRtSz0sEOK8NEelC3CcPw=
+       properties :
+        x : 15
+        y : 329
+        width : 32
+        height : 32
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : BTN_Supprimer_un_sondage
+       identifier : 0x234eb03629ab20a2
+       internal_properties : CAAAAAgAAABiIfNOVex/hoU2cIQr90P/ZKK/Fb6jr0DfAmbp2y2yiDbrrLMiupj9P5sZccyACQhfUlQkoGwdLDjU/ym+GTtP9YO+63AmHOkJ7xanhZ3NeqhnYKqnAZg3Ppl6cwTjVmnZdXWZ/oz44MvLcVwaR9z5WACYThQ49Ut+ci2wbOSF0709iuBuCoa5/uHpZNgvS+ouDs4mWSuCH4+RFRZsEX+0p9tCUTxfwz684X9inTWzNLT2t5V0KI0zpMRzIWJiR8TTjIt+4CW2F4SBV/5MtsWUY9q9qkFhhZm+562gbI2ZYhSrOM/LaZ/4XFkl1aj+nvlq0GHAF1asm2h3atPasGkWJ7o8z4MMATKJBMMM7kO+65TKJdv9pRCEv8Eq5IOCgvmPQK6bodhZB/HLaWH03JXYhdXks8ZfEXvL3jcCEAVp9Tu+niD1zU2NuulG1147ho7rFJ/FN8g4QI7GxnoPRb8p6bjNqbqhKon3jHtBYQxqWHm6TgbtVxu5rUn4eGCKwShvaBpuZ9wHVewkL3ujRlWHTlgdifK9wMO+nnG/VQR9T5uEpaVM7x3f4Rhosc/i6JYsefFOmatJvyMQf+OJaKUQg26y/79q0xtrX8xWfNu11Rx1GfmehVCE5RtQACVqqAOOyvLrO94xuVh0tr1lTdQeFcw126QP7O0en7H1agHd+qAk1alSytFlcNoJU79OgZVVPEKt+sDNlZxaKXln8eqY3fCjxQal4zIDHfpskqgh/QTTHEibBA==
+       properties :
+        x : 48
+        y : 268
+        width : 210
+        height : 42
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            FEN_Sondages_Tablette.gnModeSondage = CST_SUPPRIMERSONDAGE
+            
+            
+            SI FenEtat(FEN_POPUP_ENREGISTRER) <> Inexistant ALORS
+            	Ferme(FEN_POPUP_ENREGISTRER)
+            FIN
+            SI FenEtat(FEN_POPUP_OUVRIR) <> Inexistant ALORS
+            	Ferme(FEN_POPUP_OUVRIR)
+            FIN
+            
+            
+            OuvreFenêtreMobile(FEN_POPUP_OUVRIR, FEN_Sondages_Tablette.gnModeSondage)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : IMG_SansNom4
+       identifier : 0x234eb03629ad20b2
+       internal_properties : CAAAAAgAAACis+bkAkit/Rlq4+Q/6k7v6bIW7NNLoAvX6FRQZP7GAVk67oEmIHXkRHw3MzvVN1Ca/ZykJ4WztMkdKSJnp/OXCEo8Ts0/4DyQCezhHQn0KOWdAQw4YFqZT53eV1vzrT9dVCOEGvZFFvCZlU3BnF0tuPoCngstdTqC0OdaJYYiECMzbKndX67gmpbFDinh8gpiZ7vPiI4THTvP1vPoQo2U3NUcpvCYWi4a34JrgFg1K4HRoB8xflKg8CO2p+Bqtple4h7NSL3jhMeEhu/npORb+WyZkDPzs2kuKu4TuQMO+cbU6Izsonv6MucSMgLucU+QagRwwFLSiniWmM4VUnMuRh3dRhGK5L4AhqsB4rOV5Gi3TKfjV9gpQebnC1ofIN2O+BsZRuU7fiDATN36o2UlPviWAMsGoMFjuZcDYAu4fZVJCkEAGR/wvY/RXX1vltJS8GG1RdJ5zm2TFhNB2borm3tvxhg3jaXuPoo9xSBNwSkKsitxl0dvoZOo80L01ZajYU7Y+7tEPWqir49TC72yWxssj+YCrIJ2BSs628ngfPcf8avdH5RkV+dgtkFrZDMNt70bEYrHZuFwTKkgPg7CqCoIzF0BUpIR2w4tjpYVWBN+V0oj2pPwdlszVOjrmXn6Qh/PE6E8oku3X6i18kV1tyS7P9sfF4ixLcWZ/r/oY1Q0GxYB6Dqkg/wEHbCEJO47oIAdM9OJm7pG0U5Leb7jyOMglEpGKDxPHphJqmoOyLkkgClQSZBTHompNvcQOJPY3EMhUtFUCogP+A1CmBic92Q/AQHwuN+hXh09NkOpI8Y1PH6I/CFuq57dNBn2u/kdXnv5Xun4Bd2R0ifWPEoDqbDPplhESaVgyA==
+       properties :
+        x : 15
+        y : 273
+        width : 32
+        height : 32
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : BTN_Créer_un_sondage
+       identifier : 0x234eb03629b120c1
+       internal_properties : CAAAAAgAAADzT5b0da/RaFzNQSWTk9sjDgE5OCxTkr54SawicTAMMy46WgfXcwGedJK7UKDddMYyNdWNhN61qTrmyIm4OsdbgMmEzeVNaRLsoXpE3dzaireneHu7uf36LAKDbVqFlv+hqIi2rHE8wVMwJiI0S8fXJvaZdkIz5G/vA2YHQqHE9nxL3NNQZBF57SpLjn/6l0qMmL+tcQPQo6cz6Y7yP+IX5sLd6PfYd2SoC2S8MzORwHyv+Z9D71o1kXX4AlFbdxk+53b51lB2jNtct3SfZ3oND4pu5pBoZ7llCwS4PInNupjLKzw1pZKAgWjvso7eSLb7nso/mRJpVJtYmk4xTU7AgMl90rXo1vs81nTNgIF1+xIx/EKzltgoBQW6KabyqBNWys7XmhxwFp6hMhqpdE+u4M+akQ31tvioLpqxYXsNoXLaVP4MF6hkHUVD9DPpvjZquj3rJprfJ4V60+8y381rwABdZR+ZrZw+ipzmzD5K0MiI6PjSQSj2CI/d3Q9K236GhsD0DOgQBgWENvpYOtflMXjzD3X3AZg3bKTq1CT7uQqqMd0zcyT6iuShpnL8YObBK4mKRHtelJ4SaromVH3IYOKS+8DSRvZ8/1ulC8X1fbs3Cc3rqaFZSEsp6TKDo0Ud+PZTpgTQvI9m4y6mh1QW6rj3vem/ETL9TV7aH++zJGPqvzOl/Bigm+AayJK+ABUW/sp3Gd4EpP9r4OKudZC7Q/uub+mbjmru6WO9de4vTM5a
+       properties :
+        x : 48
+        y : 212
+        width : 210
+        height : 42
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            
+            
+            SI FenEtat(FEN_POPUP_ouvrir) <> Inexistant ALORS
+            	Ferme(FEN_POPUP_OUVRIR)
+            FIN
+            SI FenEtat(FEN_POPUP_ENREGISTRER) <> Inexistant ALORS
+            	Ferme(FEN_POPUP_ENREGISTRER)
+            FIN
+            
+            OuvreFenêtreMobile(FEN_POPUP_ENREGISTRER)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : IMG_SansNom3
+       identifier : 0x234eb03629b320c1
+       internal_properties : CAAAAAgAAAB3U8Fz48FSUoou9BRFSXnRBna8gbQ6d9yMIpndfFy5BwKIhFNMn+qHfC+9aZ9yZ6qGkadbX2/sknrU1Sh+EcoFVGfqfcPqZ3SIgfUw/RShYVwfZZpuW0TZBmve+TCbcHRywlAQRDFLggMoeDHHnqCdd/W/sFPGThw277GCRjyZvWbrc498NIrFqHC2jMLK6CC27L1AQtGXUfpdyawBD5bPSMq/67sReBweLdLv3hyhPohk68kP92iRNSQ3vexaxYOZNzkaaUUexxJJf5cGsJvKrPpFehuBW+zBQ4b9rz+crLF/j73h9S+bO93gD37WrMQRPQwe3sYq9XLEOSvOfwhrV/ABcAgO8ZxiKE4bhi+UvhffIH8DMGENr+TAEOnzXtlXp+6DtRVy9L93rgcuMqEr2/Oglo3ipOVpfBSU/jjNlb2Ixo600nFDYlk/9heUhzdCVP9QP6+v/V6baujTmg/gU2tRT8iGeUBrxF/eZyv8MPcUhLR7yJEQCFm4Strn/NX7ByCn784eVjm6ISTv1NZfFQscytixINnLi9khNwhn1x2JafSxfJy9ov1iI7GMyfDNr2V+Nf/1JYKSNFjCKdn9gMhG8fn++Du0CXhASJnk2wlOoa3nzzNDcys9O9BEwoJodIXkXzIQB9LJVbnHnQyoh1K/dCv8NZe2KTlqyJJ7dv44L5OVc5yvdIZGaDqnhz3DQBhmHSQ1BBk60aE3+HV2fNnMFUTzjtU69v4aCJtzwaVCRBA+urzmj5F5aeHRDVR+HkH2MPyuTdml1BK8cYXVgwjDTDDcfs6eC1C87FoEvISJr7HjzNcLUjJgBpzHj83itRa+9uh9wE8yv3npTZRcGCviKKlGvNW6ePQ=
+       properties :
+        x : 15
+        y : 217
+        width : 32
+        height : 32
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : BTN_Consulter_un_sondage
+       identifier : 0x234eb03629b720d1
+       internal_properties : CAAAAAgAAAAAwXIEmh5a/I0ahW+UV5lrqdmSoeqNA67bJ9O69FKW4WfvLwZDULiRz7mvRuZKhBHM45OJtM2D5RUrp+x68VwUje15k/Asec2E/pU80gPIbbT0VbGsv1FO1poyUbLLr7j7ga3mDqKp3SxMAwY+PcjAbPz04vcZbYYja/k+J80sicple4unb8udCEbFq2tsG11YXz2ba8DRa5Vj2ZIJqU1gChz/jPo+kfNQ4J7w5gsblGaUp9eNSP46M6bQepg1/NayQOydVtL5HTklDpYlCQxrmuh7lCbYhy7i4b8XkmT6nWw5QvIvj2PpwRb/7bXISUOraBzSiGnxN6gn350Wx/0BJotSa+RhiolA4OCi3Km85xscuaRj9TxaISzvsijEWdr6DmH2Tyermt61IS3VoAuFhI/rbc9VwGPZf0vVOTmoRYynAZJ0/+ymKPm2HiZMYAJ2ZEpwJaL6FBbScH5OGIRgUB915t7DzZjM4wWlGOJy/8Uq0Ouct0WCSbS0zq/3hyrjv3rWr3tdtE7oKqgvbSgVbLF5/FtHINDyytbKVF5tH+wUJykO8hjACf1M8n2jWKcqQbn60m0p4i+lo34Kplpb+dPxrlGnlE+SIcABl+c/gBcLzJZUZbOiDX2vnCCmq1WWlQQQMuOvFtNvVQfp970t/lbwe1+RR9qH8ojqCjwPtjVJzMcOAgMIo0sDeHODVpah1O7lZQ6Go/hJ3qxn0hwxcE8aMoDGBXl8OuTEtZpnJO9TmLf19Sno
+       properties :
+        x : 48
+        y : 156
+        width : 210
+        height : 42
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            FEN_Sondages_Tablette.gnModeSondage = CST_CONSULTERSONDAGE
+            
+            
+            SI FenEtat(FEN_POPUP_ENREGISTRER) <> Inexistant ALORS
+            	Ferme(FEN_POPUP_ENREGISTRER)
+            FIN
+            SI FenEtat(FEN_POPUP_OUVRIR) <> Inexistant ALORS
+            	Ferme(FEN_POPUP_OUVRIR)
+            FIN
+            
+            
+            OuvreFenêtreMobile(FEN_POPUP_OUVRIR, FEN_Sondages_Tablette.gnModeSondage)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : IMG_SansNom2
+       identifier : 0x234eb03629b920d1
+       internal_properties : CAAAAAgAAADEoL9FKetm9QskzhF0/+iO7ef+YVUX/rAgNAuNiRTMpFMb9qBtpi9OHaJTpCuxyvlruo8IzVdS9skmiML0g0tG2GqjvoJbVwLn21p1UXhVKdeE80qTRdYGGxbQeXIhfWqsTRFWaRB5FnVRhtKKf3QsHEBy/SSzXOXIJ5rMl4pFBRTGs2mwXVNV/3UE4Jz53s2C3pLvcTJ1nHUJr0jFsAK3L1TaCJxih7jn1i6LuoF3/R339rkQE1TdwOOfqJqIurda/LA2cMlEXgoeiugZcrdEaIS56JeGmc6S1kLnq0Ac5iEt+c/S8fDw7DIvqAAO+xX6qMUEOjZuXeskzVDFRrVk6EMalILZXUWI5gbQ5Dt+09Wq8rFRPBquiawuLebKIkKCGjXtZYke/K/EGKMadngkY1pNngxQdbE3uG/vf76x/AeCLxqZTTnOcDU+6UuOmIgPWsHUTFb1hUda7h6x8TtQy+UbKSad5F6NKCw9Mz5ydhNXCdG1b3uvMu0j3140uru7eneGd9vQ3dEM4Hl95WQVaTqPoaZ2rhAddzzoS6TS2cTMvGGysKLICwOE3mMzViXGeiKFSXIOU0mDYxI6urZPzFEVmRDWAAxxdEi5zw6+K3UQXymoVg9PcUc2PsW2WP7kQ09fcz9wrPTHYMzIPozHHeEz+VpP1jkm17zfgRVl9pmqVgYxLPwEt+fIzy1XIQwC9lgIoiFIS49icKUY7CVNtxZVcuwf4iOsb0y78YbEqE7/7wULmeDcnJRZRW9ffv4OLG9ZC0NPD+uRfKDjsowaZgh4TI6eW+T7MIBnFr+59QjDBJsHMJmyD1nUcOFWyLd9UUGSAaYIyYgAyk3iO9qIr1Z4AKzvfTjbu1B7
+       properties :
+        x : 15
+        y : 161
+        width : 32
+        height : 32
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : BTN_Modifier_un_sondage
+       identifier : 0x234eb03629bd20d1
+       internal_properties : CAAAAAgAAACy9T5VOsBAMOiONfOefBu8A9P2rmCaEsr3B2DrPPtlx2qUkoa5sO4onI0NEKlQZuQj1OJBmqxxBrj4LKxqKG2sWmUO5aPDXvf3+2ADGLXAOyILdPTYavnoKBUcpoGNBVJY77Cw4gCBjFYi/yVS6HFgPjo4UUyV3ArfJetg40tv8C2WVrGxOVvvw9n/Hy8E5U6N/tKo+g6UOhSSl9tzSBdXbLP82Oc117Fj9tMv4E8Ed99odji4b9gnOq/7TB5VkfNzBGLJgHMlR/kG14IZxAXThg61cCZCLEQ/f9p0BkZhDkakjuEpPQH11HTk3QqYYlRmHEYtxovzp7/pW8edzevqWFulVCrzPkZA9DY8kFL/EEpEzY6s81iwGRb797qboPotIUgTMDf1UlNZRf5pS5FVU+aMAWPimdTlREe1Ww4T2L197HTGKlXgrnHs9JXU8kGd6y+LqJWkcQBEVovYalkuq6WBMx9uKDTPoKFwcPE+h+vxvKLgir8qT09E/bl5A0tTr/J0nI/JZG6K0zRQrX2sINcNqyOWYiZwjFnEKI1xCgNHl0XxFIMEeQSCvHYr0JmQqBlcgsov9s9w2cx4fzNr3386YZhjJSjbu+Yro8Td2PLoYz2pGgDjuety7x7YonJu7z7hRD1XDE5G6i52erLDe1dRPZk6pmh8YbVqp+oRkRR1q6FLxb8illSB/4ssNhxR8xK7sSj0tQciDSQ4+DV74zHtSWDNzE88W1LZVcS8eEsSaSEV
+       properties :
+        x : 48
+        y : 100
+        width : 210
+        height : 42
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            FEN_Sondages_Tablette.gnModeSondage = CST_MODIFIERSONDAGE
+            
+            
+            SI FenEtat(FEN_POPUP_ENREGISTRER) <> Inexistant ALORS
+            	Ferme(FEN_POPUP_ENREGISTRER)
+            FIN
+            SI FenEtat(FEN_POPUP_OUVRIR) <> Inexistant ALORS
+            	Ferme(FEN_POPUP_OUVRIR)
+            FIN
+            
+            
+            OuvreFenêtreMobile(FEN_POPUP_OUVRIR, FEN_Sondages_Tablette.gnModeSondage)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : IMG_SansNom1
+       identifier : 0x234eb03629bf20d1
+       internal_properties : CAAAAAgAAAAcOmiuvjZb9T35HaMQntvGz7OZZLFnEk8D/9ZY5cWmIh0/J2B9iDnCa0Bm/LhbXP0hXIYsiBDzaVmB9vfjDo/A58p9oiBHGu/TrhI3iolu1IuetMtTeC+USAnuWQz3iBhmwkTMcJU7+j/woHHzSpB5g+XDdHciZlzq34mqIlAxkVKTD2uQGLot9BD29Eb2MBS6lAmsNnUvOd5FWbyFOw4TdLq7jz99sFSqZXrn4tiBUjS8z227w1gR+bSnNcCuhfvQN/0gd8vC8fCVqT1i4pHOvmbR6H0jq0qaTOPZf28wnLk7V2UJ7WO322GkQ76WKHz5ycQmFo7uOXKI9bcmX5yjH3yZODBmFXjq5CrfRgfoHh/TIHe7yFU5Z7BsPAkjalUnq/YL9eWmKPdjQjuOWsVbk8+gnpWaoPElEChikkhFZa2g/mZM/sWPVjUrInsw11W0HiG6wSkla9gRjGLFvGXKqUFDuZpAT469YuFEjQFmDtn++sJpXlvaxpt+yNjt7vt12Q69xdwAsJ+UR7rFGsiNZ236ILYXiktJ/Wf/VR4BvYfrxwqXms5vgM+AyY+iM44QXZThEKae1kvTgw8JxETa6x0RWECxxYwttl6ailviBZfc019JIYERfWnnVSoO+JQ+Su9OuQTe3ZxHx6txz1pKfcA5jgXWC+3In7s04nTZENx22U0nTVLt7jTwgpxBbZdRVhJgL35rOnug0/sBEpOAmodeRx5F3Kv0NLjsWgXBc2uowqSq4AYu1/kHOQGDyxZYElv+MB78lem96vok67vPweAhgMRK0JoyU3Z0pJS61l7NCXE7Rl2PLg5qOsi9iXt0TVQaql4ncB+aubmSgNN9P9IVGbp56YARDxs=
+       properties :
+        x : 15
+        y : 105
+        width : 32
+        height : 32
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : BTN_OUVRIR
+       identifier : 0x234eb03729c320e1
+       internal_properties : CAAAAAgAAAC0TS2FoaAc5dp94sV/5ij2XPmzDzGzIfus4ZcJ5NjPPyuizm1atTdE3e1TunQ9gEp+fcCtndgvYlA4xjdJxx8M5+G9ZR2QsozsIoAgVBHBFVnr9cfmCsd302j4E8joqfpbboYQzYgd/ZkmNzSRncEoRAPLJ/Al6SeikQsCbKWi0ozEaGhE0kBj4dyjyzQWhSt2bz8uTdPuGr43R/0qQqx9Viqzrpojwl7cTUoibf6FtQs/6Tk3J6frYOGFymWmJVY46lr4Bar4VBiQ8YKmuN+XIRYBA+0pf0SquxDy6/D+kKxzCS2CJ8P2udOzteb6fpFyn1EDdmkeidAY01ClfxmoSDxKbS+5pWad9dMFpKYSl/sEdQ+TBUBCrIUCONpZGgD38dhqa9QU3PYAwDd39eZvy4DPU+s+PXkLlnR2uvUkroVMmoYNk9UVNp2OSfsCD/BIC8DLn1KNo1xb7cSF4MXNF9YCY4Qgbs2Obvw/4KDJE5M5Fa9/dgMgAvDUlVZSsz1xTdWEY8CLV1AAvn3Awf01Ud0DaTCxIYJslLj+z/pmuZNBi7Up/MdQhcasZoZxcntPzGuBQS5BnpRdP1RsJUp4odOEujsV0VIPinyPDh6DRpcAyPO9qdJ+DBnroiuRv/KdAz7qF5YSElVwnwBQobbzmVQy6tcsOBLSGlwd7rO7cY1cfsKKa98s6WQE1q9POU8waBDgWq6En51W+JOOllmcPgR7ZniT/fd4vSvXw8+71aZH+dvZr9yuTLez
+       properties :
+        x : 48
+        y : 44
+        width : 210
+        height : 42
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            
+            FEN_Sondages_Tablette.gnModeSondage = CST_OUVRIR
+            
+            si FenEtat(FEN_POPUP_ENREGISTRER) <> Inexistant ALORS
+            	ferme(FEN_POPUP_ENREGISTRER)
+            FIN
+            
+            SI FenEtat(FEN_POPUP_OUVRIR) <> Inexistant ALORS
+            	Ferme(FEN_POPUP_OUVRIR)
+            FIN
+            
+            OuvreFenêtreMobile(FEN_POPUP_OUVRIR, FEN_Sondages_Tablette.gnModeSondage)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : IMG_SansNom6
+       identifier : 0x234eb03729c520e1
+       internal_properties : CAAAAAgAAADZ8pjlfs99VHAGR8R3nqc6tzyvAYUonQN1BBapLxF3R2UIyhLQNQG5oiFko7KuX5bmO5bLepRSYt+mXvTK+A5V59yy4uibv+y25HXhw3MGVm53BeSTokvzdJ+AiHuZ4b5jGd7zsLXV14EL/1cjR09+XsV/b2MatUvfxarpFYZSBb1QB4TDyEwb0TIlu70x8m+QXmDT3vGNYM6FNFT8bLRl9B5RO06dtVJ97fBnfI2dpkENMJzmlew3enUEePNTxXAKGFUNm5IABUAgoTv/T2HR++3gxxNOB+rEUGhLZdWte6kSsmogLE3BHEj3iulENWauz+0GjhGKLWtC2ikFsEw46VJtwjEoGaF0/1RXaXBbPj9MMdaf/qaeIy32Xb1XGwFW3dwjXad/Nyd8PDKmJ1CcKI+Ikf/D0GE+/0emmo/+X8ambVSOZW4AB1Yr6cHU557DO9gs5oo8ORxjbfd1CBq20FjFj31TDYxf8VEiirHBbDi9zGOM/z6VrVGGrmFl4xTaZ2iKI3AhRJUbK/h8QmoWWMhzeKHCb/MT/9VlCGMUSET7K+7XRl+9KKweQJXKea5jR4tPkJDgl7zza3Wx5oxibURZoM5wKiNzkooL0R//IUutDBiDVmUDAQSPAiyzmw7i5oNze8ZKBvQJRrSlg2I9BzcF2ylw+g6Ef//4NKa25Gd+c7tmCzre46WbxWytpZowJerUGo7PRP2vu7CRH2bpTSQFxTohPMoHCT4z8GtzWZqsAij1ftQznoDUazUZjooDIXY5Wk6rQ3os81yt/ZpGMcHf+Eq6jRPbU8D9ql8tV1wZc4WneZTagNL2imyBPd/q2jrAjpB8GHcEepT7SfFE+gDQSv4=
+       properties :
+        x : 15
+        y : 49
+        width : 32
+        height : 32
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : LIB_Opérations
+       identifier : 0x234eb03729c920f0
+       internal_properties : CAAAAAgAAAA9WXv4wo/9Gc8FRjXj8kP4FX00W/d5/ERqSdMy8dMx/JElPCLXpKM6ezBi2EDfxHK0MZCoPy8vpzvPW7SD20f38OU8Tqs0cSjH1L9B58n5P/HSomwra293ZV3z5vMVLRB0V06yIbOgULdyVEENMPQUJ/3r0dRw3N4pK1++2lkyOML+92GVD5QSCvSWwkGcXNDEUzPubBk6DUwuMxAYxSU3424lAfD50znSKPSsp/kXF91IAgPi2JB0o/DHoXKeDGcfBO3CR/R2z08xIHKzCNdeytR57WNz2btbakdIEfoTxKfDIj22liz5V1tbbzXeNHvdy4gHPLElklISdI7BcTW402fP0Qo1m43b+we/43QJ1snjusKjib6GBFfKbOSgDD1JNuHBUc6mS58AUDyk
+       properties :
+        x : 6
+        y : 5
+        width : 252
+        height : 22
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+ menu :
+  name : _Menu
+  identifier : 0x22728c8f0c99504e
+  internal_properties : CAAAAAgAAACGNPfFP0wZymxYHzylUvuclxRzlx5uXstN5rQrhWXS5/DjXjikT1U/j66CKuH+MPjO9e0Oo4HMiNEa81Zu4Int+a7q8TIryB2v3ei5xE10HCdwRcZvX9og1ircLMQTwgcSGVNjjIknN5pcykXgxI7aCczG8yYHTiwiXlJfaoPwVZC8/CdhLGyR/PNEeZQp57yr5WL3LBsj9NKIxukluTmGoAgYeLfna3dbv88WW7flmhifoFlF0VLVyr5ibv0XYIg4P1tsD4JX3HK0zNIu0WwLmO8YWE5nthvqeaezPDdYMWQJBQ==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAAi8zA0NeYKbmcxbvo+cTs9bn6P7v1QjBSdKsYz7aOVCC3NMsaE+RvAtXmK66FauEQrx5M5a8Q6SHdIjGHSALEpTC39qzvqnaVgyA==
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fbf7602012d0348
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
